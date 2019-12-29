@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Contact-list> 
+  <Contact id="1"> 
+    <UID>01</UID>  
+    <name>张宇洪</name>  
+    <age>25</age> 
+  </Contact>  
+  <Contact id="2"> 
+    <UID>02</UID>  
+    <name>张宇</name>  
+    <age>30</age> 
+  </Contact> 
+</Contact-list>
