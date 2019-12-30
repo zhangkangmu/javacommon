@@ -7,8 +7,7 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="dom4j-1.6.1" level="project" />
-    <orderEntry type="library" name="jaxen-1.1-beta-6" level="project" />
-    <orderEntry type="library" name="c3p0-0.9.5.2" level="project" />
+    <orderEntry type="library" name="C3P0" level="project" />
+    <orderEntry type="library" name="commons-io-2.6 (2)" level="project" />
   </component>
 </module>

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="C3P0 (2)">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/standardCode/lib/C3P0" />
+      <root url="file://$PROJECT_DIR$/standardCode/lib/druid" />
+      <root url="file://$PROJECT_DIR$/standardCode/lib/JDBCTemplate" />
+      <root url="file://$PROJECT_DIR$/standardCode/lib/mysql_connector" />
+      <root url="file://$PROJECT_DIR$/standardCode/lib/xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/standardCode/lib/C3P0" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/standardCode/lib/druid" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/standardCode/lib/JDBCTemplate" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/standardCode/lib/mysql_connector" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/standardCode/lib/xml" recursive="false" />
+  </library>
+</component>

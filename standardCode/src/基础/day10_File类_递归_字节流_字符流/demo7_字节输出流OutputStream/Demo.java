@@ -30,6 +30,7 @@ public class Demo {
                 FileOutputStream类的构造方法:
                     - public FileOutputStream(String name)： 创建文件输出流以指定的名称写入文件。
                     - public FileOutputStream(File file)：创建文件输出流以写入由指定的 File对象表示的文件。
+                    - public FileOutputStream(String name, boolean append) ：创建文件,并且以追加的形式。
                     注意:
                         当你创建一个流对象时，必须传入一个文件路径:
                             1.该路径下，如果没有这个文件，会创建该文件。
