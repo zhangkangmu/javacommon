@@ -16,7 +16,7 @@ public class IOUtils {
      * 打印的log
      * @param str  输出的log信息
      */
-    public static void printLog( str) {
+    public static void printLog(String str) {
         try {
             printStream = new PrintStream(new File("exercise\\src\\hong\\练习的包\\source_test\\log.txt"));
             printStream.println(str);
