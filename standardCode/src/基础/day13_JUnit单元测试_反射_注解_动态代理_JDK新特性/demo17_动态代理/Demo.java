@@ -3,6 +3,7 @@ package 基础.day13_JUnit单元测试_反射_注解_动态代理_JDK新特性.d
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.util.Arrays;
 
 /**
  * @author 彭智林
@@ -40,14 +41,15 @@ public class Demo {
 //                System.out.println(args.length);
 //                System.out.println(args[0]);
                 System.out.println("王婆以做头发的名义把房间开好了...");
-                method.invoke(jinLian);
+                method.invoke(jinLian,20);   //输出的是这个20的参数
+                System.out.println(Arrays.toString(args));
                 System.out.println("happy完后,王婆打扫战场...");
                 return null;
             }
         });
 
         System.out.println("呵呵呵");
-        proxy.happy();// 代理对象执行happy方法
+        proxy.happy(22);// 代理对象执行happy方法
         System.out.println("嘿嘿嘿");
 
 
