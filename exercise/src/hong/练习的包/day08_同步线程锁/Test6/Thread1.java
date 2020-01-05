@@ -4,7 +4,7 @@ import java.util.concurrent.Semaphore;
 
 /**
  * Created by zhangyuhong
- * Date:2019/12/25
+ * Date:2017/12/25
  *
  */
 public class Thread1 extends Thread {

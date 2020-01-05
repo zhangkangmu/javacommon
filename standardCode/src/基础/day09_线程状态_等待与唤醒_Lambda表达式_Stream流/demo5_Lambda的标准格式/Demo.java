@@ -2,14 +2,16 @@ package 基础.day09_线程状态_等待与唤醒_Lambda表达式_Stream流.demo
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.function.Function;
 
 /**
  * @author 彭智林
- * @date 2019/12/27 11:23
+ * @date 2017/12/27 11:23
  */
 public class Demo {
     public static void main(String[] args) {
         /*
+
             Lambda的标准格式:
                 (数据类型 参数名)->{ 需要执行的代码 }
 
@@ -24,7 +26,7 @@ public class Demo {
                 Lambda表达式大括号中的代码是调用了该函数式接口的抽象方法才会执行
 
               使用Lambda表达式的前提: 接口为函数式接口,也就是接口中有且仅有一个抽象方法
-              常见的函数式接口: Runnable  Comparable Comparator Callable ....
+              常见的函数式接口:Predicate函数式接口， Runnable  Comparable Comparator Callable ....
 
 
               案例:

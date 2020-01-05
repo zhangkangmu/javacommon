@@ -2,7 +2,7 @@ package 基础.day05_Collection_List_泛型_数据结构.demo1_集合概述;
 
 /**
  * @author 彭智林
- * @date 2019/12/21 8:39
+ * @date 2017/12/21 8:39
  */
 public class Demo {
     public static void main(String[] args) {

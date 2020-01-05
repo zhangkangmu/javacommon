@@ -2,7 +2,7 @@ package 基础.day03_权限修饰符_代码块_常用API.demo12_Math类;
 
 /**
  * @author 彭智林
- * @date 2019/12/18 14:31
+ * @date 2017/12/18 14:31
  */
 public class Demo {
     public static void main(String[] args) {

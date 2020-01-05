@@ -4,7 +4,7 @@ import 小案例.My学生管理系统.utils.Utils;
 
 /**
  * Created by zhangyuhong
- * Date:2019/12/19
+ * Date:2017/12/19
  */
 public abstract class Person {
     /**

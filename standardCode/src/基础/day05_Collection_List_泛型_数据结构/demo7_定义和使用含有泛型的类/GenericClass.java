@@ -2,7 +2,7 @@ package 基础.day05_Collection_List_泛型_数据结构.demo7_定义和使用�
 
 /**
  * @author 彭智林
- * @date 2019/12/21 10:43
+ * @date 2017/12/21 10:43
  */
 public class GenericClass<E> {
     // 含有泛型的类:简称泛型类

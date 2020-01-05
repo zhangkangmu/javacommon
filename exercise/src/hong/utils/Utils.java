@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  * Created by zhangyuhong
- * Date:2019/12/6
+ * Date:2017/12/6
  */
 public class Utils {
     //以后完善
@@ -195,7 +195,7 @@ public class Utils {
         //		题目：输入某年某月某日,判断这一天是这一年的第几天？
         while (true) {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("请依次输入年月日 例如 2019 12 1");
+            System.out.println("请依次输入年月日 例如 2017 12 1");
             System.out.println("请依次输入年：");
             int yeas = scanner.nextInt();
             System.out.println("请依次输入月：");

@@ -2,7 +2,7 @@ package 基础.day02_static_接口_多态_内部类.demo1_static关键字修饰�
 
 /**
  * @author 彭智林
- * @date 2019/12/16 8:50
+ * @date 2017/12/16 8:50
  */
 public class Demo {
     public static void main(String[] args) {

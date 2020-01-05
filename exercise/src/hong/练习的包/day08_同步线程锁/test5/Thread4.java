@@ -5,7 +5,7 @@ import java.util.concurrent.CyclicBarrier;
 
 /**
  * Created by zhangyuhong
- * Date:2019/12/25
+ * Date:2017/12/25
  */
 public class Thread4 extends Thread {
     private CyclicBarrier cb;

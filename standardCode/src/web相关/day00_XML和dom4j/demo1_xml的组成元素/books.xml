@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<books>
+    <!-- 第一本书 -->
+    <book id="1">
+        <name>斗破苍穹</name>
+        <author>天蚕土豆</author>
+        <price>98.8</price>
+    </book>
+
+    <!--
+        ctrl+shift+/
+        第一次按是添加注释
+        第二次按是取消注释
+     -->
+
+    <!--第二部数-->
+    <book id="2">
+        <name>斗罗大陆</name>
+        <author>唐家三少</author>
+        <price>98.8</price>
+    </book>
+
+    <book id='3' name="Java入门" author="szitheima87" price="20000"/>
+
+    <apple>
+        <name>苹果</name>
+        <price> 价格 &amp; 9.8元 </price>
+        <text>
+            <![CDATA[
+                价格 < 9.8  & 好吃又好看
+                for(int i = 0;i<10;i++){
+                    System.out.println("Hello World!");
+                }
+            ]]>
+        </text>
+    </apple>
+
+    <中国>
+        <北京>
+            <海淀></海淀>
+            <朝阳></朝阳>
+        </北京>
+        <深圳>
+            <宝安></宝安>
+            <福田></福田>
+        </深圳>
+    </中国>
+
+</books>

@@ -2,7 +2,7 @@ package 基础.day07_排序算法_异常_多线程基础.demo17_创建线程方�
 
 /**
  * @author 彭智林
- * @date 2019/12/24 16:11
+ * @date 2017/12/24 16:11
  */
 public class MyRunnable implements Runnable {
     @Override

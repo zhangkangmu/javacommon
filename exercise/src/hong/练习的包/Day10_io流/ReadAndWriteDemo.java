@@ -4,7 +4,7 @@ import java.io.*;
 
 /**
  * Created by zhangyuhong
- * Date:2019/12/28
+ * Date:2017/12/28
  */
 public class ReadAndWriteDemo {
     public static void main(String[] args) throws IOException {

@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author 彭智林
- * @date 2019/12/25 9:00
+ * @date 2017/12/25 9:00
  */
 public class MyRunnable implements Runnable {
     int tickets = 100;// 0

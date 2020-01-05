@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "book.dtd">
+<books>
+    <book bid="b1">
+        <name>斗破苍穹</name>
+        <author>天蚕土豆</author>
+        <price>98.8</price>
+        <!--<address></address>-->
+        <address />
+    </book>
+
+    <book bid="b2">
+        <name>斗罗大陆</name>
+        <author>唐家三少</author>
+        <price>98.8</price>
+        <!--<address></address>-->
+        <address />
+    </book>
+
+</books>

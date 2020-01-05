@@ -2,7 +2,7 @@ package hong.数据库.pool;
 
 /**
  * Created by zhangyuhong
- * Date:2019/12/25
+ * Date:2017/12/25
  */
 public class Student {
     private int id ;

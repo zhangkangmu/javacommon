@@ -2,7 +2,7 @@ package 基础.day06_Collections_Set_Map_斗地主排序.demo3_Set接口;
 
 /**
  * @author 彭智林
- * @date 2019/12/22 9:51
+ * @date 2017/12/22 9:51
  */
 public class Demo {
     public static void main(String[] args) {

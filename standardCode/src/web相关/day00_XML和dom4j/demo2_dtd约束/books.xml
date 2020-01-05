@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE 书架 [
+        <!ELEMENT 书架 (书+)>
+        <!ELEMENT 书 EMPTY>
+        <!ATTLIST 书	 id ID #REQUIRED 编号 CDATA #IMPLIED 出版社 (清华|北大|传智播客) "传智播客" type CDATA #FIXED "IT">
+        ]>
+<书架>
+    <书 id="b1" 编号="1" 出版社="清华" type="IT"/>
+    <书 id="b2"/>
+</书架>

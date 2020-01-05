@@ -8,7 +8,7 @@ import java.util.GregorianCalendar;
 
 /**
  * @author 彭智林
- * @date 2019/12/18 11:17
+ * @date 2017/12/18 11:17
  */
 public class Demo {
     public static void main(String[] args) throws ParseException {
@@ -33,15 +33,15 @@ public class Demo {
                     void setTime(Date date)  使用给定的 Date 设置此 Calendar 的时间。
                     boolean before(Object when) 判断此 Calendar 表示的时间是否在指定 Object 表示的时间之前，返回判断结果。
                                 调用before方法的日历对象是否在参数时间对象之前,
-                                    如果在之前就返回true     例如: 2017年11月11日   2019年12月18日   true
-                                    如果不在之前就返回false  例如: 2019年12月18日    2017年11月11日  false
+                                    如果在之前就返回true     例如: 2017年11月11日   2017年12月18日   true
+                                    如果不在之前就返回false  例如: 2017年12月18日    2017年11月11日  false
                 注意:
                     1.中国人:一个星期的第一天是星期一,外国人:一个星期的第一天是星期天
                     2.日历对象中的月份是: 0-11
                     String ---> Date ---> Calendar
          */
         // 获取当前日期的日历对象
-        Calendar nowCal = Calendar.getInstance();//  2019年12月18日
+        Calendar nowCal = Calendar.getInstance();//  2017年12月18日
 
         // 出生日期的日历对象
         String birtday = "2017年11月11日";
@@ -70,7 +70,7 @@ public class Demo {
             java.util.GregorianCalendar[time=1576641557775,areFieldsSet=true,areAllFieldsSet=true,
             lenient=true,zone=sun.util.calendar.ZoneInfo[id="Asia/Shanghai",offset=28800000,
             dstSavings=0,useDaylight=false,transitions=19,lastRule=null],firstDayOfWeek=1,
-            minimalDaysInFirstWeek=1,ERA=1,YEAR=2019,MONTH=11,WEEK_OF_YEAR=51,WEEK_OF_MONTH=3,
+            minimalDaysInFirstWeek=1,ERA=1,YEAR=2017,MONTH=11,WEEK_OF_YEAR=51,WEEK_OF_MONTH=3,
             DAY_OF_MONTH=18,DAY_OF_YEAR=352,DAY_OF_WEEK=4,DAY_OF_WEEK_IN_MONTH=3,AM_PM=0,HOUR=11,
             HOUR_OF_DAY=11,MINUTE=59,SECOND=17,MILLISECOND=775,ZONE_OFFSET=28800000,DST_OFFSET=0]
 
@@ -101,7 +101,7 @@ public class Demo {
             java.util.GregorianCalendar[time=1576639674053,areFieldsSet=true,areAllFieldsSet=true,
             lenient=true,zone=sun.util.calendar.ZoneInfo[id="Asia/Shanghai",offset=28800000,
             dstSavings=0,useDaylight=false,transitions=19,lastRule=null],firstDayOfWeek=1,
-            minimalDaysInFirstWeek=1,ERA=1,YEAR=2019,MONTH=11,WEEK_OF_YEAR=51,WEEK_OF_MONTH=3,
+            minimalDaysInFirstWeek=1,ERA=1,YEAR=2017,MONTH=11,WEEK_OF_YEAR=51,WEEK_OF_MONTH=3,
             DAY_OF_MONTH=18,DAY_OF_YEAR=352,DAY_OF_WEEK=4,DAY_OF_WEEK_IN_MONTH=3,AM_PM=0,HOUR=11,
             HOUR_OF_DAY=11,MINUTE=27,SECOND=54,MILLISECOND=53,ZONE_OFFSET=28800000,DST_OFFSET=0]
          */
@@ -109,7 +109,7 @@ public class Demo {
         // 分别日历对象中的关于时间的信息
         // 获取日历字段中的年
         int year = cal2.get(Calendar.YEAR);
-        System.out.println("年:"+year);// 年:2019
+        System.out.println("年:"+year);// 年:2017
 
         // 获取日历字段的月
         int month = cal2.get(Calendar.MONTH);

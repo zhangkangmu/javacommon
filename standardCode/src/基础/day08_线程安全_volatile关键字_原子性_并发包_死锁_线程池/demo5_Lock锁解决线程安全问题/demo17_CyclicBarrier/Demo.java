@@ -4,7 +4,7 @@ import java.util.concurrent.CyclicBarrier;
 
 /**
  * @author 彭智林
- * @date 2019/12/25 16:00
+ * @date 2017/12/25 16:00
  */
 public class Demo {
     public static void main(String[] args) {

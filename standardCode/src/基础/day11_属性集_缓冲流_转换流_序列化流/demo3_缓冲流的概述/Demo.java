@@ -2,7 +2,7 @@ package 基础.day11_属性集_缓冲流_转换流_序列化流.demo3_缓冲流�
 
 /**
  * @author 彭智林
- * @date 2019/12/30 9:59
+ * @date 2017/12/30 9:59
  */
 public class Demo {
     public static void main(String[] args) {

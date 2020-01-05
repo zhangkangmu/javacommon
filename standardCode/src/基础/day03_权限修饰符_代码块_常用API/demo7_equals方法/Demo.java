@@ -2,7 +2,7 @@ package 基础.day03_权限修饰符_代码块_常用API.demo7_equals方法;
 
 /**
  * @author 彭智林
- * @date 2019/12/18 9:51
+ * @date 2017/12/18 9:51
  */
 public class Demo {
     public static void main(String[] args) {

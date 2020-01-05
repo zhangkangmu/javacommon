@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author 彭智林
- * @date 2019/12/24 14:40
+ * @date 2017/12/24 14:40
  */
 public class Demo {
     // 数据库,存储的是已经注册过的用户名

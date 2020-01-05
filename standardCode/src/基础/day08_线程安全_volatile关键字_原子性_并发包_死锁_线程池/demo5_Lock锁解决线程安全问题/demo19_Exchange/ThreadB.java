@@ -4,7 +4,7 @@ import java.util.concurrent.Exchanger;
 
 /**
  * @author 彭智林
- * @date 2019/12/25 16:42
+ * @date 2017/12/25 16:42
  */
 public class ThreadB extends Thread {
 

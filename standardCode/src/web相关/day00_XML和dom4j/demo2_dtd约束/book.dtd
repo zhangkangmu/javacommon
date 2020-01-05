@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT books (book+)>
+<!ELEMENT book (name,author,price,address)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT address EMPTY>
+<!ATTLIST book bid ID #REQUIRED>

@@ -10,10 +10,16 @@ import java.util.*;
 
 /**
  * Created by zhangyuhong
- * Date:2019/12/22
+ * Date:2017/12/22
  */
 public class Main {
+    private static final ArrayList<String> list = null;
+    private static String str="zz";
+
     public static void main(String[] args) throws Exception {
+        str="";
+//        System.out
+//        list = new ArrayList<String>();
 //    String str="zhang";
 //        String substring = str.substring(0,4);
 //        System.out.println(substring);
@@ -58,7 +64,22 @@ public class Main {
 //                ,new FileWriter("exercise\\src\\hong\\练习的包\\source_test\\first\\2.txt"));
 //        FileUtils.copyDirectoryToDirectory(new File("exercise\\src\\hong\\练习的包\\source_test\\first"),
 //                new File("exercise\\src\\hong\\练习的包\\source_test\\second"));
-        FileUtils.copyFileToDirectory(new File("exercise\\src\\hong\\练习的包\\source_test\\first\\1.txt"),
-                new File("exercise\\src\\hong\\练习的包\\source_test\\second"));
+//        FileUtils.copyFileToDirectory(new File("exercise\\src\\hong\\练习的包\\source_test\\first\\1.txt"),
+//                new File("exercise\\src\\hong\\练习的包\\source_test\\second"));
+        //FileReader fr = new FileReader("H:\\javaProject\\javacommon\\exercise\\src\\hong\\练习的包\\source_test\\b.txt");
+        //int temp;
+        //while((temp=fr.read())!=-1){
+        //    System.out.print((char) temp);
+        //}
+        //fr.close();
+//
+        //FileWriter fw = new FileWriter("H:\\javaProject\\javacommon\\exercise\\src\\hong\\练习的包\\source_test\\b.txt");
+        //fw.write(97+"");  //写97，'a',输出都是a
+        //fw.close();
+//
+        //char a='a';
+        //System.out.println(a+0);
+
+
     }
 }

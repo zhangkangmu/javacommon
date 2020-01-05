@@ -2,7 +2,7 @@ package 基础.day07_排序算法_异常_多线程基础.demo5_throw关键字;
 
 /**
  * @author 彭智林
- * @date 2019/12/24 11:06
+ * @date 2017/12/24 11:06
  */
 public class Demo {
     public static void main(String[] args) {

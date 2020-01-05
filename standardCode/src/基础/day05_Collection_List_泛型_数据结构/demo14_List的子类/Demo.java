@@ -1,10 +1,11 @@
 package 基础.day05_Collection_List_泛型_数据结构.demo14_List的子类;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 
 /**
  * @author 彭智林
- * @date 2019/12/21 15:53
+ * @date 2017/12/21 15:53
  */
 public class Demo {
     public static void main(String[] args) {
@@ -64,5 +65,8 @@ public class Demo {
         // public void push(E e):将元素推入此列表所表示的堆栈。添加一个元素在集合的开头位置
         list.push("刘强东");
         System.out.println("调用push方法后的集合:"+list);// [刘强东, 贾乃亮, 文章, 陈羽凡]
+
+      int[] arr=new int[10];
+        System.out.println(arr[9]);
     }
 }

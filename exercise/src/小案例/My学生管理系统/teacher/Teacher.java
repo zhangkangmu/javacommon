@@ -5,7 +5,7 @@ import 小案例.My学生管理系统.superclass.Person;
 
 /**
  * Created by zhangyuhong
- * Date:2019/12/19
+ * Date:2017/12/19
  */
 public class Teacher extends Person {
     @Override

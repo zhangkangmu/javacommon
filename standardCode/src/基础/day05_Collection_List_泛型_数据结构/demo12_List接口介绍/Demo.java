@@ -2,7 +2,7 @@ package 基础.day05_Collection_List_泛型_数据结构.demo12_List接口介绍
 
 /**
  * @author 彭智林
- * @date 2019/12/21 15:36
+ * @date 2017/12/21 15:36
  */
 public class Demo {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author 彭智林
- * @date 2019/12/25 11:49
+ * @date 2017/12/25 11:49
  */
 public class MyThread extends Thread {
 

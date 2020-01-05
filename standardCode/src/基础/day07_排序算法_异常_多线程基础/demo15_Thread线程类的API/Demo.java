@@ -2,7 +2,7 @@ package 基础.day07_排序算法_异常_多线程基础.demo15_Thread线程类�
 
 /**
  * @author 彭智林
- * @date 2019/12/24 15:38
+ * @date 2017/12/24 15:38
  */
 public class Demo {
     public static void main(String[] args) {

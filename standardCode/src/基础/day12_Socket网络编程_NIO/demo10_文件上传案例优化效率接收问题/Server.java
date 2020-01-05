@@ -9,7 +9,7 @@ import java.net.Socket;
 
 /**
  * @author 彭智林
- * @date 2019/12/31 12:25
+ * @date 2017/12/31 12:25
  */
 public class Server {
     public static void main(String[] args) throws Exception {
@@ -76,7 +76,11 @@ public class Server {
                                 e.printStackTrace();
                             }
                         }
-
+                        try {
+                            socket.close();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                     }
                 }
             }).start();

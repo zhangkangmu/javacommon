@@ -2,7 +2,7 @@ package 基础.day02_static_接口_多态_内部类.demo21_接口的匿名内部
 
 /**
  * @author 彭智林
- * @date 2019/12/16 16:12
+ * @date 2017/12/16 16:12
  */
 public class Demo {
     public static void main(String[] args) {

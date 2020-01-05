@@ -2,7 +2,7 @@ package 基础.day10_File类_递归_字节流_字符流.demo6_IO概述;
 
 /**
  * @author 彭智林
- * @date 2019/12/28 11:15
+ * @date 2017/12/28 11:15
  */
 public class Demo {
     public static void main(String[] args) {
@@ -41,6 +41,7 @@ public class Demo {
                 3.idea默认编码为utf8编码,windows系统默认编码为gbk编码
                 4.如果存数据使用的编码和解析数据使用的编码不一致,就会乱码
                 5.utf8编码下一个中文占3个字节,gbk编码下一个中文占2个字节
+
          */
         String str = "itheima";
     }

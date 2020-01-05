@@ -8,7 +8,7 @@ import java.io.ObjectOutputStream;
 
 /**
  * @author 彭智林
- * @date 2019/12/30 14:46
+ * @date 2017/12/30 14:46
  */
 public class Demo {
     public static void main(String[] args) throws Exception {
@@ -17,6 +17,8 @@ public class Demo {
                 1.要序列化的对象所属的类一定要实现序列化接口Serializable
                 2.该类的所有属性必须是可序列化的
                 3.如果有一个属性不需要可序列化的，则该属性必须注明是瞬态的，使用 transient 关键字修饰。
+
+                序列化保存对象时，静态成员变量的值不能被序列化保存；
          */
         // 序列化
      /*   // 1.创建一个Person对象

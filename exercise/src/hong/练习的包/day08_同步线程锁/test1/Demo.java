@@ -3,7 +3,7 @@ package hong.练习的包.day08_同步线程锁.test1;
 
 /**
  * Created by zhangyuhong
- * Date:2019/12/25
+ * Date:2017/12/25
  */
 public class Demo {
     public static void main(String[] args) {

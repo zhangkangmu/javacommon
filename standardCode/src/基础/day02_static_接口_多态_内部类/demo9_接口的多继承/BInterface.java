@@ -2,7 +2,7 @@ package 基础.day02_static_接口_多态_内部类.demo9_接口的多继承;
 
 /**
  * @author 彭智林
- * @date 2019/12/16 11:00
+ * @date 2017/12/16 11:00
  */
 public interface BInterface {
     // 常量

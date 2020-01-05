@@ -6,7 +6,7 @@ import java.util.Date;
 
 /**
  * @author 彭智林
- * @date 2019/12/18 10:57
+ * @date 2017/12/18 10:57
  */
 public class Demo1 {
     public static void main(String[] args) throws ParseException {
@@ -39,7 +39,7 @@ public class Demo1 {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         // 3.进行格式化操作
         String dateStr = sdf.format(date);
-        System.out.println(dateStr);// 2019-12-18 11:10:30*/
+        System.out.println(dateStr);// 2017-12-18 11:10:30*/
 
 
         // 1.创建一个当前系统日期对象
@@ -48,7 +48,7 @@ public class Demo1 {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         // 3.进行格式化操作
         String dateStr = sdf.format(date);
-        System.out.println(dateStr);// 2019-12-18
+        System.out.println(dateStr);// 2017-12-18
 
         System.out.println("=================================");
         // 解析操作: String--->Date

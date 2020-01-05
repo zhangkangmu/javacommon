@@ -4,7 +4,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * @author 彭智林
- * @date 2019/12/25 15:52
+ * @date 2017/12/25 15:52
  */
 public class Thread1 extends Thread {
 

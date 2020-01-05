@@ -2,7 +2,7 @@ package 基础.day05_Collection_List_泛型_数据结构.demo8_定义和使用�
 
 /**
  * @author 彭智林
- * @date 2019/12/21 10:54
+ * @date 2017/12/21 10:54
  */
 public class GenericMethodClass {
 

@@ -2,7 +2,7 @@ package 基础.day08_线程安全_volatile关键字_原子性_并发包_死锁_�
 
 /**
  * @author 彭智林
- * @date 2019/12/25 18:00
+ * @date 2017/12/25 18:00
  */
 public class ThreadB extends Thread {
 

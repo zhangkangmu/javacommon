@@ -2,7 +2,7 @@ package hong.练习的包.day09_线程唤醒;
 
 /**
  * Created by zhangyuhong
- * Date:2019/12/27
+ * Date:2017/12/27
  */
 public class PersonTest {
     String name;

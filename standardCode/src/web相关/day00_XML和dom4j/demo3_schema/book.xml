@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 引入W3C规定的实例文档的名称空间. -->
+<books 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.itheima.com/ee23"
+xsi:schemaLocation="http://www.itheima.com/ee23 book.xsd"
+>
+	<book bid="1">
+		<name>斗破苍穹</name>
+		<author>天蚕土豆</author>
+		<price>98.8</price>
+	</book>
+
+	<book bid="2">
+		<name>斗罗大陆</name>
+		<author>唐家三少</author>
+		<price>98.8</price>
+	</book>
+</books>

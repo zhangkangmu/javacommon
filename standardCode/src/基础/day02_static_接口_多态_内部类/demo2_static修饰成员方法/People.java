@@ -2,7 +2,7 @@ package 基础.day02_static_接口_多态_内部类.demo2_static修饰成员方�
 
 /**
  * @author 彭智林
- * @date 2019/12/16 9:07
+ * @date 2017/12/16 9:07
  */
 public class People {
 
