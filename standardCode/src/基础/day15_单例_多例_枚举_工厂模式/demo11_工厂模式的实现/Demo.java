@@ -16,6 +16,7 @@ public class Demo {
                 3. 编写一个Benchi类实现Car接口
                 4. 提供一个CarFactory(汽车工厂),用于生产汽车对象
                 5. 定义CarFactoryTest测试汽车工厂
+             也就是说，当要创建的类可能含有多个参数的时候，为了统一管理这些类，就用了工厂设计模式
          */
         // 前端:
         Falali fll = (Falali) CarFactory.getCar("Falali");

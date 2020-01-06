@@ -12,6 +12,7 @@ public class Demo {
 
          */
         // 取出Sex枚举中的值,并打印
+        //实际上Sex.BOY就是new Sex("BOY");
         System.out.println(Sex.BOY);// BOY
         System.out.println(Sex.GIRL);// GIRL
 

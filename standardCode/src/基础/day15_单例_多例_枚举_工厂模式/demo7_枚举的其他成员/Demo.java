@@ -12,6 +12,7 @@ public class Demo {
                 既然是类,就应该还有成员变量和成员方法,构造方法
          */
         // 取出Sex枚举中的值,并打印
+        //实际上Sex.BOY就是new Sex("BOY");
         System.out.println(Sex.BOY);// BOY
         System.out.println(Sex.GIRL);// GIRL
 
