@@ -5,7 +5,7 @@ import java.sql.*;
 /**
  * 处理结果集ResultSet的API。释放资源的方法
  * @author liuyp
- * @date 2020/01/09
+ * @date 2018/01/09
  */
 public class Demo05ResultSet {
 

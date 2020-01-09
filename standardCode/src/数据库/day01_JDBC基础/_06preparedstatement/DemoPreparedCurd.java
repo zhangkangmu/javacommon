@@ -1,7 +1,7 @@
 package 数据库.day01_JDBC基础._06preparedstatement;
 
-import com.itheima._04util.JdbcUtils;
 import org.junit.Test;
+import 数据库.day01_JDBC基础._04util.JdbcUtils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 /**
  * 使用预编译对象进行CURD操作
  * @author liuyp
- * @date 2020/01/09
+ * @date 2018/01/09
  */
 public class DemoPreparedCurd {
 

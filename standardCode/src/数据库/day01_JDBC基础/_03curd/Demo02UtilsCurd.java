@@ -1,9 +1,11 @@
 package 数据库.day01_JDBC基础._03curd;
 
-import com.itheima._04util.JdbcUtils;
 import org.junit.Test;
+import 数据库.day01_JDBC基础._04util.JdbcUtils;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
 /**
  * 使用JDBC进行curd练习
@@ -16,7 +18,7 @@ import java.sql.*;
  *
  *
  * @author liuyp
- * @date 2020/01/09
+ * @date 2018/01/09
  */
 public class Demo02UtilsCurd {
 

@@ -2,7 +2,7 @@ package 基础.day13_JUnit单元测试_反射_注解_动态代理_JDK新特性.d
 
 /**
  * @author 彭智林
- * @date 2020/1/2 15:10
+ * @date 2018/1/2 15:10
  */
 public @interface MyAnnotation5 {
     int value() default 100;

@@ -2,7 +2,7 @@ package 基础.day14_正则表达式.demo8_String中正则表达式的使用;
 
 /**
  * @author 彭智林
- * @date 2020/1/3 16:14
+ * @date 2018/1/3 16:14
  */
 public class Demo {
     public static void main(String[] args) {

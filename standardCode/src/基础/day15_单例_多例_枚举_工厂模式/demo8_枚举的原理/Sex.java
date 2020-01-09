@@ -4,7 +4,7 @@ import java.util.Enumeration;
 
 /**
  * @author 彭智林
- * @date 2020/1/5 10:18
+ * @date 2018/1/5 10:18
  */
 public class Sex implements Enumeration<Sex> {
     // Sex类的对象

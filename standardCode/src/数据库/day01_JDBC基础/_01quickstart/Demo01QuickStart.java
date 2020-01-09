@@ -7,7 +7,7 @@ import java.sql.*;
  *
  * JDBC步骤太繁琐，后期会学习：DBUtils工具， Mybatis框架
  * @author liuyp
- * @date 2020/01/09
+ * @date 2018/01/09
  */
 public class Demo01QuickStart {
     public static void main(String[] args) throws Exception {

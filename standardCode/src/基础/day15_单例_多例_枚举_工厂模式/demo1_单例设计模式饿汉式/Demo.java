@@ -2,7 +2,7 @@ package 基础.day15_单例_多例_枚举_工厂模式.demo1_单例设计模式�
 
 /**
  * @author 彭智林
- * @date 2020/1/5 8:55
+ * @date 2018/1/5 8:55
  */
 public class Demo {
     public static void main(String[] args) {

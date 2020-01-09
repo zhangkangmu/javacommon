@@ -2,7 +2,7 @@ package 基础.day15_单例_多例_枚举_工厂模式.demo3_获取通用对象�
 
 /**
  * @author 彭智林
- * @date 2020/1/5 9:21
+ * @date 2018/1/5 9:21
  */
 public class Demo {
     public static void main(String[] args) {

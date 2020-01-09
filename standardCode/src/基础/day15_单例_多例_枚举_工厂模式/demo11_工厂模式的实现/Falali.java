@@ -2,7 +2,7 @@ package 基础.day15_单例_多例_枚举_工厂模式.demo11_工厂模式的实
 
 /**
  * @author 彭智林
- * @date 2020/1/5 11:00
+ * @date 2018/1/5 11:00
  */
 public class Falali implements Car {
 

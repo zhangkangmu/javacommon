@@ -11,7 +11,7 @@ import java.sql.Statement;
  * 执行SQL语句 的API详解
  *
  * @author liuyp
- * @date 2020/01/09
+ * @date 2018/01/09
  */
 public class Demo04ExecuteSql {
 

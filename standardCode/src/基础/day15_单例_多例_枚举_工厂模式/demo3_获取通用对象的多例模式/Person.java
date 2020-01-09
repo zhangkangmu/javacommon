@@ -5,7 +5,7 @@ import java.util.Random;
 
 /**
  * @author 彭智林
- * @date 2020/1/5 9:26
+ * @date 2018/1/5 9:26
  */
 public class Person {
     // 将构造方法私有化,以确保在类的外部不能通过new来创建对象

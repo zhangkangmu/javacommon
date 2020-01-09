@@ -28,7 +28,7 @@ import java.util.Properties;
  *           在工具类里，使用Java代码读取jdbc.properties配置文件，得到所有配置信息-放静态代码块里
  *
  * @author liuyp
- * @date 2020/01/09
+ * @date 2018/01/09
  */
 public class JdbcUtils {
     private static String url;

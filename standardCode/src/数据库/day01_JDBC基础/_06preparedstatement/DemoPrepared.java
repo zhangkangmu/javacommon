@@ -1,7 +1,7 @@
 package 数据库.day01_JDBC基础._06preparedstatement;
 
-import com.itheima._04util.JdbcUtils;
 import org.junit.Test;
+import 数据库.day01_JDBC基础._04util.JdbcUtils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,7 +9,7 @@ import java.sql.PreparedStatement;
 /**
  * 预编译对象执行多条SQL语句
  * @author liuyp
- * @date 2020/01/09
+ * @date 2018/01/09
  */
 public class DemoPrepared {
 

@@ -7,7 +7,7 @@ import java.sql.Statement;
 /**
  * 创建SQL执行平台 API详解
  * @author liuyp
- * @date 2020/01/09
+ * @date 2018/01/09
  */
 public class Demo03Statement {
     public static void main(String[] args) throws Exception {
