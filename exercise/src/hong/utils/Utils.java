@@ -11,10 +11,13 @@ import java.util.Scanner;
  * Date:2017/12/6
  */
 public class Utils {
-    //以后完善
-    public void testName(Method method) {
+
+    public long testName(Method method) {
+        long now = System.currentTimeMillis();
 //        反射
-//        method.invoke()
+//        method.invoke(Object,);
+        long end = System.currentTimeMillis();
+        return end-now;
     }
 
     /**
@@ -284,11 +287,11 @@ public class Utils {
         char[] chars = str.toCharArray();
         LinkedHashMap<Character, Integer> map = new LinkedHashMap<>();
         for (int i = 0; i < chars.length; i++) {
-            Character c=chars[i];
-            if (map.containsKey(c)){
-                map.put(chars[i], map.get(c)+1);
-            }else {
-                map.put(c,1);
+            Character c = chars[i];
+            if (map.containsKey(c)) {
+                map.put(chars[i], map.get(c) + 1);
+            } else {
+                map.put(c, 1);
             }
         }
         System.out.println(map);
