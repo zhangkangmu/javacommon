@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+<!--百合网的注册表单-->
+
+<!--
+表单标签：form
+    name：表单的名称。
+    action：表单数据提交的路径
+    method：表单数据提交的方式。常用有get, post
+
+get提交和post提交的区别：
+    * get提交：数据会显示到地址栏；                 post提交：数据不会显示到地址栏
+    * get提交：不安全；                            post提交：相对安全
+    * get提交：数据长度有限制(IE限制2083个字符)；    post提交：没有长度限制
+
+表单数据提交的格式：name=value&name=value&....
+                  username=2ge&password=12345&sex=male&hobby=sing&hobby=dance&hobby=rap
+     _01表单.html?username=2ge&password=12345&sex=female&hobby=sing&hobby=dance#
+-->
+<form name="myForm" action="#" method="post">
+    <!--
+        输入项标签：input
+            type：输入项的类型
+                text：默认，文本框
+                password：密码框
+                radio：单选按钮。
+                    name相同的radio属于同一组，同组radio是互斥的
+                    默认值设置：在需要默认选中的选项上，增加属性checked
+                checkbox：复选框。
+                    name相同的checkbox属于同一组，同组的目的仅仅是方便服务端接收数据
+                        String[] values = request.getParameterValues("hobby");
+                    默认值设置：在需要默认选中的选项上，增加属性checked
+                button：普通按钮。点击没有任何功能的按钮，和JavaScript配合自定义任何功能
+                submit：提交按钮。把表单数据提交到action指定的路径
+                reset：重置按钮。把表单里的数据恢复成默认值
+                image：图片提交按钮。用一张图片作为提交按钮使用，点击时提交表单
+                file：文件选择框。默认提交的是文件名称，而不是上传文件
+                hidden：隐藏域。不会显示到页面上的表单项
+
+            name：输入项的名称。
+                注意：如果表单项的数据要提交，就必须有name属性
+
+            value：输入项的值，作用会随着type而改变
+                在text里：value表示默认值
+                在password里：value表示默认值，但是密码框通常不需要默认值
+                在radio里：value是每个选项的值。选中哪个选项，就提交哪个选项的value值
+                在checkbox里：value是每个选项的值。选中哪个选项，就提交哪个选项的value值
+                在button里：value是按钮上的文字
+                在submit里：value是按钮上的文字
+                在reset里：value是按钮上的文字
+                在image里：value没有实际意义
+                在file里：value是无效的
+    -->
+    用户名：<input type="text" name="username" value="2ge"><br>
+    密码：<input type="password" name="password" value="12345"><br>
+    性别：<input type="radio" name="sex" value="male">男
+        <input type="radio" name="sex" value="female" checked>女 <br>
+    爱好：<input type="checkbox" name="hobby" value="sing" checked>唱
+        <input type="checkbox" name="hobby" value="dance" checked>跳
+        <input type="checkbox" name="hobby" value="rap">rap
+        <input type="checkbox" name="hobby" value="ball">篮球 <br>
+
+
+    <input type="button" value="普通按钮">
+    <input type="submit" value="提交按钮">
+    <input type="reset" value="重置按钮"><br>
+    <input type="image" src="../img/icon_4.jpg" value="aaaaaaaaaa"><br>
+
+
+    <input type="file" name="file" value="">
+    <input type="hidden" name="hdn" value="隐藏域的值">
+    <br>
+
+    <!--
+    下拉框：select + option
+        select标签：下拉框本身
+            name属性：如果数据要提交，就必须有name属性
+        option标签：下拉选项，是select的子标签
+            value属性：每个选项都有value值。选中哪个选项，就提交哪个选项的value值
+        默认值设置：
+            如果没有任何设置的话，默认选中第1个选项
+            如果要设置默认选项：在需要默认选中的选项上，增加属性selected
+    -->
+    地址：
+    <select name="address">
+        <option value="gd">广东省</option>
+        <option value="gx">广西省</option>
+        <option value="hn" selected>湖南省</option>
+        <option value="hb">湖北省</option>
+    </select>
+    <br>
+
+    <!--
+    文本域：textarea
+        rows：文本域的高，可以显示几行。有浏览器兼容性问题，不用这个（用CSS代替）
+        cols：文本域的宽，可以显示几列。有浏览器兼容性问题，不用这个（用CSS代替）
+        name：如果数据要提交，就必须有name属性
+        默认值设置：
+            没有value属性，默认值要写到标签体里（开始标签和结束标签中间）
+    -->
+    <textarea rows="5" cols="10" name="remark" >aabbcc</textarea>
+
+</form>
+</body>
+</html>

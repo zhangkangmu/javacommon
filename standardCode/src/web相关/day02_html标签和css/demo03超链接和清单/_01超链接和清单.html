@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>超链接和清单</title>
+</head>
+<body>
+<!--
+超链接：a
+属性：
+    href：跳转的地址/路径
+    target：在哪显示新页面
+        _self：默认值，在当前窗口显示
+        _blank：在新窗口打开
+
+    地图（热点区域）：map
+    热点： area
+-->
+<a href="http://www.baidu.com" target="_blank">百度</a><br>
+<a href="http://www.baidu.com" target="_blank">百度</a><br>
+<a href="http://www.baidu.com" target="_blank">百度</a><br>
+<a href="http://www.baidu.com" target="_blank">百度</a>
+
+<map name="Map" id="Map">
+    <area shape="rect" coords="196,338,301,398" href="04.超链接.html" target="_self" />
+    <area shape="circle" coords="139,191,45" href="03.html文本标签.html" target="_blank" />
+</map>
+
+<!--
+    1.有序清单：有序号的清单/列表
+        ol：有序清单本身，ordered list
+            type属性：用于设置每个清单项前边的序号类型
+                1：阿拉伯数字序号 1 2 3 ...
+                a：小字字母序号
+                A：大写字母序号
+                i：小写罗马数字序号 i ii iii iv v vi...
+                I：大写罗马数字序号
+        li：清单项，是ol标签的子标签，list item
+    2.无序清单：没有序号的清单/列表
+        ul：无序清单本身, unordered list
+            type属性：设置每个清单项前边的符号类型
+                disc：小圆点
+                circle：小圆圈
+                square：小方块
+        li：清单项，是ul标签的子标签
+-->
+<ol type="A">
+    <li>苹果</li>
+    <li>华为</li>
+    <li>小米</li>
+    <li>OPPO</li>
+</ol>
+
+<ul type="square">
+    <li>苹果</li>
+    <li>香蕉</li>
+    <li>菠萝</li>
+    <li>榴莲</li>
+</ul>
+</body>
+</html>

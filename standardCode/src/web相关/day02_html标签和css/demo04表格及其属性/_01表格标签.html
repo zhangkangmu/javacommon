@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格标签</title>
+</head>
+<body>
+<!--
+table标签：表格本身
+    border：边框线条
+    width：表格宽度
+    cellspacing：单元格之间的间隔距离
+    bgcolor：背景颜色
+    align：表格的水平位置
+        left：靠左
+        center：居中
+        right：靠右
+1.tr标签：行。要放在table里，是table的子标签
+    align：行里内容的水平位置
+    height：行高
+2.td标签：单元格。要放在tr里，是tr的子标签
+    align：单元格里内容的水平位置
+3.th标签：是一种特殊的td。用法和td标签完全相同，但是自带样式
+    加粗并居中
+4.合并单元格：
+    先创建表格：4行4列
+    再合并单元格，步骤：
+        1. 确定用什么属性：跨行合并就用rowspan；跨列合并用colspan
+        2. 确定属性加在哪：加给前边的单元格
+        3. 确定属性值是几：合并几个单元格，值就是几
+        4. 删除被合并掉的单元格
+5.table>tr*4>td*4按Tab缩进键，会生成4行4列的表格
+6.  colspan：跨行
+    rowspan：跨列
+7.caption标签：表格的标题，写在table标签里
+8.<thead>：表示表格头部
+  <tfoot>:表示表格的尾部
+  <tbody>：表格的正文
+-->
+<table border="1px" bgcolor="#a9a9a9" cellspacing="10px" width="500px" align="center">
+    <caption><i><b>加粗，斜体表格标题</b></i></caption>
+    <thead>
+    <tr>
+        <th>标题头1</th>
+        <th>标题头2</th>
+        <th>标题头3</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="2">张</td>
+        <td>aaa</td>
+        <td>bbbb</td>
+    </tr>
+    <tr>
+        <td>aaa</td>
+        <td>bbbb</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="3">zzzzzzzzzz</td>
+    </tr>
+    </tfoot>
+</table>
+</body>
+</html>

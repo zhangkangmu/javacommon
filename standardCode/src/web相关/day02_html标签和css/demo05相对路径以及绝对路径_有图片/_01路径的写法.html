@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>路径的写法【重要】</title>
+</head>
+<body>
+<!--
+1. 绝对路径： 在任何地方使用一个资源的绝对路径，都是不变的
+    url网址：
+        http://www.baidu.com
+        https://www.baidu.com/img/bd_logo1.png
+    磁盘路径：在web应用是禁用的，不安全（Java的io可以用，前端的HTML、CSS、js不能用）
+        C:\a\mm.jpg
+    以/开头的路径：（将来在web核心阶段会使用）
+        /aa/b.jpg
+
+2. 相对路径：要请求/访问/加载的目标资源，相当于当前页面的位置
+    以../开头：表示上级目录里查找
+        ../img/mm.jpg：从上级目录里查找img，从img里找mm.jpg
+    以./开头：表示当前目录里查找。注意：./可以省略不写
+        ./inner/girl.jpg
+          inner/girl.jpg
+-->
+<img src="https://www.baidu.com/img/bd_logo1.png" alt="">
+<!--<img src="H:\\张宇洪的资料\\发票\\01.jpg" alt="">-->
+
+<img src="./inner/girl.jpg" alt="">
+<img src="inner/girl.jpg" alt="">
+</body>
+</html>

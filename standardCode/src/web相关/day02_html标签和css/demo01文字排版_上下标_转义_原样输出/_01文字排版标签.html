@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>排版标签</title>
+</head>
+<body>
+<!--
+HTML代码的格式，不等于  在浏览器上显示的格式
+
+1. 标题标签：h1~h6
+    特点：
+        有内置字号大小，h1最大，h6最小
+        默认加粗了
+        独占一行
+        h7之后就是普通的文本了
+
+2. 横线标签：hr  自闭合标签
+    属性：
+        color：横线的颜色
+        size：横线的粗细
+        width：横线的长短
+        align：横线的水平位置。
+            left：靠左；center：居中；right：靠右
+3.属性
+     1. 颜色的写法color
+        写颜色的名称：red, green, blue
+        写十六进制色码：#FFFFFF， # + 6位十六进制的数字
+            前2位：红色的值
+            中2位：绿色的值
+            后2位：蓝色的值
+      2. 尺寸的写法：
+        写固定尺寸值：比如50px
+        写百分比的值：比如50%
+            注意：占父容器的百分比
+4. 段落标签：p
+5. 换行标签：br， 自闭合标签
+6.转义字符
+    &nbsp;     空格
+    &lt;       <
+    &gt;       >
+    &reg;      r图标
+    &copy;     c图标
+7.上下标(sup和sub)  用于公式
+8.原样输出(pre)： 按照编辑器的效果直接输出
+9. 文字标签：font
+    属性：
+    color：文字的颜色
+    size：文字的大小，几号字。最小1，最大7，默认3
+    face：文字的字体
+10. 斜体字：i
+11. 粗体字：b
+-->
+<h1>一级标题</h1>
+<h2>二级标题</h2>
+<h3>三级标题</h3>
+<h4>四级标题</h4>
+<h5>五级标题</h5>
+<h6>六级标题</h6>
+
+<hr color="green" size="20px" width="300px" align="left">
+<hr color="green" size="20px" width="50%" align="left">
+<hr color="#cccccc" size="20px">
+<hr color="#FFFAE3" size="20px">
+
+数学公式：y=x的平方： y=x<sup>2</sup>水的化学式： H<sub>2</sub>O  <br>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;张宇洪是帅哥
+</p>
+<pre>
+              凉州词
+    葡萄美酒夜光杯，欲饮琵琶马上催。
+    醉卧沙场君莫笑，我是流氓我怕睡。
+</pre>
+<p>
+    目前，“xxxxxx”已<br/>成长为行业“学员质量好、课程内容深、企业满意”的移动开发高端训练基地， 并被评为中关村软件园重点扶持人才企业。
+</p>
+
+张宇洪的播客<sup>&reg;</sup> 版权所有<sup>&copy;</sup>              <br>
+
+<font color="red" size="1">程序员1</font>程序员                     <br>
+<font color="red" size="2">程序员2</font>程序员                     <br>
+<font color="red" size="3">程序员3</font>程序员                     <br>
+<font color="red" size="4">程序员4</font>程序员                     <br>
+<font color="red" size="5">程序员5</font>程序员                     <br>
+<font color="red" size="6">程序员6</font>程序员                     <br>
+<font color="red" size="7" face="幼圆">程序员7</font>程序员         <br>
+<font color="red" size="7" face="Ink Free">Hello, World</font>      <br>
+
+<i>斜体</i>
+<b>粗体</b>
+<font color="red" size="7"><b><i>斜体加粗</i></b></font>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css引入</title>
+    <!--
+    我们如何在HTML里引入CSS？css代码写在什么位置，会生效
+        1. 内联样式：写在html开始标签的style属性里
+            没有复用性
+
+        2. 内部样式：在head里，增加子标签style，把css代码写在style标签体里
+            在当前页面里可以复用
+
+        3. 外部样式：把css代码写在单独的css文件里，在HTML文件里，在head标签内，使用link标签引入css文件
+            复用性最强。当前web应用里所有页面都可以引入使用
+    -->
+
+
+
+    <!--内部样式-->
+    <style>
+        span {
+            color: blue;
+            font-size: 30px;
+        }
+    </style>
+
+    <!--外部样式-->
+    <link rel="stylesheet" href="../demo09css常见文本选择/my.css">
+</head>
+<body>
+
+<!--内联样式-->
+<span style="color: brown ; font-size: 24px">程序员</span>
+<div>程序员</div>
+
+
+</body>
+</html>

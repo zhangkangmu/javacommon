@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择器</title>
+    <style>
+        /*
+            选择器：CSS用于选择要修饰的元素
+            基本选择器：
+                标签选择器：根据标签名称，选择要修饰的元素
+                    标签名称{样式}
+                ID选择器：根据标签的id，选择要修饰的元素
+                    #ID值{样式}
+                类选择器：根据标签的class属性值，选择要修饰和元素
+                    .类名{样式}
+
+            扩展选择器：
+                伪类选择器：
+                    a:link
+                    a:hover
+                    a:active
+                    a:visited
+
+        ID选择器>类选择器>标签选择器。如果优先级相同，后加载覆盖先加载
+        */
+
+        /*要求：所有div的文字变成红色*/
+        div{
+            color:red;
+        }
+
+        /*要求：itheima2变成蓝色*/
+        #itheima2{
+            color:blue;
+        }
+
+        /*要求：类名为it的元素变成黄色*/
+        .it{
+            color:yellow;
+        }
+
+        a:link{
+            color:red;
+        }
+        a:visited{
+            color:green;
+        }
+        a:hover{
+            color:yellow;
+        }
+        a:active{
+            color: purple;
+        }
+
+
+        div{
+            color:red;
+        }
+        /*#div{
+            color:blue;
+        }*/
+        .div{
+            color:yellow;
+        }
+        .div{
+            color:green;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="itheima1">div：程序员1</div>
+<div id="itheima2" class="it">div：程序员2</div>
+<span class="it">span：程序员3</span>
+
+<div id="div" class="div">div：优先级问题</div>
+
+<a href="#">百度</a>
+</body>
+</html>
