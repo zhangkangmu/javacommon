@@ -13,6 +13,8 @@
                     #ID值{样式}
                 类选择器：根据标签的class属性值，选择要修饰和元素
                     .类名{样式}
+                全局选择器：
+                    * {样式}
 
             扩展选择器：
                 伪类选择器：
@@ -21,6 +23,8 @@
                     a:active
                     a:visited
 
+            属性：list-style-type：去掉ol，ul前面的序号或者点
+                  font-weight：加粗文字
         ID选择器>类选择器>标签选择器。如果优先级相同，后加载覆盖先加载
         */
 
@@ -64,6 +68,12 @@
         }
         .div{
             color:green;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
         }
     </style>
 

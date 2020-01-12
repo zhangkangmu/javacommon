@@ -1,0 +1,71 @@
+/* CSS Document */
+body{background-color:#CCC; margin:0px;}
+#contain{background-color:#90F; width:1000px; margin-left:auto; margin-right:auto}
+#baner{background-color:#FF0; height:150px; width:100%; margin:0px; padding:0px;}
+#baner img{width:100%; height:150px}
+
+
+#daohang{
+    height:30px;
+
+    margin: 0px;
+    padding: 1px;
+    background-image:url("./img/未标题-2.jpg");
+}
+#daohang ul{ padding:0px; list-style-type:none; }
+#daohang ul li{ float:left; text-align:center; width:120px ; font-size:22px; line-height:1px;}
+#daohang  a:link,#daohang  a:visited{ color:#09F; text-decoration:none; }
+#daohang  a:hover{ font-weight:bolder; color:#F00;}
+
+#middle1{
+    background-color: #FF6600;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    color: #FFF
+}
+#weather{
+    background-color: #0CF; margin:4px;
+}
+#weather h3{ line-height:30px; margin:0px ; text-align:center; padding:5px 5px 0px 0px}
+#weather li{
+    margin: 0px ; line-height:30px; padding-bottom:5px;
+}
+#weather li img{width: 50px; height: 50px}
+#today h3{ text-align:center; line-height:10px}
+#today ul{ padding:4px}
+#today ul li{ list-style-type:none; text-align:center; padding-bottom:10px}
+#today ul li img{width: 100%;width: 100%}
+
+
+#middle2{
+    background-color: #6FF;
+
+    width: 500px;
+    margin: 0px ;
+    padding: 2px 2px 0px 2px;
+    float:left;
+}
+#middle2 caption{ text-align:center; line-height:10px}
+#middle2 ul{ list-style-type:none; margin:10px; padding:4px;}
+#middle2 ol{text-align:left; margin: 0px 0px 0px 70px ; padding:5px; font-size:28px}
+#middle2 img{width: 100%;height: 100%}
+#middle3{
+    background-color: #063;
+    height: 500px;
+    width: 296px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+#footer{
+    background-color: #06C;
+    height: 25px;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    clear:left;
+    text-align: center;
+}
