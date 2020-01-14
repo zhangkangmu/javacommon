@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>变量定义和数据类型</title>
+</head>
+<body>
+
+<script>
+    //单行注释
+    /*多行注释*/
+
+    /*** 变量定义：一切变量定义都使用var ***/
+    //Java：定义变量时要先声明类型。 强类型
+    //js: 定义变量时不需要声明类型。 弱类型
+    //1. 定义整数：   int i = 1;
+    var i = 1;
+    //2. 定义小数：   double pi = 3.14d;
+    var pi = 3.14;
+    //3. 定义boolean：boolean flag = true;
+    var flag = true;
+    //4. 定义字符串： String str = "hello";
+    var str = "hello";
+    //5. 定义日期：   Date date = new Date();
+    var date = new Date();
+    /*js的数据类型：boolean, number, string, object, undefined*/
+    //js是动态类型语言
+    var v; //undefined
+    v = 1; //number
+    v = 3.14; //number
+    v = true; //boolean
+    v = "hello"; //string
+    v = new Date();//object
+    v = null;//object
+    document.write(typeof v);
+
+    //----------数据类型转型-------------
+    var a = "10";
+    a = "10a";
+    document.write("a的类型是(转换前)："+typeof(a)+"<br/>");
+    //转换
+    a = parseInt(a);
+    document.write("a的类型是(转换后)："+typeof(a)+",值为："+a+"<br/>");
+
+    var b = "3.14";
+    b = parseFloat(b);
+    document.write("b的类型是(转换后)："+typeof(b)+",值为："+b+"<br/>");
+    //a的类型是(转换前)：string
+    //a的类型是(转换后)：number,值为：10
+    //b的类型是(转换后)：number,值为：3.14
+</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习-隔行换色</title>
+    <style type="text/css">
+        table {
+            width: 500px;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>学号</th>
+        <th>姓名</th>
+        <th>年龄</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+<!--
+要求：1~6行里，奇数行设置一种背景颜色；偶数行设置另外一种背景颜色
+分析：
+    如何区分奇偶：循环时候，根据索引%2
+    给tr设置背景颜色：标签对象.style.backgroundColor = "";
+-->
+<script>
+    //1. 获取1~6的tr标签对象
+    var rows = document.getElementsByTagName("tr");
+    for (var i = 1; i < rows.length; i++) {
+        //如何区分奇偶：循环时候，根据索引%2
+        if (i % 2 === 0) {
+            rows[i].style.backgroundColor = "lightgreen";
+        }else{
+            rows[i].style.backgroundColor = "lightblue";
+        }
+    }
+</script>
+</body>
+</html>

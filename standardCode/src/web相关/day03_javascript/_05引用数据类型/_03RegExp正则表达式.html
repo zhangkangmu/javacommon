@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RegExp正则表达式</title>
+</head>
+<body>
+
+<script>
+    //1. 创建正则表达式
+    //var reg1 = new RegExp("");
+    var reg2 = /^\w{2,4}$/; // 字符串开始 + 字母|数字|下划线 出现最少2次，最多4次 + 字符串结束
+
+    //2. 使用正则表达式校验字符串的格式
+    var str = "aaa45";
+    var isOk = reg2.test(str);
+    alert(isOk);
+</script>
+</body>
+</html>

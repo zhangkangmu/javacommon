@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习-全选全消</title>
+    //border-collapse: collapse;  //表格独立边
+    <style type="text/css">
+        table {
+            width: 500px;
+            margin: 0 auto;
+        }
+        td, th {
+            border: 1px solid blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>
+            <input type="checkbox" id="checkAll" onclick="check(this)">
+        </th>
+        <th>学号</th>
+        <th>姓名</th>
+        <th>年龄</th>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" class="item">
+        </td>
+        <td>1</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" class="item">
+        </td>
+        <td>2</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" class="item">
+        </td>
+        <td>3</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" class="item">
+        </td>
+        <td>4</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" class="item">
+        </td>
+        <td>5</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" class="item">
+        </td>
+        <td>6</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<!--
+要求：点击“checkAll”的时候，如果：
+    checkAll是选中的，要把所有的item设置为选中状态
+    checkAll是未选中，要把所有的item设置为未选中状态
+分析：
+     点击“checkAll”的时候：给checkAll绑定一个单击事件
+     被点击之后：
+         获取checkAll的选中状态：选中/未选中状态，获取checked属性值
+-->
+<script>
+    function check(obj) {
+        //获取checkAll的选中状态
+        var v = obj.checked;
+
+        //判断：如果v是true，说明是选中状态   要把所有的item设置为选中状态
+        //如果v是false，说明是未选中状态   要把所有的item设置为未选中状态
+        var items = document.getElementsByClassName("item");
+        for (var i = 0; i < items.length; i++) {
+            items[i].checked = v;
+        }
+    }
+
+    /*
+        常见的问题写法：
+        var v = xxx;  //v的值是boolean
+        if(v){
+            yyyy = true;
+        }else{
+            yyyy = false;
+        }
+
+        if(v){
+            return true;
+        }else{
+            return false;
+        }
+
+        //好的写法：
+        yyyy = v;
+        return v;
+     */
+</script>
+</body>
+</html>

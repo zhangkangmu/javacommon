@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>window-弹窗</title>
+</head>
+<body>
+
+
+<script>
+    //注意：window对象的方法，window.方法名()， 都可以简写成： 方法名()
+
+    /*让浏览器弹窗：操作浏览器的方法，window提供的方法*/
+    //1. window.alert(string msg)：弹出一个警告窗口：弹窗内容是msg。没有返回值。
+
+    //window.alert("警告窗口");
+    //alert("警告窗口");
+
+    //2. window.confirm(string msg)：弹窗一个确认窗口：弹窗内容是msg。返回boolean
+    var isYes = confirm("确定要删除吗？");
+    alert(isYes);
+
+</script>
+</body>
+</html>

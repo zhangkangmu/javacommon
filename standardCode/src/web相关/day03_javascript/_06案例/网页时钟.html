@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!--加载完就显示，防止第一次就显示空白-->
+<body onload="getDate()">
+当前的日期：<span id="timeTip"></span>
+<script>
+    window.setInterval("getDate()", 1000);
+
+    function getDate() {
+        var timeTip = document.getElementById("timeTip");
+        var date = new Date();
+        var time = date.getFullYear() + "年" + date.getMonth() + 1 + "月" + date.getDate() + "日" +
+            "&nbsp;" + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+        timeTip.innerHTML = time;
+    }
+
+
+</script>
+</body>
+</html>

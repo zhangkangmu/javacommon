@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>location</title>
+</head>
+<body>
+<input type="button" value="到百度" onclick="gotoBaidu()">
+
+<script>
+    //1. 获取当前网址
+    var url = location.href;
+    //alert(url);
+
+    //2. 设置当前网址（页面跳转）
+    function gotoBaidu(){
+        //location.href = "http://www.baidu.com";
+
+        //了解：在新窗口打开
+        window.open("http://www.baidu.com");
+    }
+
+    //练习：打开页面之后，不停流氓弹窗
+    while (true) {
+        window.open("http://www.baidu.com");
+    }
+
+</script>
+</body>
+</html>

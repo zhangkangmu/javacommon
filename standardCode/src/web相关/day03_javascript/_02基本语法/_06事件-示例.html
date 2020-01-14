@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件-示例</title>
+    <style>
+        div{
+            width:200px;
+            height:200px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<!--
+事件：双击
+事件源：按钮
+响应行为：弹窗
+-->
+<input type="button" value="双击弹窗" ondblclick="show()">
+
+<!--
+要求：
+    鼠标移入 弹窗：来啦老弟
+        onmouseover
+    鼠标单击 弹窗：又点我啊
+        onclick
+    鼠标移出 弹窗：下次再来
+        onmouseout
+-->
+<div onmouseover="come()" onclick="callme()" onmouseout="go()"></div>
+
+<!--
+要求：当下拉框里选项变化时，要弹窗 选中的选项值
+分析：
+    事件：下拉框里内容改变，用onchange
+    事件源：下拉框
+    响应行为：获取下拉框里的选项值
+-->
+<select onchange="change(this)">
+    <option value="gd">广东省</option>
+    <option value="gx">广西省</option>
+    <option value="hn">湖南省</option>
+    <option value="fj">福建省</option>
+</select>
+
+
+<script>
+    function change(obj) {
+        alert(obj.value);
+        //alert(this);
+    }
+
+
+    function come() {
+        alert("来啦老弟");
+    }
+
+    function callme() {
+        alert("又点我啊");
+    }
+
+    function go() {
+        alert("下次再来");
+    }
+
+    function show() {
+        alert("666");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件-绑定方式1普通函数方式</title>
+</head>
+<body>
+<!--
+练习：页面上有一个按钮，点击时弹窗“点我干嘛”
+分析：
+    事件：点击。   用onclick属性
+    事件源：按钮
+    响应行为：弹窗“点我干嘛”。封装成普通函数
+-->
+<input type="button" value="点我" onclick="show()">
+
+<script>
+    function show() {
+        alert("点我干嘛？");
+    }
+</script>
+</body>
+</html>

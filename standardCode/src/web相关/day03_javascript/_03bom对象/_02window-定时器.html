@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>window-定时器</title>
+</head>
+<body>
+<input type="button" value="清除定时器" onclick="stopTimer()">
+
+<script>
+    //要求1：浏览器打开页面时，每间隔2秒钟弹窗一次
+    /*方法：
+    *   开启 var timer = window.setInterval(fn,ms)
+    *       仅仅是让浏览器开启定时器，开启之后，继续往后执行
+    *   清理 clearInterval(id)
+    */
+
+    /*var timer = setInterval(function () {
+        alert();
+    }, 2000);*/
+
+    /*要求2：浏览器打开页面时，2秒后弹窗一次*/
+    /*延时器
+     * 方法：
+     *  开启 var timer = window.setTimeout(fn, ms);
+     *  清理：clearTimeout(timer)
+     */
+    var timer = setTimeout(function () {
+        alert();
+    }, 2000);
+
+
+    function stopTimer(){
+        //clearInterval(timer);
+        clearTimeout(timer);
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+要求：
+    打开页面，广告图片不显示
+    2秒钟后，广告图片自动显示
+    再过3秒，广告图片自动隐藏
+分析：
+    1.要显示图片，使用img标签。默认是隐藏状态的
+        元素隐藏，CSS样式：display:none;
+        元素显示，css样式：display:只要不是none即可;
+
+    2. 页面打开2秒后，图片要自动显示
+        2秒后做一件事情：setTimeout(fn, ms)
+        做什么事情：把图片显示出来，js操作网页：
+            标签对象.style.display = ""; 设置的值只要不是none，元素就会显示
+
+    3. 再过3秒，广告图片自动隐藏
+        3秒后做一件事情：setTimeout(fn, ms)
+        做什么事情：把图片隐藏掉，js操作网页
+            标签对象.style.display = "none";
+-->
+<input type="text" value="请输入广告停留时间">
+<input type="button" value="确认"><br>
+<img src="../img/banner.jpg" id="banner" style="display: none" width="100%">
+
+<script>
+    var banner = document.getElementById("banner");
+    window.setInterval(function () {
+        banner.style.display = "none";
+        window.setTimeout(function () {
+            banner.style.display = "";
+        }, 3000);  //3秒后显示，显示2秒
+    }, 5000);
+</script>
+</body>
+</html>

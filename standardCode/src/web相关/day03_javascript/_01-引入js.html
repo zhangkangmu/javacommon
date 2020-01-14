@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>引入js</title>
+    <!--<script>
+        //bom的，一个操作浏览器的方法：让浏览器弹窗
+        alert();
+    </script>-->
+
+    <!--语法不允许这样写-->
+    <!--<script src="js/my.js">
+        alert("aaaa");
+    </script>-->
+
+
+    <!--<script src="js/my.js"></script>-->
+    <!--<script>
+        alert("aaa");
+    </script>-->
+</head>
+
+<body>
+<!--
+1. 内部引入js：
+    创建一个script标签，把js代码写在script标签体里
+
+2. 外部引入js：
+    创建一个js文件，把js代码写在文件里
+    在HTML里，通过script标签引入js文件
+
+注意：js代码在HTML里任何位置都可以运行。建议放在：body结束标签之前（css通常放在head里）
+    浏览器加载HTML网页，是从上往下加载的
+-->
+
+
+<!--<script src="js/my.js"></script>-->
+<script>
+    //var str = "3 + 4";
+    //var v = eval(str);
+    //alert(v);
+
+    var str1 = "var a=3; var b=1; alert(a+b);";
+    eval(str1);
+</script>
+</body>
+</html>

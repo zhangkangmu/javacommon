@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array数组</title>
+</head>
+<body>
+
+<script>
+    //1. 定义数组
+    var arr1 = new Array();
+    //arr1[2] = "索引2";
+    //alert(arr1.length);
+
+    var arr2 = new Array(3);
+    //alert(arr2.length);
+
+    var arr3 = new Array("a", 1, true);
+    //alert(arr3.length);
+
+
+    //推荐的创建数组的方式
+    var arr = ["a", 1, true];
+
+    //设置数组长度为4
+    arr.length = 4;
+    //设置数组长度为2
+    arr.length = 2;
+
+
+    //concat() 合并数组
+    arr1 = ["a", "b"];
+    arr2 = [true, false];
+    arr3 = [1, 2];
+    arr = arr1.concat(arr2, arr3);
+
+    //join() 数组元素拼接成字符串
+    var str = arr.join(";");
+    alert(str);
+
+    //循环遍历数组
+    /*for (var i = 0; i < arr.length; i++) {
+        alert(arr[i]);
+    }*/
+</script>
+</body>
+</html>

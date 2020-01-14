@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>动态表格</title>
+    <script type="text/javascript">
+        var count = 2;
+        function addItem(){
+            //1.创建tr对象
+            var tr = document.createElement("tr");
+
+            //2.创建三个td对象
+            var td1 = document.createElement("td");
+            td1.innerHTML = count;
+
+            var td2 = document.createElement("td");
+            var input1 = document.createElement("input");
+            input1.setAttribute("type","text");
+            //把input放入td中
+            td2.appendChild(input1);
+
+            var td3 = document.createElement("td");
+            var input2 = document.createElement("input");
+            input2.setAttribute("type","password");
+            //把input放入td中
+            td3.appendChild(input2);
+
+            //3.把三个td放入tr中
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            tr.appendChild(td3);
+
+            //4.把tr放在tbody的子节点
+            var tbody = document.getElementsByTagName("tbody")[0];
+            tbody.appendChild(tr);
+
+            count++;
+        }
+
+        function delItem(){
+            if(count>2){
+                //查找需要删除的节点
+                //tbody最后一个子节点
+                var tbody = document.getElementsByTagName("tbody")[0];
+                var lastChild = tbody.lastChild;
+                tbody.removeChild(lastChild);
+                count--;
+            }
+        }
+    </script>
+</head>
+
+<body>
+<table border="1" align="center" width="400px">
+    <thead>
+    <tr>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>密码</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td><input type="text"/></td>
+        <td><input type="password"/></td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="3"><input type="button" value="添加一行" onclick="addItem()"/><input type="button" value="删除一行" onclick="delItem()"/></td>
+    </tr>
+    </tfoot>
+</table>
+</body>
+</html>

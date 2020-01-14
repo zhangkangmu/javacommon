@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!--
+/**
+* 要求：用户输入行和列数，点击按钮“创建表格”
+*      要根据输入行和列，生成表格。表格要放到tbDiv里
+*
+* 分析：
+*      1. 给“创建表格”按钮绑定事件：onclick
+*      2. 点击时做：
+*          2.1 获取row的值，col的值，得到：行数和列数
+*          2.2 创建表格：table标签
+*          2.3 创建行：tr标签。创建rows个
+*          2.4 创建单元格：td标签。每行创建cols个
+*          2.5 每个单元格里，要设置内容  行-列
+*
+/-->
+<body>
+
+<input type="text" id="row">行
+<input type="button" value="创建表格" id="btn" onclick="createButton()"> <br>
+<br><br><br>
+<div id="tableTip"></div>
+<script>
+    function createButton() {
+        var row = document.getElementById("row");
+        var rowValue = row.value;
+        var tableTip = document.getElementById("tableTip");
+        tableTip.innerHTML="";
+
+        var table = document.createElement("table");
+        table.setAttribute("border", "1px");
+        table.setAttribute("width", "500px");
+        table.setAttribute("align", "center");
+        tableTip.appendChild(table);
+
+        //<tr><th>姓名</th><th>性别</th><th>年龄</th></tr>
+        var tr = document.createElement("tr");
+        table.appendChild(tr);
+        var th0 = document.createElement("th");
+        th0.innerHTML = "id";
+        var th1 = document.createElement("th");
+        th1.innerHTML = "姓名";
+        var th2 = document.createElement("th");
+        th2.innerHTML = "性别";
+        var th3 = document.createElement("th");
+        th3.innerHTML = "年龄";
+        tr.appendChild(th0);
+        tr.appendChild(th1);
+        tr.appendChild(th2);
+        tr.appendChild(th3);
+        for (var j = 0; j < rowValue; j++) {
+            var tr1 = document.createElement("tr");
+            table.appendChild(tr1);
+            for (var i = 0; i < 4; i++) {
+                var td1 = document.createElement("td");
+                if (i === 0) {
+                    td1.innerHTML = j + 1;
+                } else {
+                    td1.innerHTML = "<input type='text'>";
+
+                }
+                tr1.appendChild(td1);
+            }
+        }
+    }
+</script>
+<table align=""></table>
+</body>
+</html>

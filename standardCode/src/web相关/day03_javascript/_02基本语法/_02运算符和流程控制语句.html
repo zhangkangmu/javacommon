@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>运算符和流程控制语句</title>
+</head>
+<body>
+
+<script>
+    /*运算符：+ - * / % += -= *= /= %= ++ -- > < >= <= == != && || ! */
+    //1. == 和 ===。 ===用的多
+    var v = 3 == "3"; //true  ==：比较值。只要值一样，结果就是true
+    v = 3 === "3";    //false ===：比较值和类型。只有值和类型都一样，结果才是true
+    //document.write(v);
+
+
+    //2. - * /的用法
+    v = 10 - "3"; //7：js会尝试把字符串转换成数字，再运算。
+    v = 10 * "3"; //30
+    v = 10 / "2"; //5
+
+    v = 10 - "a"; //NaN：Not a Number。如果转换数字失败，结果是NaN
+    v = 10 / 0;   //Infinity：数字无穷大
+
+    //document.write(v);
+
+    /*流程控制语句：if, else, else if, switch, for,for in, while..do, do..while*/
+    v = true;
+    v = -3; //number类型：0是false，其它是true
+    v = "    ";//string类型：""是false，其它是true
+    v = new Date();//object类型：null是false，其它是true
+    v = null;
+    v = undefined;//undefined类型：始终是false
+
+    if (v) {
+        document.write("true");
+    }else{
+        document.write("false");
+    }
+    //------for in的使用-------
+    var array = new Array()[10,20,30];
+    for (var i in array){
+        document.write(i)
+    }
+    //--------with的使用--------------
+    document.write("<br>");
+    /*打印星星*/
+    with(document) {
+        for (var i = 1; i <= 5; i++) { //行数
+            for (var j = 1; j <= i; j++) { // 控制星星数
+                write("*&nbsp;");
+            }
+            write("<br/>");
+        }
+        write("<hr/>");
+    }
+</script>
+</body>
+</html>

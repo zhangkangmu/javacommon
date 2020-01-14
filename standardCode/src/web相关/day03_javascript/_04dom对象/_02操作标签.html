@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>操作标签</title>
+</head>
+<body>
+<input type="button" value="添加：鸡" onclick="addLi()">
+<input type="button" value="删除：列表" onclick="delUl()">
+
+<ul id="food">
+    <li>粉</li>
+    <li>面</li>
+    <li>汤</li>
+    <li>饭</li>
+</ul>
+
+<script>
+    function addLi() {
+        //使用js创建li标签：<li></li>
+        var item = document.createElement("li");
+
+        item.innerHTML = "鸡";
+
+        //把创建出来的li标签，插入到dom树里：作为food的子标签
+        var food = document.getElementById("food");
+        food.appendChild(item);
+    }
+
+    function delUl() {
+        //删除ul：food元素
+        document.getElementById("food").remove();
+    }
+</script>
+</body>
+</html>

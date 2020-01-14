@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--切换的效果：1-2-3-4-5-1-2-3-4-5-1-...-->
+<img src="../img/1.jpg" id="imgTip"><br>
+<span id="num"><font color='#a52a2a'>第1张图</font></span>
+<script>
+    var index = 1;
+
+    window.setInterval(function () {
+        var id = document.getElementById("imgTip");
+        var numId = document.getElementById("num");
+        index++;
+
+        if (index > 5) {
+            index = 1;
+        }
+        id.src = "../img/" + index + ".jpg"
+        numId.innerHTML = "<font color='#a52a2a'>"+"第"+index+"张图"+"</font>";
+    }, 1000);
+</script>
+</body>
+</html>

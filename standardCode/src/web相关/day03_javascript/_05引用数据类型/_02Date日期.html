@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date日期</title>
+</head>
+<body>
+
+<script>
+    //1. 创建日期
+    var date1 = new Date();
+    //alert(date1);
+    var date2 = new Date(2020, 1, 14); // 2020-2-14。注意 月从0开始
+    var date3 = new Date(2020, 1, 14, 15, 20, 40);//2020/2/14 下午3:20:40
+
+
+    //2. 常用方法
+    //toLocaleString()：转换成本地日期格式的字符串
+    //var str = date3.toLocaleString();
+    //alert(str);
+
+    //getTime()：获取毫秒值
+
+    //练习：距离情人节2020-02-14还有几天
+    var holiday = new Date(2020, 1, 14);
+    var now = new Date();
+    var ms = holiday.getTime() - now.getTime();
+    var days = ms/1000/60/60/24;
+    alert("距离2020-02-14还有：" + days + "天");
+
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>操作属性</title>
+</head>
+<body>
+<!--
+要求：
+    在按钮上，按下鼠标时，显示密码；松手鼠标弹起时，隐藏密码
+分析：
+    事件源：按钮
+    事件：
+        按下鼠标：onmousedown
+        松手鼠标：onmouseup
+    响应行为：
+        显示密码：把pwd的type属性值改成text
+        隐藏密码：把pwd的type属性值改回password
+-->
+<input type="password" id="pwd">
+<input type="button" value="查看密码" onmousedown="showPwd()" onmouseup="hidePwd()">
+<hr>
+
+<input type="button" value="获取class属性值" onclick="getClass()">
+<input type="button" value="设置class属性值" onclick="setClass()">
+<br>
+<input type="text" class="inputItem" id="txt" xx="yy">
+
+<script>
+    var pwd = document.getElementById("pwd");
+    function showPwd() {
+        //pwd.setAttribute("type", "text");
+        pwd.type = "text";
+    }
+    function hidePwd() {
+        //pwd.setAttribute("type", "password");
+        pwd.type = "password";
+    }
+
+    var txt = document.getElementById("txt");
+    function getClass() {
+        //var c = txt.class;
+        var c = txt.getAttribute("class");
+        //alert(c);
+
+        alert(txt.getAttribute("xx"));
+    }
+    function setClass() {
+        //txt.class = "item";
+        txt.setAttribute("class", "item");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数</title>
+</head>
+<body>
+
+<script>
+    /*------------------普通函数---------------------*/
+    //要求：定义一个函数，计算两个数字之和
+    function add(a, b) {
+        return a+b;
+    }
+
+    var v = add(1, 2);
+    //document.write(v);
+
+    /*匿名函数：没有名称的函数，类似于Java里的匿名内部类*/
+    //要求：让浏览器每间隔2秒钟弹窗一次
+    /*setInterval(function(){
+        alert();
+    }, 2000);*/
+
+    //注意：js函数没有重载。同名函数会覆盖掉，最后一个有效
+    function fn() {
+        document.write("fn()");
+    }
+    function fn(a) {
+        document.write("fn(a)");
+    }
+    function fn(a, b) {
+        //js的每个函数中都隐藏了一个叫arguments的数组，这个数组用于接收函数调用时传递过来的实际参数值。
+        for(var i=0;i<arguments.length;i++){
+            document.write(arguments[i]+",");
+        }
+        document.write("fn(a, b) <br>");
+        document.write("a的值：" + a + "<br>");
+        document.write("b的值：" + b + "<br>");
+    }
+
+    //fn();
+    //fn(100);
+    fn(100,200);
+    document.write("<hr>")
+/*-----------自定义类-------------------*/
+    //定义人对象（有参构造）
+    function Person(name,age){ //this: 表示当前调用的对象
+        //定义属性  赋值
+        this.name = name;
+        this.age = age;
+
+        //定义方法
+        this.say = function(){
+            document.write("这个对象的方法");
+        }
+    }
+    // 调用类  var 变量 = new 对象名称(实际参数);
+    var p = new Person("狗娃",12);
+    var name=p.name;
+    document.write(name+"<br>");
+    p.say();
+    document.write("<hr>")
+
+    /*-----------原型-------------------*/
+    //原型，即给原有的内置对象增加方法
+    /*
+		给Array追加一个search和max方法
+	*/
+    Array.prototype.search = function(target){
+        //遍历
+        for(var i=0;i<this.length;i++){
+            if(this[i]==target){
+                return i;
+            }
+        }
+        return -1; //找不到就是-1
+    }
+
+    Array.prototype.max = function(){
+        //存储最大值
+        var max = this[0];
+        for(var i=1;i<this.length;i++){
+            if(this[i]>max){
+                max = this[i];
+            }
+        }
+        return max;
+    }
+    var arr = [10,43,21,65,3,87];
+    var index = arr.search(87);
+    document.write("位置是："+index+"<br/>");
+    var max = arr.max();
+    document.write("最大值："+max);
+</script>
+</body>
+</html>

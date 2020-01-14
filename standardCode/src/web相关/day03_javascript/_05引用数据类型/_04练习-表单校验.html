@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>验证注册页面</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .main {
+            width: 525px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .hr_1 {
+            font-size: 14px;
+            font-weight: bold;
+            color: #3275c3;
+            height: 35px;
+            border-bottom: 2px solid #3275c3;
+            vertical-align: bottom;
+            padding-left: 12px;
+        }
+        .left {
+            text-align: right;
+            width: 80px;
+            height: 35px;
+            padding-right: 5px;
+            font-size: 14px;
+        }
+        .center {
+            width: 280px;
+        }
+        .in {
+            width: 200px;
+            height: 25px;
+            border: solid 1px #79abea;
+        }
+
+        div {
+            color: #F00;
+        }
+        .error{
+            color:red;
+            font-size: 13px;
+        }
+    </style>
+    <script type="text/javascript">
+    </script>
+</head>
+
+<body>
+<form action="" method="get" id="myform">
+    <table class="main" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="hr_1">新用户注册</td>
+        </tr>
+        <tr>
+            <td style="height:10px;"></td>
+        </tr>
+        <tr>
+            <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <!-- 不能为空， 输入长度必须介于 5 和 10 之间 -->
+                        <td class="left">用户名：</td>
+                        <td class="center">
+                            <input id="user" name="user" type="text"
+                                   onfocus="userFocusCheck()"
+                                   onblur="userValueCheck(this)" class="in" />
+
+                            <span class="error" id="userError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- 不能为空， 输入长度大于6个字符 -->
+                        <td class="left">密码：</td>
+                        <td class="center">
+                            <input id="pwd" name="pwd" type="password" class="in" />
+                            <span class="error" id="pwdError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- 不能为空， 与密码相同 -->
+                        <td class="left">确认密码：</td>
+                        <td class="center">
+                            <input id="repwd" name="repwd" type="password" class="in"/>
+                            <span class="error" id="repwdError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- 不能为空， 邮箱格式要正确：下节课使用正则表达式校验 -->
+                        <td class="left">电子邮箱：</td>
+                        <td class="center">
+                            <input id="email" name="email" type="text" onblur="checkEmail(this)" class="in"/>
+                            <span class="error" id="emailError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- 不能为空，1开头，11位全是数字：下节课使用正则表达式校验 -->
+                        <td class="left">手机号码：</td>
+                        <td class="center">
+                            <input id="mobile" name="mobile" type="text" class="in"/>
+                            <span class="error" id="mobileError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- 不能为空， 要正确的日期格式 -->
+                        <td class="left">生日：</td>
+                        <td class="center">
+                            <input id="birth" name="birth" type="date" class="in"/>
+                            <span class="error" id="birthError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">&nbsp;</td>
+                        <td class="center">
+                            <input name="" type="image" src="../img/register.jpg" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<!--
+要求：
+    用户名输入框
+        获取焦点时，提示：请输入用户名
+        失去焦点时，校验用户输入的内容，如果不符合要求，提示：错误原因
+
+-->
+<script>
+    function userFocusCheck() {
+        document.getElementById("userError").innerHTML = "请输入用户名";
+    }
+    function userValueCheck(obj) {
+        //1.获取用户名里的值
+        var userValue = obj.value;
+
+        if (userValue === "") {
+            document.getElementById("userError").innerHTML = "请输入用户名";
+        }else if(userValue.length < 5 || userValue.length > 10){
+            document.getElementById("userError").innerHTML = "用户名长度应该5~10位";
+        }else{
+            document.getElementById("userError").innerHTML = "";
+        }
+    }
+
+    //手机号格式：/^1[35789]\d{9}$/
+
+    function checkEmail(obj) {
+        var emailValue = obj.value;
+        var reg = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
+
+        var isOk = reg.test(emailValue);
+        if (!isOk) {
+            document.getElementById("emailError").innerHTML = "邮箱格式不正确";
+        }else{
+            document.getElementById("emailError").innerHTML = "";
+        }
+    }
+</script>
+</body>
+</html>

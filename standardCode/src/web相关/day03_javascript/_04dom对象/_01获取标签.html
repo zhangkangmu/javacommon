@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取标签</title>
+</head>
+<body>
+<!--注意：input标签默认有value属性的，value的值默认是"" -->
+<input type="text" id="row" value="3">行
+<input type="text" id="col" value="4">列
+<input type="button" value="获取行和列" onclick="getEle()">
+
+<script>
+    function getEle() {
+        //1. 获取行 文本框input标签对象
+        var rowInput = document.getElementById("row");
+        var rowNumber = rowInput.value;
+        //alert(rowNumber);
+
+        //2. 获取所有的input标签，得到结果是Element数组
+        var inputs = document.getElementsByTagName("input");
+        for (var i = 0; i < inputs.length; i++) {
+            var input = inputs[i];
+
+            alert(input.value);
+        }
+    }
+</script>
+</body>
+</html>
