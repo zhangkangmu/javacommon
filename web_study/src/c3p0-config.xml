@@ -1,0 +1,21 @@
+<c3p0-config>
+    <!--c3p0默认会使用default-config里配置的数据库信息-->
+    <default-config>
+        <!--必须的配置有四项：驱动类名，数据库url，数据库用户名，数据库密码-->
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql:///heima</property>
+        <property name="user">root</property>
+        <property name="password">root</property>
+
+        <!--以下配置项，可选-->
+
+        <!--initialPoolSize：创建连接池时，默认初始化的连接数量-->
+        <property name="initialPoolSize">10</property>
+        <!--maxPoolSize：当连接池里连接不够用时，最大可以扩容到多少个-->
+        <property name="maxPoolSize">100</property>
+        <!--minPoolSize：当数据库操作高峰期过去，连接多余了，可以释放一些。但是池子里最少要保留多少个-->
+        <property name="minPoolSize">10</property>
+        <!--maxIdleTime：连接的最大空闲时间，超过之后会被释放掉-->
+        <property name="maxIdleTime">30</property>
+    </default-config>
+</c3p0-config>

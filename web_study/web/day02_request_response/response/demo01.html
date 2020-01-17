@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>request和response原理</title>
+</head>
+<body>
+<!--
+要提交到Demo01Servlet
+Demo01Servlet的完整访问路径：http://localhost:80/day08/demo01
+Demo02Servlet的简单访问路径：                   /day08/demo01
+-->
+<form action="/day02/demo01" method="get">
+    用户名：<input type="text" name="username"><br>
+    密码：<input type="password" name="password"><br>
+    验证码：<input type="text">
+    <img src="/day02/checkCode" alt="" onclick="changeImage(this)">
+    <br>
+    <input type="submit">
+</form>
+
+
+<script>
+    /**
+     * 在发请求时，可以在请求地址后追加参数。这种方式，等价于 表单的get提交方式
+     *   <a href="请求的地址?name=value&name=value&..."></a>
+     *   <img src="请求的地址?name=value&name=value&...">
+     *
+     *   obj.src = "请求的地址?name=value&name=value&..."
+     *   location.href = "请求的地址?name=value&name=value&...";
+     *
+     */
+
+    function changeImage(obj) {
+        //src属性值修改前后，是完全一样的。浏览器会从缓存里加载，而不会重新发请求
+        //解决方案：应该保证src的值，修改前后是不同的。这样，浏览器就不会从缓存里取
+        obj.src = "/day02/checkCode?a=" + Math.random();
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>请求行</title>
+</head>
+<body>
+<!--
+路径的写法有：
+绝对路径：无论在什么位置访问资源，绝对路径都是不变的
+    http://localhost:80/day08/line
+                       /day08/line
+
+相对路径：目标资源，相当于当前资源的位置
+    ./开头：从当前目录查找
+    ../开头：从上级目录查找
+
+写相对路径的技巧：在当前页面里，要请求line，相对路径怎么写？
+    写当前资源的绝对路径：http://localhost:80/day08/demo01.html
+    写目标资源的绝对路径：http://localhost:80/day08/line
+
+    相对路径：./line，省略./：line
+
+
+    在HTML里建议写相对路径
+    在Servlet里、JSP里建议写绝对路径：可以动态获取项目路径
+-->
+
+<a href="line">请求到line</a><br>
+<input type="button" value="请求到line" onclick="fn1()">
+
+<script>
+    function fn1() {
+        location.href = "/day08/line";
+    }
+</script>
+</body>
+</html>

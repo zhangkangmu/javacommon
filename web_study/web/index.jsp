@@ -1,7 +1,7 @@
 <%--
   Created by IntelliJ IDEA.
   User: 洪
-  Date: 2020/1/9
+  Date: 2018/1/9
   Time: 21:03
   To change this template use File | Settings | File Templates.
 --%>
@@ -12,5 +12,7 @@
   </head>
   <body>
   $END$
+  <%
+  %>
   </body>
 </html>

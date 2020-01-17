@@ -8,7 +8,7 @@ import java.sql.*;
 /**
  * ResultSetMetaData元数据：从resultSet里获取的
  * @author liuyp
- * @date 2020/01/11
+ * @date 2018/01/11
  */
 public class Demo02ResultSetMetaData {
 

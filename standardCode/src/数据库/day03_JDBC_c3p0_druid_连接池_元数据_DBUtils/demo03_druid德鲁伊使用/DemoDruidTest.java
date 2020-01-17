@@ -14,7 +14,7 @@ import java.util.Properties;
 /**
  * Druid连接池使用示例
  * @author liuyp
- * @date 2020/01/11
+ * @date 2018/01/11
  */
 public class DemoDruidTest {
 

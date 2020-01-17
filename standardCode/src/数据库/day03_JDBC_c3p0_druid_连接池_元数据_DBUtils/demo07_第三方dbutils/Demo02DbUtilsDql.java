@@ -12,7 +12,7 @@ import java.util.Map;
 /**
  * DBUtils执行查询
  * @author liuyp
- * @date 2020/01/11
+ * @date 2018/01/11
  */
 public class Demo02DbUtilsDql {
     private QueryRunner runner = new QueryRunner(JdbcUtils.getDataSource());

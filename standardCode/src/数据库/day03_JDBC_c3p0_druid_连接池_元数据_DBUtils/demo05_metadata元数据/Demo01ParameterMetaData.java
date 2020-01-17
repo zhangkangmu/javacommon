@@ -10,7 +10,7 @@ import java.sql.PreparedStatement;
 /**
  * ParameterMetaData元数据：preparedStatement预编译对象提供了获取的方法
  * @author liuyp
- * @date 2020/01/11
+ * @date 2018/01/11
  */
 public class Demo01ParameterMetaData {
 

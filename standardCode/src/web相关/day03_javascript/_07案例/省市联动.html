@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>省市联动</title>
+</head>
+<body onload="proChange()">
+
+<select name="jiguan" onchange="proChange()" id="jiguan">
+    <option value="广东">广东</option>
+    <option value="广西">广西</option>
+    <option value="湖南">湖南</option>
+</select>
+<select name="city" id="city"></select>
+
+<script>
+    function proChange() {
+        var jiguan = document.getElementById("jiguan").value;
+        var city = document.getElementById("city");
+        city.innerHTML = "";
+        if ("广东" === jiguan) {
+            var arr = ["深圳", "佛山", "广州"];
+            for (var i = 0; i < arr.length; i++) {
+                city.innerHTML += "<option value='" + arr[i] + "'>" + arr[i] + "</option>";
+            }
+        }
+        if ("广西" === jiguan) {
+            var arr2 = ["柳州", "桂林", "南宁"];
+            for (var i = 0; i < arr2.length; i++) {
+                city.innerHTML += "<option value='" + arr2[i] + "'>" + arr2[i] + "</option>";
+            }
+        }
+        if ("湖南" === jiguan) {
+            var arr3 = ["长沙", "湘潭", "郴州"];
+            for (var i = 0; i < arr3.length; i++) {
+                city.innerHTML += "<option value='" + arr3[i] + "'>" + arr3[i] + "</option>";
+            }
+        }
+    }
+</script>
+</body>
+</html>

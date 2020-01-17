@@ -19,7 +19,7 @@ import java.util.LinkedList;
  *  Sun公司要求，所有的连接池都必须要实现这个接口：接口里规定了获取连接的方法是getConnection
  *
  * @author liuyp
- * @date 2020/01/11
+ * @date 2018/01/11
  */
 public class MyDataSource1 {
 

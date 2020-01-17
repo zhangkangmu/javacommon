@@ -5,7 +5,7 @@ package 数据库.day03_JDBC_c3p0_druid_连接池_元数据_DBUtils.demo07_第�
  *                        JavaBean的字段名 和 属性名保持一致
  *
  * @author liuyp
- * @date 2020/01/11
+ * @date 2018/01/11
  */
 public class User {
     private Integer id;
