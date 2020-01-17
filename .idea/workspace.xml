@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web_study:war exploded" />
+      <artifact name="web_hong_test:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
@@ -13,61 +13,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="功能：学习&#10;运用到的知识点：&#10;是否完成：NA">
-      <change afterPath="$PROJECT_DIR$/standardCode/src/web相关/day00_XML和dom4j/demo06_dom4j_write_创建xml_漂亮格式/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/standardCode/src/web相关/day00_XML和dom4j/demo06_dom4j_write_创建xml_漂亮格式/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_07案例/省市联动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo01_servlet集成体系介绍/Demo01QuickStartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo01_servlet集成体系介绍/Demo02Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo01_servlet集成体系介绍/Demo03GenericServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo01_servlet集成体系介绍/Demo04HttpServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo01_servlet集成体系介绍/Demo05Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo02_login案例/JdbcUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo02_login案例/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo02_login案例/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/request/_01request/Demo01RequestLineServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/request/_01request/Demo02RequestHeaderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/request/_01request/Demo03RequestParam1Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/request/_01request/Demo04RequestParam2Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/request/_02other/Demo01ScopeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/request/_02other/Demo02ScopeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/response/_01context/Demo01ContextServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/response/_01context/Demo02ContextServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/response/_01context/bbbb.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/response/_02response/Demo01Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/response/_02response/Demo02ResponseLineServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/response/_02response/Demo03ResponseHeaderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/response/_02response/Demo04ResponseCharBodyServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/response/_02response/Demo05ResponseByteBodyServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/response/_03demo1/CheckCodeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/response/_04demo2_download/DownloadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/response/_04demo2_download/DownloadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day02_response和request/response/bbb.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/SensitiveWordsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/WEB-INF/lib/commons-dbutils-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day01_servlet入门/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day01_servlet入门/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/request/admin/manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/request/demo01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/request/demo02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/request/demo03_param1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/request/demo03_param2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/request/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/response/aaa.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/response/demo01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/response/demo02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/response/files/a.flv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/response/files/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/response/files/a.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/response/files/a.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/response/files/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/response/files/a.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day02_request_response/response/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_hong_test/web/day07_jquery/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_hong_test/web/day07_jquery/test3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/src/敏感词汇.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/01-自定义js框架.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/02-JQuery快速入门.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/03-JQuery对象和js对象的转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/04-事件绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/01-基本选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/02-属性选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/03-层级选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/04-过滤选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/05-表单过滤选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo03_dom操作_增删改查元素/01-html&amp;text&amp;val.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo03_dom操作_增删改查元素/02-prop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo03_dom操作_增删改查元素/03-class&amp;css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo03_dom操作_增删改查元素/04-create&amp;append.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo03_dom操作_增删改查元素/05-remove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/01.隔行换色/01.隔行换色.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/02.全选和全不选/全选和全不选.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/QQ表情选择.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/img/01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/img/02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/img/03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/img/04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/img/05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/img/06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/img/07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/img/08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/img/09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/img/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/img/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/img/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/04.多选下拉列表左右移动/左右移动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo05_jquery动画/01-显示隐藏动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo06_jquery遍历/01-遍历.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo07_jquery事件绑定与解绑/01-绑定事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo07_jquery事件绑定与解绑/02-on绑定事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo07_jquery事件绑定与解绑/03-事件切换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo08_jQuery综合案例/广告的自动显示与隐藏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo08_jQuery综合案例/抽奖.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo09_jQuery的插件/01-jQuery对象进行方法扩展.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo09_jQuery的插件/02-jQuery全局进行方法扩展.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/js/hong自定义.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/js/jquery-3.3.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercise/hong/utils/Utils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/前端/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercise/hong/前端/Demo.class" afterDir="false" />
@@ -104,27 +93,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day02_JDBC连接池_JDBCTemplate_datasource_c3p0/jdbctemplate/JdbcTemplateDemo2$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day02_JDBC连接池_JDBCTemplate_datasource_c3p0/jdbctemplate/JdbcTemplateDemo2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day02_JDBC连接池_JDBCTemplate_datasource_c3p0/utils/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_05引用数据类型/_02Date日期.html" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_05引用数据类型/_02Date日期.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo01_自定义mydatasource/MyDataSource1.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo01_自定义mydatasource/MyDataSource1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo01_自定义mydatasource/MyDataSource2.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo01_自定义mydatasource/MyDataSource2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo01_自定义mydatasource/MyDataSource3.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo01_自定义mydatasource/MyDataSource3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo01_自定义mydatasource/MyDataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo01_自定义mydatasource/MyDataSourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo02_c3p0的使用/DemoC3p0Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo02_c3p0的使用/DemoC3p0Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo03_druid德鲁伊使用/DemoDruidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo03_druid德鲁伊使用/DemoDruidTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo04_C3P0Util/DemoUtilsCurdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo04_C3P0Util/DemoUtilsCurdTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo04_C3P0Util/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo04_C3P0Util/JdbcUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo05_metadata元数据/Demo01ParameterMetaData.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo05_metadata元数据/Demo01ParameterMetaData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo05_metadata元数据/Demo02ResultSetMetaData.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo05_metadata元数据/Demo02ResultSetMetaData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo06_mydbutils_自定义QueryRunner/DemoCurdTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo06_mydbutils_自定义QueryRunner/DemoCurdTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo06_mydbutils_自定义QueryRunner/DemoCurdTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo06_mydbutils_自定义QueryRunner/DemoCurdTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo06_mydbutils_自定义QueryRunner/MyQueryRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo06_mydbutils_自定义QueryRunner/MyQueryRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo07_第三方dbutils/Demo01DbUtilsDml.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo07_第三方dbutils/Demo01DbUtilsDml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo07_第三方dbutils/Demo02DbUtilsDql.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo07_第三方dbutils/Demo02DbUtilsDql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo07_第三方dbutils/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo07_第三方dbutils/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo07_第三方dbutils/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo07_第三方dbutils/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_study/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/web_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web_study.iml" afterDir="false" />
     </list>
     <list id="34911b34-50c7-4a72-adab-d75ae52fe530" name="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;" comment="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;&#10;&#10;This reverts commit 81db3e2">
       <change beforePath="$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo17_动态代理/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo17_动态代理/Demo.java" afterDir="false" />
@@ -198,15 +167,15 @@
     <session id="1737415220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -214,11 +183,11 @@
           <entry key="css" value="577" />
           <entry key="dummy" value="17" />
           <entry key="gitignore" value="14" />
-          <entry key="html" value="4396" />
+          <entry key="html" value="5487" />
           <entry key="java" value="12804" />
-          <entry key="jsp" value="1490" />
+          <entry key="jsp" value="1492" />
           <entry key="properties" value="101" />
-          <entry key="txt" value="414" />
+          <entry key="txt" value="449" />
           <entry key="xml" value="241" />
         </counts>
       </usages-collector>
@@ -226,10 +195,10 @@
         <counts>
           <entry key="CSS" value="577" />
           <entry key="Git file" value="14" />
-          <entry key="HTML" value="4396" />
+          <entry key="HTML" value="5487" />
           <entry key="JAVA" value="12804" />
-          <entry key="JSP" value="1490" />
-          <entry key="PLAIN_TEXT" value="431" />
+          <entry key="JSP" value="1492" />
+          <entry key="PLAIN_TEXT" value="466" />
           <entry key="Properties" value="101" />
           <entry key="XML" value="241" />
         </counts>
@@ -242,16 +211,16 @@
           <entry key="fxml" value="1" />
           <entry key="gitignore" value="10" />
           <entry key="gitingore" value="1" />
-          <entry key="html" value="115" />
+          <entry key="html" value="140" />
           <entry key="iml" value="1" />
-          <entry key="java" value="804" />
+          <entry key="java" value="806" />
           <entry key="jpg" value="45" />
-          <entry key="js" value="1" />
-          <entry key="jsp" value="10" />
+          <entry key="js" value="5" />
+          <entry key="jsp" value="12" />
           <entry key="md" value="1" />
           <entry key="properties" value="20" />
           <entry key="tld" value="1" />
-          <entry key="txt" value="26" />
+          <entry key="txt" value="27" />
           <entry key="upignore" value="1" />
           <entry key="xml" value="35" />
           <entry key="xsd" value="5" />
@@ -263,14 +232,14 @@
           <entry key="CSS" value="9" />
           <entry key="DTD" value="5" />
           <entry key="Git file" value="10" />
-          <entry key="HTML" value="115" />
+          <entry key="HTML" value="140" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="45" />
-          <entry key="JAVA" value="804" />
-          <entry key="JSP" value="10" />
-          <entry key="JavaScript" value="1" />
+          <entry key="JAVA" value="806" />
+          <entry key="JSP" value="12" />
+          <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="PLAIN_TEXT" value="28" />
           <entry key="Properties" value="20" />
           <entry key="Up file" value="1" />
           <entry key="XML" value="42" />
@@ -284,64 +253,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/response/_03demo1/CheckCodeServlet.java">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo05_jquery动画/01-显示隐藏动画.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="1225">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/response/_04demo2_download/DownloadServlet.java">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo06_jquery遍历/01-遍历.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="525">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/response/_02response/Demo01Servlet.java">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo07_jquery事件绑定与解绑/01-绑定事件.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="-200">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/response/_02response/Demo02ResponseLineServlet.java">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo07_jquery事件绑定与解绑/02-on绑定事件.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+            <state relative-caret-position="244">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="11" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/LoginFilter.java">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo09_jQuery的插件/01-jQuery对象进行方法扩展.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-350">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="256">
+              <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/response/_02response/Demo03ResponseHeaderServlet.java">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo07_jquery事件绑定与解绑/03-事件切换.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/request/_01request/Demo02RequestHeaderServlet.java">
+        <entry file="file://$PROJECT_DIR$/web_hong_test/web/day07_jquery/test4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="306">
+              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -355,19 +330,14 @@
         <option value="AnnotationType" />
         <option value="Jsp File" />
         <option value="FxmlFile" />
-        <option value="HTML File" />
         <option value="XML" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getpar</find>
-      <find>getParameter</find>
-      <find>request</find>
-      <find>javascript</find>
-      <find>findAllServlet</find>
       <find>en</find>
       <find>onclick</find>
       <find>callme</find>
@@ -392,7 +362,12 @@
       <find>day0</find>
       <find>day</find>
       <find>2020</find>
+      <find>$</find>
       <find>201</find>
+      <find>坚持</find>
+      <find>hideFn</find>
+      <find>on</find>
+      <find>toggle</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -417,17 +392,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_07案例/省市联动.html" />
-        <option value="$PROJECT_DIR$/web_study/src/hong/TestServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web_study/src/hong/OriginServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/web/jstl/jstl_test.jsp" />
-        <option value="$PROJECT_DIR$/web_study/web/el/el1.jsp" />
-        <option value="$PROJECT_DIR$/web_study/src/day01_servlet入门/_02servlet/Demo02Servlet.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day01_servlet入门/_02servlet/Demo01QuickStartServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day01_servlet入门/_02servlet/Demo03GenericServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day01_servlet入门/_02servlet/Demo04HttpServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day01_servlet入门/_02servlet/Demo05Servlet.java" />
         <option value="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo01_servlet集成体系介绍/Demo05Servlet.java" />
         <option value="$PROJECT_DIR$/web_study/web/day01_servlet入门/index.html" />
         <option value="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo01_servlet集成体系介绍/Demo04HttpServlet.java" />
@@ -443,7 +407,6 @@
         <option value="$PROJECT_DIR$/web_hong_test/src/day01/Demo.java" />
         <option value="$PROJECT_DIR$/web_hong_test/src/day01/JDBCUtils.java" />
         <option value="$PROJECT_DIR$/web_hong_test/src/c3p0-config.xml" />
-        <option value="$PROJECT_DIR$/web_hong_test/web/index.jsp" />
         <option value="$PROJECT_DIR$/web_hong_test/src/day01/User.java" />
         <option value="$PROJECT_DIR$/web_study/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/standardCode/src/web相关/day00_XML和dom4j/demo06_创建xml_漂亮格式/demo.java" />
@@ -468,6 +431,18 @@
         <option value="$PROJECT_DIR$/web_study/src/day02_response和request/request/_01request/Demo02RequestHeaderServlet.java" />
         <option value="$PROJECT_DIR$/web_study/src/day02_response和request/response/_02response/Demo02ResponseLineServlet.java" />
         <option value="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/day07_jquery/test.html" />
+        <option value="$PROJECT_DIR$/web_study/src/敏感词汇.txt" />
+        <option value="$PROJECT_DIR$/web_study/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/day07_jquery/test2.html" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/day07_jquery/test3.html" />
+        <option value="$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/01-自定义js框架.html" />
+        <option value="$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/02-JQuery快速入门.html" />
+        <option value="$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/03-JQuery对象和js对象的转换.html" />
+        <option value="$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/04-事件绑定.html" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/day07_jquery/test4.html" />
+        <option value="$PROJECT_DIR$/web_study/web/day07_jquery/demo06_jquery遍历/01-遍历.html" />
       </list>
     </option>
   </component>
@@ -558,34 +533,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="javacommon" type="58d84e3e:PackageViewProjectNode" />
-              <item name="exercise" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -605,6 +552,83 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javacommon" type="58d84e3e:PackageViewProjectNode" />
+              <item name="exercise" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_hong_test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_hong_test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_hong_test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day07_jquery" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day07_jquery" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day07_jquery" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="demo05_jquery动画" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day07_jquery" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="demo06_jquery遍历" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day07_jquery" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="demo07_jquery事件绑定与解绑" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day07_jquery" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="demo09_jQuery的插件" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -616,7 +640,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579167759893" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579252502111" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/zyh_source/apache-tomcat-8.5.32-src.zip!/" />
@@ -632,11 +656,11 @@
       <recent name="hong" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\javaProject\javacommon\web_study\src\day02_response和request\response" />
-      <recent name="." />
-      <recent name="H:\javaProject\javacommon\web_study\web\day02_request_response\response" />
-      <recent name="H:\javaProject\javacommon\web_study\web\day02_request_response\request" />
-      <recent name="H:\javaProject\javacommon\web_study\src\day02_response和request\request" />
+      <recent name="H:\javaProject\javacommon\web_hong_test\web\day07_jquery" />
+      <recent name="H:\javaProject\javacommon\web_study\web\day07_jquery" />
+      <recent name="H:\javaProject\javacommon\web_study\web\day07_jquery\js" />
+      <recent name="H:\javaProject\javacommon\web_study\web\day07_jquery\demo01_jq对象_和js转换_事件绑定" />
+      <recent name="H:\javaProject\javacommon\web_hong_test\web\day07_jquery\js" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hong.练习的包.day12_packagegram_socket.上传文件" />
@@ -665,7 +689,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.teacher8.0">
+  <component name="RunManager" selected="Tomcat Server.hong8.0">
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="基础.day01静态_继承_模板设计模式_抽象类_final.demo1_面向对象复习.Demo1" />
       <module name="standardCode" />
@@ -953,7 +977,8 @@
       <workItem from="1578641350416" duration="68981000" />
       <workItem from="1578961766838" duration="50625000" />
       <workItem from="1579135044931" duration="9788000" />
-      <workItem from="1579191614088" duration="1186000" />
+      <workItem from="1579191614088" duration="8647000" />
+      <workItem from="1579241774716" duration="7523000" />
     </task>
     <task id="LOCAL-00001" summary="删除多余文件">
       <created>1577635424422</created>
@@ -1060,7 +1085,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579011786530</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="功能：学习&#10;运用到的知识点：request和response的使用&#10;是否完成：NA">
+      <created>1579229207957</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1579229207957</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1096,12 +1128,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="483657000" />
+    <option name="totallyTimeSpent" value="498641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49015316" visible="true" weight="0.27882037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49015316" visible="true" weight="0.28284183" />
       <window_info id="Structure" order="1" sideWeight="0.50220263" side_tool="true" weight="0.31233245" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1216,7 +1249,8 @@
     <MESSAGE value="功能：学习&#10;运用到的知识点：javascript常用知识点以及一些案例&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：js做的计算器&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：常见正则表达式&#10;是否完成：NA" />
-    <option name="LAST_COMMIT_MESSAGE" value="功能：学习&#10;运用到的知识点：常见正则表达式&#10;是否完成：NA" />
+    <MESSAGE value="功能：学习&#10;运用到的知识点：request和response的使用&#10;是否完成：NA" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能：学习&#10;运用到的知识点：request和response的使用&#10;是否完成：NA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1263,201 +1297,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/zyh_source/apache-tomcat-8.5.32-src.zip!/apache-tomcat-8.5.32-src/java/javax/servlet/Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/zyh_source/apache-tomcat-8.5.32-src.zip!/apache-tomcat-8.5.32-src/java/javax/servlet/GenericServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="79" column="31" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo8_注解概述/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo11_使用自定义注解/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="19" column="5" selection-start-line="12" selection-start-column="6" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo10_自定义注解/Gender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo7_扩展/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo10_自定义注解/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo10_自定义注解/MyAnnotation1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo10_自定义注解/MyAnnotation2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo11_使用自定义注解/MyAnnotation2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="620" column="36" selection-start-line="620" selection-start-column="36" selection-end-line="620" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo14_注解解析/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="36" column="57" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo11_使用自定义注解/MyAnnotation1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo15_注解练习/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/annotation/Documented.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/zyh_source/apache-tomcat-8.5.32-src.zip!/apache-tomcat-8.5.32-src/java/javax/servlet/annotation/WebServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo15_注解练习/MyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo15_注解练习/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day00_XML和dom4j/demo06_创建xml_漂亮格式/createPrettyPrint.xml" />
-    <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day00_XML和dom4j/demo4_dom4j解析xml文件/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-983">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day00_XML和dom4j/demo06_dom4j_write_创建xml_漂亮格式/Demo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day00_XML和dom4j/demo06_dom4j_write_创建xml_漂亮格式/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/hong/前端/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="70" column="57" lean-forward="true" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_hong_test/src/day01/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day02_request_response/request/admin/manager.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day02_request_response/response/aaa.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/response/bbb.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/request/_01request/Demo01RequestLineServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/request/_01request/Demo03RequestParam1Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -1583,7 +1422,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/request/_01request/Demo02RequestHeaderServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="231">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
@@ -1599,6 +1438,193 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-350">
           <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day01_servlet入门/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day07_jquery/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day01_servlet入门/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/敏感词汇.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day07_jquery/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="8" selection-start-line="8" selection-start-column="6" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/SensitiveWordsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/filter/FilterDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day07_jquery/test3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="38" selection-start-line="38" selection-end-line="38" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/js/hong自定义.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/01-自定义js框架.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/02-JQuery快速入门.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/03-JQuery对象和js对象的转换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/04-事件绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/01-基本选择器.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/02-属性选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo03_dom操作_增删改查元素/02-prop.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/01.隔行换色/01.隔行换色.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo08_jQuery综合案例/抽奖.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day07_jquery/js/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="581" column="15" selection-start-line="581" selection-start-column="14" selection-end-line="581" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day07_jquery/test4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo05_jquery动画/01-显示隐藏动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo06_jquery遍历/01-遍历.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo07_jquery事件绑定与解绑/01-绑定事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo07_jquery事件绑定与解绑/03-事件切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo07_jquery事件绑定与解绑/02-on绑定事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo09_jQuery的插件/01-jQuery对象进行方法扩展.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
         </state>
       </provider>
     </entry>
