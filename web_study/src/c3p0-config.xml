@@ -3,7 +3,7 @@
     <default-config>
         <!--必须的配置有四项：驱动类名，数据库url，数据库用户名，数据库密码-->
         <property name="driverClass">com.mysql.jdbc.Driver</property>
-        <property name="jdbcUrl">jdbc:mysql:///heima</property>
+        <property name="jdbcUrl">jdbc:mysql:///codecase</property>
         <property name="user">root</property>
         <property name="password">root</property>
 

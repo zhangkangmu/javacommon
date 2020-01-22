@@ -1,5 +1,6 @@
 package day01_servlet入门.demo02_login案例;
 
+import day00_utils.C3P0JdbcUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 
@@ -27,7 +28,7 @@ public class LoginServlet extends HttpServlet {
         String password = request.getParameter("password");
 
         //2.登录校验：校验用户名和密码是否正确。执行SQL语句 SELECT * FROM user where username = ? and password = ?
-        QueryRunner runner = new QueryRunner(JdbcUtils.getDataSource());
+        QueryRunner runner = new QueryRunner(C3P0JdbcUtils.getDataSource());
         String sql = "SELECT * FROM user where username = ? and password = ?";
         User user = null;
         try {
