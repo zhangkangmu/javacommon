@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web_study:war exploded" />
+      <artifact name="web_hong_test:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
@@ -13,221 +13,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="功能：学习&#10;运用到的知识点：&#10;是否完成：NA">
-      <change afterPath="$PROJECT_DIR$/web_study/src/day00_hong/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/filter/FilterDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/filter/FilterDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/filter/FilterDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/listener/ContextLoaderListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/servlet/ServletDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/servlet/ServletDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/el/el1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/jstl/jstl1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/jstl/jstl_test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/domain_JsonFormmat_ignore/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/JacksonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/web/servlet/AjaxServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/web/servlet/FindUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/02-JQuery实现方式1_ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/03-JQuery实现方式2_get.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/04-JQuery实现方式3_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/05-json数据语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/06-json数据语法_遍历.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/07-regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/js/jquery-migrate-1.0.0.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/utils/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/前端/Contact.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/前端/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day01/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day01/Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day01/ZYHJDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day01/bean/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day02/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/login/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/pool/DruidPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/pool/PoolUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/pool/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/pool/pool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/Day10_io流/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/Day10_io流/ReadAndWriteDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day07_线程/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day07_线程/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day07_线程/MyRunable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day07_线程/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/Test6/ClassRoom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/Test6/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/Test6/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test1/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test1/MyRunable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test1/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test2/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test2/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test2/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test3/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test4/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test4/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test4/Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test4/Thread3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Metting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Thread3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Thread4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test7/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test7/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test7/Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test8/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test8/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test9/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/Lambda表达式/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/Lambda表达式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/PersonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/BaoZi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/BaoZiPu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/ChiHuo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/ChiHuo222.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例cyclicBarrier/BaoziPu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例cyclicBarrier/ChiHuo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例cyclicBarrier/ChiHuo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例cyclicBarrier/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程练习/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程练习/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/z其他/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/z其他/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/student/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/student/StudentMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/superclass/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/teacher/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/teacher/TeacherMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/utils/StudentManagerUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/utils/TeacherManagerUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/utils/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/发牌/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/发牌排序/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/递归相关_删除_检索_阶乘等/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/算法/排序/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/算法/递归相关_求阶乘_搜索文件/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/AbstractFactoryPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/BlackAnimalFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/BlackCat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/BlackDog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/IAnimalFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/ICat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/IDog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/WhiteAnimalFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/WhiteCat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/WhiteDog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/adapter/Adaptee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/adapter/Adapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/adapter/AdapterPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/adapter/Target.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/BlackShoe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/BridgePattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/Clothing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/Lady.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/Man.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/WhiteShoe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/BuilderPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/Man.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/ManBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/PersonBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/PersonDirector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/AbstractAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/AbstractReceiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/ActionA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/ActionB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/CommandPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/Invoker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/ReceiverA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/ReceiverB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/composite/Component.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/composite/Composite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/composite/CompositePattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/composite/Leaf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/Decorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/DecoratorPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/Man.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/ManDecoratorA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/ManDecoratorB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/Facade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/FacadePattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceAImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceBImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceCImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/FactoryMethodPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/IWorkFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/StudentWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/StudentWorkFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/TeacherWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/TeacherWorkFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/Work.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/flyweight/FlyWeight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/flyweight/FlyWeightFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/flyweight/FlyWeightImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/flyweight/FlyweightPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/AdvanceExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/Expression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/InterpreterPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/SimpleExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/Iterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/IteratorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/IteratorPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/ListImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/Colleague.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/ColleagueA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/ColleagueB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/ConcreteMediator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/Mediator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/MediatorPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/memento/Caretaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/memento/Memento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/memento/MementoPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/memento/Originator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/ObserverPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/ObserverServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/Observerable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/prototype/ConcreatePrototype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/prototype/Prototype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/prototype/PrototypePattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/proxy/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/proxy/DogImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/proxy/DogProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/proxy/ProxyPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/AddMoneyRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/DimissionRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/HRRequestHandle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/PMRequestHandle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/RequestHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/ResponsibilityPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/EnumSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonD$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonD$SingletonHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/Rain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/StatePattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/SunShine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/strategy/CalculateStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/strategy/Strategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/strategy/StrategyPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/strategy/TranficCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/template/CarA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/template/CarB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/template/CarModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/template/TemplatePattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/visitor/BodyA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/visitor/BodyB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/visitor/VisitorPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/LoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/SensitiveWordsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/SensitiveWordsFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/exercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercise/hong/utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/前端/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercise/hong/前端/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/z其他/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/z其他/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/EnumSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/EnumSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web_study.iml" afterDir="false" />
     </list>
     <list id="34911b34-50c7-4a72-adab-d75ae52fe530" name="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;" comment="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;&#10;&#10;This reverts commit 81db3e2" />
     <ignored path="out/" />
@@ -297,28 +107,28 @@
     <session id="1737415220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="577" />
-          <entry key="dummy" value="17" />
+          <entry key="dummy" value="24" />
           <entry key="gitignore" value="14" />
-          <entry key="html" value="5487" />
-          <entry key="java" value="12859" />
+          <entry key="html" value="6047" />
+          <entry key="java" value="13144" />
           <entry key="jsp" value="1500" />
           <entry key="properties" value="101" />
-          <entry key="txt" value="449" />
+          <entry key="txt" value="464" />
           <entry key="xml" value="241" />
         </counts>
       </usages-collector>
@@ -326,10 +136,10 @@
         <counts>
           <entry key="CSS" value="577" />
           <entry key="Git file" value="14" />
-          <entry key="HTML" value="5487" />
-          <entry key="JAVA" value="12859" />
+          <entry key="HTML" value="6047" />
+          <entry key="JAVA" value="13144" />
           <entry key="JSP" value="1500" />
-          <entry key="PLAIN_TEXT" value="466" />
+          <entry key="PLAIN_TEXT" value="488" />
           <entry key="Properties" value="101" />
           <entry key="XML" value="241" />
         </counts>
@@ -342,12 +152,12 @@
           <entry key="fxml" value="1" />
           <entry key="gitignore" value="10" />
           <entry key="gitingore" value="1" />
-          <entry key="html" value="141" />
+          <entry key="html" value="161" />
           <entry key="iml" value="1" />
-          <entry key="java" value="817" />
+          <entry key="java" value="836" />
           <entry key="jpg" value="45" />
-          <entry key="js" value="5" />
-          <entry key="jsp" value="19" />
+          <entry key="js" value="6" />
+          <entry key="jsp" value="20" />
           <entry key="md" value="1" />
           <entry key="properties" value="20" />
           <entry key="tld" value="1" />
@@ -363,12 +173,12 @@
           <entry key="CSS" value="9" />
           <entry key="DTD" value="5" />
           <entry key="Git file" value="10" />
-          <entry key="HTML" value="141" />
+          <entry key="HTML" value="161" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="45" />
-          <entry key="JAVA" value="817" />
-          <entry key="JSP" value="19" />
-          <entry key="JavaScript" value="5" />
+          <entry key="JAVA" value="836" />
+          <entry key="JSP" value="20" />
+          <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="28" />
           <entry key="Properties" value="20" />
@@ -384,82 +194,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/listener/ContextLoaderListener.java">
+        <entry file="file://$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/JacksonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="28" column="52" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/filter/FilterDemo3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/web/el/el1.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/filter/FilterDemo4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/filter/FilterDemo5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/LoginFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/SensitiveWordsFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="169">
+              <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/servlet/ServletDemo2.java">
+        <entry file="file://$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/domain_JsonFormmat_ignore/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/servlet/ServletDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="175">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -473,8 +227,8 @@
         <option value="AnnotationType" />
         <option value="FxmlFile" />
         <option value="XML" />
-        <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -536,20 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo01_servlet集成体系介绍/Demo01QuickStartServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo01_servlet集成体系介绍/Demo02Servlet.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo01_servlet集成体系介绍/Demo03GenericServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo02_login案例/User.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day01_servlet入门/demo02_login案例/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/web/day01_servlet入门/login.html" />
-        <option value="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/servlet/ServletDemo2.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/servlet/ServletDemo1.java" />
-        <option value="$PROJECT_DIR$/web_hong_test/.gitignore" />
-        <option value="$PROJECT_DIR$/web_hong_test/src/day01/Demo.java" />
-        <option value="$PROJECT_DIR$/web_hong_test/src/day01/JDBCUtils.java" />
-        <option value="$PROJECT_DIR$/web_hong_test/src/c3p0-config.xml" />
-        <option value="$PROJECT_DIR$/web_hong_test/src/day01/User.java" />
-        <option value="$PROJECT_DIR$/standardCode/src/web相关/day00_XML和dom4j/demo06_创建xml_漂亮格式/demo.java" />
         <option value="$PROJECT_DIR$/standardCode/src/web相关/day00_XML和dom4j/demo06_dom4j_write_创建xml_漂亮格式/demo.java" />
         <option value="$PROJECT_DIR$/standardCode/src/web相关/day00_XML和dom4j/demo06_dom4j_write_创建xml_漂亮格式/Demo2.java" />
         <option value="$PROJECT_DIR$/web_hong_test/src/day01/LoginServlet.java" />
@@ -587,6 +327,20 @@
         <option value="$PROJECT_DIR$/web_study/src/day00_hong/User.java" />
         <option value="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/LoginFilter.java" />
         <option value="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/SensitiveWordsFilter.java" />
+        <option value="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/web/servlet/AjaxServlet.java" />
+        <option value="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/test/JacksonTest.java" />
+        <option value="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax.html" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/day08_ajax_json/原生js实现ajax.html" />
+        <option value="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/02-JQuery实现方式1_ajax.html" />
+        <option value="$PROJECT_DIR$/web_hong_test/src/day08_ajax_json/TestServlet.java" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/day08_ajax_json/2.JQuerys实现ajax.html" />
+        <option value="$PROJECT_DIR$/web_hong_test/src/day08_ajax_json/AjaxServlet.java" />
+        <option value="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/04-JQuery实现方式3_post.html" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/day08_ajax_json/3.json的遍历.html" />
+        <option value="$PROJECT_DIR$/web_hong_test/src/day08_ajax_json/json解析器/User.java" />
+        <option value="$PROJECT_DIR$/web_hong_test/src/day08_ajax_json/json解析器/JacksonTest.java" />
+        <option value="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/JacksonTest.java" />
+        <option value="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/domain_JsonFormmat_ignore/Person.java" />
       </list>
     </option>
   </component>
@@ -682,12 +436,86 @@
           <expand>
             <path>
               <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_hong_test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_hong_test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_hong_test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day01" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_hong_test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day08_ajax_json" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_hong_test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day08_ajax_json" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="json解析器" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_hong_test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_hong_test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day08_ajax_json" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
               <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day08_AJAX_JSON" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day08_AJAX_JSON" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="domain_JsonFormmat_ignore" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day08_AJAX_JSON" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="json解析器" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day08_AJAX_JSON" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day08_AJAX_JSON" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="servlet" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -740,7 +568,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579669400132" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579710375741" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../javacommon2" />
@@ -760,11 +588,11 @@
       <recent name="H:\javaProject\javacommon\exercise\src\hong\练习的包\source_test\first" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\javaProject\javacommon\web_study\src\day08_AJAX_JSON" />
+      <recent name="H:\javaProject\javacommon\web_study\web\day08_AJAX_JSON" />
+      <recent name="H:\javaProject\javacommon\web_hong_test\web\WEB-INF\lib" />
+      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib" />
       <recent name="H:\javaProject\javacommon\web_hong_test\web\day07_jquery" />
-      <recent name="H:\javaProject\javacommon\web_study\web\day07_jquery" />
-      <recent name="H:\javaProject\javacommon\web_study\web\day07_jquery\js" />
-      <recent name="H:\javaProject\javacommon\web_study\web\day07_jquery\demo01_jq对象_和js转换_事件绑定" />
-      <recent name="H:\javaProject\javacommon\web_hong_test\web\day07_jquery\js" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hong.练习的包.day12_packagegram_socket.上传文件" />
@@ -789,7 +617,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.teacher8.0">
+  <component name="RunManager" selected="JUnit.JacksonTest.test3">
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="基础.day01静态_继承_模板设计模式_抽象类_final.demo1_面向对象复习.Demo1" />
       <module name="standardCode" />
@@ -803,59 +631,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a_练习.Test" />
-      <module name="exercise" />
+    <configuration name="JacksonTest.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web_hong_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a_练习.*" />
+          <option name="PATTERN" value="day08_ajax_json.json解析器.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a_练习.demo3" />
-      <module name="exercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a_练习.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo.myDeletedRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hong.day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hong.day04" />
-      <option name="MAIN_CLASS_NAME" value="hong.day04.Demo" />
-      <option name="METHOD_NAME" value="myDeletedRunner" />
+      <option name="PACKAGE_NAME" value="day08_ajax_json.json解析器" />
+      <option name="MAIN_CLASS_NAME" value="day08_ajax_json.json解析器.JacksonTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo.queryRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exercise" />
+    <configuration name="JacksonTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hong.day04.*" />
+          <option name="PATTERN" value="day08_AJAX_JSON.json解析器.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hong.day04" />
-      <option name="MAIN_CLASS_NAME" value="hong.day04.Demo" />
-      <option name="METHOD_NAME" value="queryRunner" />
+      <option name="PACKAGE_NAME" value="day08_AJAX_JSON.json解析器" />
+      <option name="MAIN_CLASS_NAME" value="day08_AJAX_JSON.json解析器.JacksonTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JacksonTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web_hong_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day08_ajax_json.json解析器.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day08_ajax_json.json解析器" />
+      <option name="MAIN_CLASS_NAME" value="day08_ajax_json.json解析器.JacksonTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JacksonTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web_hong_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day08_ajax_json.json解析器.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day08_ajax_json.json解析器" />
+      <option name="MAIN_CLASS_NAME" value="day08_ajax_json.json解析器.JacksonTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -868,7 +702,7 @@
       <deployment>
         <artifact name="web_hong_test:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/hong" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -1012,19 +846,19 @@
     <list>
       <item itemvalue="Tomcat Server.teacher8.0" />
       <item itemvalue="Tomcat Server.hong8.0" />
-      <item itemvalue="Application.demo3" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Demo1" />
-      <item itemvalue="JUnit.Demo.myDeletedRunner" />
-      <item itemvalue="JUnit.Demo.queryRunner" />
+      <item itemvalue="JUnit.JacksonTest.test1" />
+      <item itemvalue="JUnit.JacksonTest.test1 (1)" />
+      <item itemvalue="JUnit.JacksonTest.test2" />
+      <item itemvalue="JUnit.JacksonTest.test3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JacksonTest.test3" />
+        <item itemvalue="JUnit.JacksonTest.test1 (1)" />
+        <item itemvalue="JUnit.JacksonTest.test2" />
+        <item itemvalue="JUnit.JacksonTest.test1" />
         <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.demo3" />
-        <item itemvalue="JUnit.Demo.queryRunner" />
-        <item itemvalue="JUnit.Demo.myDeletedRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -1080,7 +914,8 @@
       <workItem from="1579191614088" duration="8647000" />
       <workItem from="1579241774716" duration="7523000" />
       <workItem from="1579539684168" duration="2314000" />
-      <workItem from="1579573258761" duration="1955000" />
+      <workItem from="1579573258761" duration="6692000" />
+      <workItem from="1579678939165" duration="6146000" />
     </task>
     <task id="LOCAL-00001" summary="删除多余文件">
       <created>1577635424422</created>
@@ -1194,25 +1029,17 @@
       <option name="project" value="LOCAL" />
       <updated>1579229207957</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="功能：学习&#10;运用到的知识点：补充el表达式和监听器的内容&#10;是否完成：NA">
+      <created>1579669456785</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1579669456785</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Demo_queryRunner - 2020.01.11 at 22h 26m 47s.xml">
-      <configuration name="Demo.queryRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_queryRunner - 2020.01.11 at 22h 28m 45s.xml">
-      <configuration name="Demo.queryRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_queryRunner - 2020.01.11 at 22h 29m 12s.xml">
-      <configuration name="Demo.queryRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_queryRunner - 2020.01.11 at 22h 29m 27s.xml">
-      <configuration name="Demo.queryRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_queryRunner - 2020.01.11 at 22h 33m 33s.xml">
-      <configuration name="Demo.queryRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Demo_queryRunner - 2020.01.11 at 22h 36m 50s.xml">
       <configuration name="Demo.queryRunner" configurationId="JUnit" />
     </history-entry>
@@ -1228,9 +1055,24 @@
     <history-entry file="Demo_queryRunner - 2020.01.11 at 22h 44m 34s.xml">
       <configuration name="Demo.queryRunner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JacksonTest_test1 - 2020.01.22 at 21h 50m 09s.xml">
+      <configuration name="JacksonTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JacksonTest_test1_(1) - 2020.01.22 at 21h 56m 44s.xml">
+      <configuration name="JacksonTest.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JacksonTest_test2 - 2020.01.22 at 21h 58m 22s.xml">
+      <configuration name="JacksonTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JacksonTest_test1_(1) - 2020.01.22 at 22h 00m 36s.xml">
+      <configuration name="JacksonTest.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JacksonTest_test3 - 2020.01.22 at 22h 02m 54s.xml">
+      <configuration name="JacksonTest.test3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="503036000" />
+    <option name="totallyTimeSpent" value="513919000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1242,21 +1084,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48913044" visible="true" weight="0.2989276" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4856397" visible="true" weight="0.30294907" />
       <window_info id="Structure" order="1" sideWeight="0.50807637" side_tool="true" weight="0.29088473" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50807637" side_tool="true" weight="0.29088473" />
-      <window_info id="Web" order="7" sideWeight="0.51086956" side_tool="true" weight="0.29490617" />
+      <window_info id="Web" order="7" sideWeight="0.5143603" side_tool="true" weight="0.30294907" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49875313" visible="true" weight="0.44640234" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4375918" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49875313" weight="0.44640234" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4375918" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33039647" />
@@ -1361,7 +1203,8 @@
     <MESSAGE value="功能：学习&#10;运用到的知识点：js做的计算器&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：常见正则表达式&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：request和response的使用&#10;是否完成：NA" />
-    <option name="LAST_COMMIT_MESSAGE" value="功能：学习&#10;运用到的知识点：request和response的使用&#10;是否完成：NA" />
+    <MESSAGE value="功能：学习&#10;运用到的知识点：补充el表达式和监听器的内容&#10;是否完成：NA" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能：学习&#10;运用到的知识点：补充el表达式和监听器的内容&#10;是否完成：NA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1408,154 +1251,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_study/web/day02_request_response/request/demo03_param1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day02_request_response/response/demo02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/response/_03demo1/CheckCodeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/response/_04demo2_download/DownloadServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/response/_02response/Demo01Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/response/_02response/Demo03ResponseHeaderServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/request/_01request/Demo02RequestHeaderServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/response/_02response/Demo02ResponseLineServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day01_servlet入门/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day07_jquery/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day01_servlet入门/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/敏感词汇.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day07_jquery/test2.html" />
-    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day07_jquery/test3.html" />
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/js/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_hong_test/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/js/hong自定义.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/02-JQuery快速入门.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/03-JQuery对象和js对象的转换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/04-事件绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/01-基本选择器.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/02-属性选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo03_dom操作_增删改查元素/02-prop.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/01.隔行换色/01.隔行换色.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo08_jQuery综合案例/抽奖.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day07_jquery/js/jquery-3.3.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="581" column="15" selection-start-line="581" selection-start-column="14" selection-end-line="581" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_hong_test/web/day07_jquery/test4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1609,9 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1652,16 +1344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_hong_test/src/day01/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo01_jq对象_和js转换_事件绑定/01-自定义js框架.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1686,7 +1368,7 @@
     <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_案例核心方法/SensitiveWordsFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-25">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1714,7 +1396,7 @@
     <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/filter/FilterDemo4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1732,17 +1414,213 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/login.jsp" />
     <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/servlet/ServletDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/a_练习/demo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/hong/练习的包/z其他/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day01静态_继承_模板设计模式_抽象类_final/demo1_面向对象复习/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_05引用数据类型/_01Array数组.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-669" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_05引用数据类型/_02Date日期.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_07案例/一次创建多行表格.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day08_ajax_json/原生js实现ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/js/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/src/day01/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/src/day08_ajax_json/TestServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day08_ajax_json/2.JQuerys实现ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/web/servlet/AjaxServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/src/day08_ajax_json/AjaxServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/05-json数据语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-762">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day08_ajax_json/3.json的遍历.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/06-json数据语法_遍历.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/02-JQuery实现方式1_ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/03-JQuery实现方式2_get.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/04-JQuery实现方式3_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/07-regist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/web/servlet/FindUserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/src/day08_ajax_json/json解析器/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/src/day08_ajax_json/json解析器/JacksonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/JacksonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/domain_JsonFormmat_ignore/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1800,7 +1678,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>web_study</last-edited>
+          <last-edited>exercise</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
