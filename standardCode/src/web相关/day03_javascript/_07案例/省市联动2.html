@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>省市联动</title>
+</head>
+<body onload="proChange()">
+
+<select name="jiguan" onchange="proChange(this)" id="jiguan">
+    <option value="">--选择省--</option>
+    <option value="0">广东</option>
+    <option value="1">广西</option>
+    <option value="2">湖南</option>
+</select>
+<select name="city" id="city">
+    <option value="">--选择市--</option>
+</select>
+
+
+<script>
+    function proChange(obj) {
+        var cities = [];
+        cities[0] = ["000", "00000"];
+        cities[1] = ["111", "11111"];
+        cities[2] = ["222", "22222"];
+
+        var pro = obj.value;
+        var city = document.getElementById("city");
+        city.innerHTML = "<option value=\"\">" + "选择市" + "</option>";
+        var cityArr = cities[pro];
+        for (var i = 0; i < cityArr.length; i++) {
+            var cityName = cityArr[i];
+            // document.write(cityArr[i]);
+            var option = document.createElement("option");
+            option.innerHTML = cityName;
+            city.appendChild(option);
+        }
+    }
+</script>
+</body>
+</html>

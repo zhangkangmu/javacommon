@@ -20,7 +20,6 @@ import javax.servlet.http.HttpServletResponse;
 public class CheckCodeServlet extends HttpServlet {
 	@Override
 	public void doGet(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException {
-		
 		//服务器通知浏览器不要缓存
 		response.setHeader("pragma","no-cache");
 		response.setHeader("cache-control","no-cache");
