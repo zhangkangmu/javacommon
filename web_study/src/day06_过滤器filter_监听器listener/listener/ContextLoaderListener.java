@@ -9,7 +9,7 @@ import java.io.FileInputStream;
 
 @WebListener
 public class ContextLoaderListener implements ServletContextListener {
-
+//servlet三大技术:servlet,filter,listen
     /**
      * 监听ServletContext对象创建的。ServletContext对象服务器启动后自动创建。
      *

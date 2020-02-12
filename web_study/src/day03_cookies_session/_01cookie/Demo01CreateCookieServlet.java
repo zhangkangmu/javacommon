@@ -33,7 +33,7 @@ public class Demo01CreateCookieServlet extends HttpServlet {
         //浏览器最多接收300个（实际上，不同浏览器不同）
         //每个Cookie限制4Kb【记住】
 
-        //              http://localhost:80/day09/createCookie生成的Cookie
+        // http://localhost:80/day09/createCookie生成的Cookie
         //默认有效范围是：http://localhost:80/day09
 
         Cookie cookie1 = new Cookie("bb", "BB");

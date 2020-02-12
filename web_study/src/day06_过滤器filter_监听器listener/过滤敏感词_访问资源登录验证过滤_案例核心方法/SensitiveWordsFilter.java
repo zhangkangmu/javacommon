@@ -1,10 +1,7 @@
-package day06_过滤器filter_监听器listener.过滤敏感词_案例核心方法;
+package day06_过滤器filter_监听器listener.过滤敏感词_访问资源登录验证过滤_案例核心方法;
 
 import javax.servlet.*;
-import javax.servlet.annotation.WebFilter;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
@@ -56,11 +53,14 @@ public class SensitiveWordsFilter implements Filter {
     public void init(FilterConfig config) throws ServletException {
 
         try{
-            //1.获取文件真实路径
+            //1.获取文件真实路径,这种方式会出现乱码
             ServletContext servletContext = config.getServletContext();
-            String realPath = servletContext.getRealPath("/WEB-INF/classes/敏感词汇.txt");
-            //2.读取文件
-            BufferedReader br = new BufferedReader(new FileReader(realPath));
+//            String realPath = servletContext.getRealPath("/WEB-INF/classes/敏感词汇.txt");
+//            //2.读取文件
+//            BufferedReader br = new BufferedReader(new FileReader(realPath));
+//            1.另外一种方式
+            InputStream is = servletContext.getResourceAsStream("/WEB-INF/classes/敏感词汇.txt");
+            BufferedReader br = new BufferedReader(new InputStreamReader(is, "utf-8"));
             //3.将文件的每一行数据添加到list中
             String line = null;
             while((line = br.readLine())!=null){

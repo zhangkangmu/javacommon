@@ -1,4 +1,4 @@
-package day03_cookies_session._02demo1;
+package day03_cookies_session._02case;
 
 
 import day03_cookies_session._01cookie.CookieUtils;
@@ -16,6 +16,7 @@ import java.util.Date;
 /**
  * @author liuyp
  * @date 2020/02/07
+ * 显示上次访问时间
  */
 @WebServlet(urlPatterns="/visit")
 public class VisitServlet extends HttpServlet {
