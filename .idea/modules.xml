@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/standardCode/standardCode.iml" filepath="$PROJECT_DIR$/standardCode/standardCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_hong_test/web_hong_test.iml" filepath="$PROJECT_DIR$/web_hong_test/web_hong_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_study/web_study.iml" filepath="$PROJECT_DIR$/web_study/web_study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z_case01_curd_user_list/z_case01_curd_user_list.iml" filepath="$PROJECT_DIR$/z_case01_curd_user_list/z_case01_curd_user_list.iml" />
     </modules>
   </component>
 </project>
