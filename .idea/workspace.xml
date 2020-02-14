@@ -12,52 +12,13 @@
     <bookmark url="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_07案例/计算器.html" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="功能：学习&#10;运用到的知识点：&#10;是否完成：NA">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/z_case01_curd_user_list_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/listener/MyRequestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/listener/MyServletContextAttrListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/listener/MyServletContextListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/listener/MySessionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/dao/ContactsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/domain/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/domain/ContactPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/domain/SearchContact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/filter/EncodedFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/service/ContactsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/utils/JdbcUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/web/ContactsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/lib/commons-beanutils-bean-collections-1.8.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/lib/commons-dbutils-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/js/jquery-2.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/list_page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/z_case01_curd_user_list.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="功能：学习&#10;运用到的知识点：email的发送以及imtp,mstp,POP3协议&#10;是否完成：NA">
+      <change afterPath="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/WEB-INF/lib/mail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/WEB-INF/lib/standard.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web_study.iml" afterDir="false" />
     </list>
     <list id="34911b34-50c7-4a72-adab-d75ae52fe530" name="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;" comment="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;&#10;&#10;This reverts commit 81db3e2" />
     <list id="aabb1fcc-e94d-4ce7-ab35-f961a86e89dc" name="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;" comment="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;&#10;&#10;This reverts commit b45973f" />
@@ -128,19 +89,19 @@
     <session id="1737415220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="40" />
-          <entry key="project.open.time.0" value="7" />
+          <entry key="project.closed" value="42" />
+          <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="9" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="42" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -149,10 +110,10 @@
           <entry key="dummy" value="28" />
           <entry key="gitignore" value="14" />
           <entry key="html" value="6401" />
-          <entry key="java" value="18023" />
+          <entry key="java" value="18126" />
           <entry key="jsp" value="2998" />
           <entry key="properties" value="109" />
-          <entry key="txt" value="605" />
+          <entry key="txt" value="647" />
           <entry key="xml" value="282" />
           <entry key="敏感词汇" value="8" />
         </counts>
@@ -162,24 +123,24 @@
           <entry key="CSS" value="577" />
           <entry key="Git file" value="14" />
           <entry key="HTML" value="6401" />
-          <entry key="JAVA" value="18023" />
+          <entry key="JAVA" value="18126" />
           <entry key="JSP" value="2998" />
-          <entry key="PLAIN_TEXT" value="641" />
+          <entry key="PLAIN_TEXT" value="683" />
           <entry key="Properties" value="109" />
           <entry key="XML" value="282" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="54" />
+          <entry key="class" value="56" />
           <entry key="css" value="9" />
           <entry key="dtd" value="5" />
           <entry key="fxml" value="1" />
           <entry key="gitignore" value="10" />
           <entry key="gitingore" value="1" />
-          <entry key="html" value="172" />
+          <entry key="html" value="174" />
           <entry key="iml" value="4" />
-          <entry key="java" value="968" />
+          <entry key="java" value="970" />
           <entry key="jpg" value="45" />
           <entry key="js" value="11" />
           <entry key="jsp" value="66" />
@@ -196,14 +157,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="54" />
+          <entry key="CLASS" value="56" />
           <entry key="CSS" value="9" />
           <entry key="DTD" value="5" />
           <entry key="Git file" value="10" />
-          <entry key="HTML" value="172" />
+          <entry key="HTML" value="174" />
           <entry key="IDEA_MODULE" value="4" />
           <entry key="Image" value="45" />
-          <entry key="JAVA" value="968" />
+          <entry key="JAVA" value="970" />
           <entry key="JSP" value="66" />
           <entry key="JavaScript" value="11" />
           <entry key="Markdown" value="1" />
@@ -219,74 +180,49 @@
     <favorites_list name="javacommon" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7426273">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/web/ContactsServlet.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="119" column="61" lean-forward="true" selection-start-line="119" selection-start-column="61" selection-end-line="119" selection-end-column="61" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/service/ContactsService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="235">
-                  <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/dao/ContactsDao.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="261">
-                  <caret line="91" column="75" lean-forward="true" selection-start-line="91" selection-start-column="75" selection-end-line="91" selection-end-column="75" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/list.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="151" column="68" lean-forward="true" selection-start-line="151" selection-start-column="68" selection-end-line="151" selection-end-column="68" />
-                  <folding>
-                    <element signature="e#6919#6926#1#HTML" expanded="true" />
-                    <element signature="e#6856#6863#1#HTML" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/index.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="325">
-                  <caret line="25" column="84" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day09_redis_case/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#750#908#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -329,10 +265,10 @@
       <find>href</find>
       <find>contactAll</find>
       <find>query</find>
+      <find>getRequestDispatcher</find>
       <find>queryAll</find>
       <find>dele</find>
       <find>limit</find>
-      <find>getRequestDispatcher</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -358,8 +294,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/standardCode/src/数据库/day01_JDBC基础_增删改查_api_事务/demo06_preparedstatement预编译对象/DemoPreparedCurd.java" />
-        <option value="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_07案例/省市联动2.html" />
         <option value="$PROJECT_DIR$/web_study/src/day02_response和request/response/_03demo1/CheckCodeServlet.java" />
         <option value="$PROJECT_DIR$/web_study/src/day03_cookies_session/_01cookie/CookieUtils.java" />
         <option value="$PROJECT_DIR$/web_study/src/day03_cookies_session/_01cookie/Demo04RecieveCookiePathServlet.java" />
@@ -409,6 +343,8 @@
         <option value="$PROJECT_DIR$/z_case01_curd_user_list/src/service/ContactsService.java" />
         <option value="$PROJECT_DIR$/z_case01_curd_user_list/src/web/ContactsServlet.java" />
         <option value="$PROJECT_DIR$/z_case01_curd_user_list/src/dao/ContactsDao.java" />
+        <option value="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailUtils.java" />
+        <option value="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailTest.java" />
       </list>
     </option>
   </component>
@@ -443,8 +379,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="782" />
-    <option name="y" value="26" />
+    <option name="x" value="780" />
+    <option name="y" value="25" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -512,101 +448,65 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <showMembers ProjectPane="false" />
       <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="standardCode" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="standardCode" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="web_study" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="day06_filter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="z_case01_curd_user_list" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="z_case01_curd_user_list" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="z_case01_curd_user_list" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="domain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="z_case01_curd_user_list" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="z_case01_curd_user_list" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="z_case01_curd_user_list" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="javacommon" type="58d84e3e:PackageViewProjectNode" />
-              <item name="exercise" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="standardCode" type="462c0819:PsiDirectoryNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day05_三层架构和JSP练习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day05_三层架构和JSP练习" type="462c0819:PsiDirectoryNode" />
+              <item name="demo05_email_SMTP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="z_case01_curd_user_list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -624,7 +524,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581617633638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581688789316" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web_study" />
@@ -636,15 +536,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="hong" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\javaProject\javacommon\web_hong_test\src" />
+      <recent name="H:\javaProject\javacommon\web_hong_test\src\day03_jsp" />
+      <recent name="H:\javaProject\javacommon\standardCode\lib" />
+      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib" />
+      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib\jstl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib" />
+      <recent name="H:\javaProject\javacommon\web_study\src\day05_三层架构和JSP练习\demo05_email_SMTP" />
       <recent name="H:\javaProject\javacommon\z_case01_curd_user_list\web" />
       <recent name="H:\javaProject\javacommon\z_case01_curd_user_list\src" />
       <recent name="H:\javaProject\javacommon\z_case01_curd_user_list\web\WEB-INF" />
-      <recent name="H:\javaProject\javacommon\web_study\src\day06_过滤器filter_监听器listener\listener" />
-      <recent name="H:\javaProject\javacommon\web_hong_test\web\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hong.练习的包.day12_packagegram_socket.上传文件" />
@@ -653,12 +557,8 @@
       <recent name="hong.练习的包.day09_线程唤醒.包子铺案例semaphron" />
       <recent name="hong.练习的包.day09_线程唤醒.包子铺案例" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\javaProject\javacommon\web_hong_test\src" />
-      <recent name="H:\javaProject\javacommon\web_hong_test\src\day03_jsp" />
-      <recent name="H:\javaProject\javacommon\standardCode\lib" />
-      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib" />
-      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib\jstl" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hong" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -673,19 +573,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.32">
-    <configuration name="JacksonTest.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web_hong_test" />
+  <component name="RunManager" selected="Application.MailTest">
+    <configuration name="MailTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05_三层架构和JSP练习.demo05_email_SMTP.MailTest" />
+      <module name="web_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08_ajax_json.json解析器.*" />
+          <option name="PATTERN" value="day05_三层架构和JSP练习.demo05_email_SMTP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08_ajax_json.json解析器" />
-      <option name="MAIN_CLASS_NAME" value="day08_ajax_json.json解析器.JacksonTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -977,19 +874,19 @@
       <item itemvalue="Tomcat Server.teacher8.0" />
       <item itemvalue="Tomcat Server.hong8.0" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.32" />
-      <item itemvalue="JUnit.JacksonTest.test1 (1)" />
       <item itemvalue="JUnit.JacksonTest.test3" />
       <item itemvalue="JUnit.JedisTest.test3" />
       <item itemvalue="JUnit.JedisTest.testName" />
       <item itemvalue="JUnit.JedisTest.test1" />
+      <item itemvalue="Application.MailTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MailTest" />
         <item itemvalue="JUnit.JedisTest.testName" />
         <item itemvalue="JUnit.JedisTest.test1" />
         <item itemvalue="JUnit.JedisTest.test3" />
         <item itemvalue="JUnit.JacksonTest.test3" />
-        <item itemvalue="JUnit.JacksonTest.test1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1063,7 +960,9 @@
       <workItem from="1581511645132" duration="1452000" />
       <workItem from="1581515436567" duration="411000" />
       <workItem from="1581515870740" duration="11959000" />
-      <workItem from="1581556304736" duration="28587000" />
+      <workItem from="1581556304736" duration="29362000" />
+      <workItem from="1581657378410" duration="85000" />
+      <workItem from="1581682158564" duration="4192000" />
     </task>
     <task id="LOCAL-00001" summary="删除多余文件">
       <created>1577635424422</created>
@@ -1219,7 +1118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581498560395</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="功能：学习&#10;运用到的知识点：查看联系人的web案例&#10;是否完成：NA">
+      <created>1581617838618</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1581617838618</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1255,7 +1161,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="621637000" />
+    <option name="totallyTimeSpent" value="626689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1267,10 +1173,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47780678" weight="0.14477211" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47780678" visible="true" weight="0.19436997" />
       <window_info id="Structure" order="1" sideWeight="0.50807637" side_tool="true" weight="0.29088473" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1280,7 +1186,7 @@
       <window_info id="Web" order="7" sideWeight="0.5221932" side_tool="true" weight="0.23257373" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49875313" weight="0.4434655" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49875313" visible="true" weight="0.4331865" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.4375918" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1392,7 +1298,8 @@
     <MESSAGE value="补充文件" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：cookies和session&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：过滤器和监听器,以及一些案例&#10;是否完成：NA" />
-    <option name="LAST_COMMIT_MESSAGE" value="功能：学习&#10;运用到的知识点：过滤器和监听器,以及一些案例&#10;是否完成：NA" />
+    <MESSAGE value="功能：学习&#10;运用到的知识点：查看联系人的web案例&#10;是否完成：NA" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能：学习&#10;运用到的知识点：查看联系人的web案例&#10;是否完成：NA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1461,48 +1368,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_study/web/day06_filter/update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_hong_test/src/day03_jsp/CheckCodeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/response/_03demo1/CheckCodeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/敏感词汇.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/zyh_source/apache-tomcat-8.5.32-src.zip!/apache-tomcat-8.5.32-src/java/javax/servlet/annotation/WebFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_hong_test/src/words">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_hong_test/web/day03_jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1647,11 +1512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1729,9 +1589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1746,14 +1603,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/domain/SearchContact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/domain/ContactPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/web/ContactsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="119" column="61" lean-forward="true" selection-start-line="119" selection-start-column="61" selection-end-line="119" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/service/ContactsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="151" column="68" lean-forward="true" selection-start-line="151" selection-start-column="68" selection-end-line="151" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -1764,81 +1648,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/domain/SearchContact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/domain/ContactPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/web/ContactsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="119" column="61" lean-forward="true" selection-start-line="119" selection-start-column="61" selection-end-line="119" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/service/ContactsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="151" column="68" lean-forward="true" selection-start-line="151" selection-start-column="68" selection-end-line="151" selection-end-column="68" />
-          <folding>
-            <element signature="e#6919#6926#1#HTML" expanded="true" />
-            <element signature="e#6856#6863#1#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/dao/ContactsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="91" column="75" lean-forward="true" selection-start-line="91" selection-start-column="75" selection-end-line="91" selection-end-column="75" />
+        <state relative-caret-position="175">
+          <caret line="87" column="34" lean-forward="true" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day09_redis_case/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web_study/web/WEB-INF/lib/mail.jar!/javax/mail/internet/InternetAddress.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web_study/web/WEB-INF/lib/mail.jar!/javax/mail/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#750#908#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
