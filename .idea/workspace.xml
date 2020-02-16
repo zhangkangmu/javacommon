@@ -12,13 +12,14 @@
     <bookmark url="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_07案例/计算器.html" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="功能：学习&#10;运用到的知识点：email的发送以及imtp,mstp,POP3协议&#10;是否完成：NA">
-      <change afterPath="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/WEB-INF/lib/mail.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/WEB-INF/lib/standard.jar" afterDir="false" />
+    <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/web_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_01-引入js.html" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_01-引入js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_02基本语法/_02运算符和流程控制语句.html" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_02基本语法/_02运算符和流程控制语句.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习_email/demo05_email_SMTP/MailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习_email/demo05_email_SMTP/MailUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/01-基本选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/01-基本选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/03-层级选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/03-层级选择器.html" afterDir="false" />
     </list>
     <list id="34911b34-50c7-4a72-adab-d75ae52fe530" name="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;" comment="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;&#10;&#10;This reverts commit 81db3e2" />
     <list id="aabb1fcc-e94d-4ce7-ab35-f961a86e89dc" name="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;" comment="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;&#10;&#10;This reverts commit b45973f" />
@@ -89,11 +90,12 @@
     <session id="1737415220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="42" />
+          <entry key="project.closed" value="44" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="9" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="4" />
@@ -101,7 +103,7 @@
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="44" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -109,8 +111,8 @@
           <entry key="css" value="577" />
           <entry key="dummy" value="28" />
           <entry key="gitignore" value="14" />
-          <entry key="html" value="6401" />
-          <entry key="java" value="18126" />
+          <entry key="html" value="6729" />
+          <entry key="java" value="18194" />
           <entry key="jsp" value="2998" />
           <entry key="properties" value="109" />
           <entry key="txt" value="647" />
@@ -122,8 +124,8 @@
         <counts>
           <entry key="CSS" value="577" />
           <entry key="Git file" value="14" />
-          <entry key="HTML" value="6401" />
-          <entry key="JAVA" value="18126" />
+          <entry key="HTML" value="6729" />
+          <entry key="JAVA" value="18194" />
           <entry key="JSP" value="2998" />
           <entry key="PLAIN_TEXT" value="683" />
           <entry key="Properties" value="109" />
@@ -138,12 +140,12 @@
           <entry key="fxml" value="1" />
           <entry key="gitignore" value="10" />
           <entry key="gitingore" value="1" />
-          <entry key="html" value="174" />
+          <entry key="html" value="181" />
           <entry key="iml" value="4" />
           <entry key="java" value="970" />
           <entry key="jpg" value="45" />
           <entry key="js" value="11" />
-          <entry key="jsp" value="66" />
+          <entry key="jsp" value="67" />
           <entry key="md" value="1" />
           <entry key="properties" value="22" />
           <entry key="tld" value="2" />
@@ -161,11 +163,11 @@
           <entry key="CSS" value="9" />
           <entry key="DTD" value="5" />
           <entry key="Git file" value="10" />
-          <entry key="HTML" value="174" />
+          <entry key="HTML" value="181" />
           <entry key="IDEA_MODULE" value="4" />
           <entry key="Image" value="45" />
           <entry key="JAVA" value="970" />
-          <entry key="JSP" value="66" />
+          <entry key="JSP" value="67" />
           <entry key="JavaScript" value="11" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="35" />
@@ -180,43 +182,96 @@
     <favorites_list name="javacommon" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/web/day09_redis_case/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailTest.java">
+        <entry file="file://$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习_email/demo05_email_SMTP/MailTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="142">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailUtils.java">
+        <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+            <state relative-caret-position="4000">
+              <caret line="160" column="31" selection-start-line="160" selection-start-column="27" selection-end-line="160" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/01-基本选择器.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_01-引入js.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_02基本语法/_01变量定义_数据类型_数据类型转型.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_02基本语法/_02运算符和流程控制语句.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6">
+              <caret line="27" selection-start-line="27" selection-end-line="28" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo07_jquery事件绑定与解绑/01-绑定事件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/03-层级选择器.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1750">
+              <caret line="70" column="21" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo03_dom操作_增删改查元素/01-html&amp;text&amp;val.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习_email/demo05_email_SMTP/MailUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#750#908#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#760#916#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -239,8 +294,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>查询所有的联系人</find>
-      <find>WebFilter</find>
       <find>setContentType</find>
       <find>editPage</find>
       <find>form-group</find>
@@ -269,6 +322,8 @@
       <find>queryAll</find>
       <find>dele</find>
       <find>limit</find>
+      <find>val</find>
+      <find>for of</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -294,14 +349,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web_study/src/day02_response和request/response/_03demo1/CheckCodeServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day03_cookies_session/_01cookie/CookieUtils.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day03_cookies_session/_01cookie/Demo04RecieveCookiePathServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/web/first.jsp" />
-        <option value="$PROJECT_DIR$/web_study/src/day03_cookies_session/_01cookie/Demo01CreateCookieServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day03_cookies_session/_02demo1/VisitServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day03_cookies_session/_02case/VisitServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/web/jstl/jstl1.jsp" />
         <option value="$PROJECT_DIR$/web_study/src/day04_jsp_el_jstl/_01servlet/Demo01Servlet.java" />
         <option value="$PROJECT_DIR$/web_study/web/day04_jsp_el_jstl/demo1_el_scope2.jsp" />
         <option value="$PROJECT_DIR$/web_hong_test/src/day03_jsp/DatasourceUtils.java" />
@@ -345,6 +392,14 @@
         <option value="$PROJECT_DIR$/z_case01_curd_user_list/src/dao/ContactsDao.java" />
         <option value="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailUtils.java" />
         <option value="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailTest.java" />
+        <option value="$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/03-层级选择器.html" />
+        <option value="$PROJECT_DIR$/web_study/web/day07_jquery/demo03_dom操作_增删改查元素/01-html&amp;text&amp;val.html" />
+        <option value="$PROJECT_DIR$/web_study/web/day07_jquery/demo07_jquery事件绑定与解绑/01-绑定事件.html" />
+        <option value="$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/01-基本选择器.html" />
+        <option value="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_02基本语法/_02运算符和流程控制语句.html" />
+        <option value="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_01-引入js.html" />
+        <option value="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习_email/demo05_email_SMTP/MailUtils.java" />
+        <option value="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习_email/demo05_email_SMTP/MailTest.java" />
       </list>
     </option>
   </component>
@@ -379,9 +434,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="780" />
-    <option name="y" value="25" />
-    <option name="width" value="980" />
+    <option name="x" value="221" />
+    <option name="y" value="205" />
+    <option name="width" value="1365" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -454,9 +509,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -473,45 +526,21 @@
               <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day05_三层架构和JSP练习" type="462c0819:PsiDirectoryNode" />
+              <item name="day05_三层架构和JSP练习_email" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day05_三层架构和JSP练习" type="462c0819:PsiDirectoryNode" />
+              <item name="day05_三层架构和JSP练习_email" type="462c0819:PsiDirectoryNode" />
               <item name="demo05_email_SMTP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_study" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_study" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_study" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="z_case01_curd_user_list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,7 +553,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581688789316" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581861117839" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web_study" />
@@ -575,11 +604,11 @@
   </component>
   <component name="RunManager" selected="Application.MailTest">
     <configuration name="MailTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05_三层架构和JSP练习.demo05_email_SMTP.MailTest" />
+      <option name="MAIN_CLASS_NAME" value="day05_三层架构和JSP练习_email.demo05_email_SMTP.MailTest" />
       <module name="web_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day05_三层架构和JSP练习.demo05_email_SMTP.*" />
+          <option name="PATTERN" value="day05_三层架构和JSP练习_email.demo05_email_SMTP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -962,7 +991,9 @@
       <workItem from="1581515870740" duration="11959000" />
       <workItem from="1581556304736" duration="29362000" />
       <workItem from="1581657378410" duration="85000" />
-      <workItem from="1581682158564" duration="4192000" />
+      <workItem from="1581682158564" duration="5662000" />
+      <workItem from="1581729076103" duration="8658000" />
+      <workItem from="1581817464881" duration="9058000" />
     </task>
     <task id="LOCAL-00001" summary="删除多余文件">
       <created>1577635424422</created>
@@ -1125,7 +1156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581617838618</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="功能：学习&#10;运用到的知识点：email的发送以及imtp,mstp,POP3协议&#10;是否完成：NA">
+      <created>1581688801725</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1581688801725</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1161,7 +1199,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="626689000" />
+    <option name="totallyTimeSpent" value="645875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1176,7 +1214,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47780678" visible="true" weight="0.19436997" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47780678" visible="true" weight="0.30764076" />
       <window_info id="Structure" order="1" sideWeight="0.50807637" side_tool="true" weight="0.29088473" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1186,7 +1224,7 @@
       <window_info id="Web" order="7" sideWeight="0.5221932" side_tool="true" weight="0.23257373" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49875313" visible="true" weight="0.4331865" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49875313" visible="true" weight="0.31424376" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.4375918" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1299,7 +1337,8 @@
     <MESSAGE value="功能：学习&#10;运用到的知识点：cookies和session&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：过滤器和监听器,以及一些案例&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：查看联系人的web案例&#10;是否完成：NA" />
-    <option name="LAST_COMMIT_MESSAGE" value="功能：学习&#10;运用到的知识点：查看联系人的web案例&#10;是否完成：NA" />
+    <MESSAGE value="功能：学习&#10;运用到的知识点：email的发送以及imtp,mstp,POP3协议&#10;是否完成：NA" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能：学习&#10;运用到的知识点：email的发送以及imtp,mstp,POP3协议&#10;是否完成：NA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1368,43 +1407,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day03_jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_访问资源登录验证过滤_案例核心方法/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_hong_test/web/WEB-INF/words" />
-    <entry file="file://$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo01_自定义mydatasource/MyDataSourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day06_过滤器filter_监听器listener/过滤敏感词_访问资源登录验证过滤_案例核心方法/SensitiveWordsFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case1_crud_user_list/z_case1_crud_user_list.iml" />
-    <entry file="file://$PROJECT_DIR$/web_hong_test/web_hong_test.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo17_动态代理/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -1634,13 +1636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="151" column="68" lean-forward="true" selection-start-line="151" selection-start-column="68" selection-end-line="151" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1652,20 +1647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="87" column="34" lean-forward="true" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day09_redis_case/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1683,22 +1664,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailUtils.java">
+    <entry file="file://$PROJECT_DIR$/web_study/web/day09_redis_case/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        <state relative-caret-position="350">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4000">
+          <caret line="160" column="31" selection-start-line="160" selection-start-column="27" selection-end-line="160" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo07_jquery事件绑定与解绑/01-绑定事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/03-层级选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1750">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo03_dom操作_增删改查元素/01-html&amp;text&amp;val.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/01-基本选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#750#908#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailTest.java">
+    <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_02基本语法/_01变量定义_数据类型_数据类型转型.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_02基本语法/_02运算符和流程控制语句.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="6">
+          <caret line="27" selection-start-line="27" selection-end-line="28" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_01-引入js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习_email/demo05_email_SMTP/MailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#760#916#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习_email/demo05_email_SMTP/MailTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>

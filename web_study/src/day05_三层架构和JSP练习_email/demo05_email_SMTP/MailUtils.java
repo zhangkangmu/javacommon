@@ -1,4 +1,4 @@
-package day05_三层架构和JSP练习.demo05_email_SMTP;
+package day05_三层架构和JSP练习_email.demo05_email_SMTP;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
@@ -21,9 +21,10 @@ public final class MailUtils {
 		Properties props = new Properties();
 		props.setProperty("mail.transport.protocol", "SMTP");//邮件smtp发送协议
 		props.setProperty("mail.host", "smtp.163.com");//邮件发送服务器的地址，如果使用的是本地安装的易邮，写成：localhost
- 		Authenticator auth = new Authenticator() {
+		props.setProperty("mail.smtp.auth", "true");//指定验证为true
+		Authenticator auth = new Authenticator() {
 			public PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication("zhang_kangmu", "zyh0412");
+				return new PasswordAuthentication("zhang_kangmu@163.com", "zyh13016003606");
 			}
 		};
 		Session session = Session.getInstance(props, auth);

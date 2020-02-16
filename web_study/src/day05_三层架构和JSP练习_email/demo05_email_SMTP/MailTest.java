@@ -1,4 +1,4 @@
-package day05_三层架构和JSP练习.demo05_email_SMTP;
+package day05_三层架构和JSP练习_email.demo05_email_SMTP;
 
 /**
  * @author liuyp
@@ -24,6 +24,6 @@ public class MailTest {
      */
     public static void main(String[] args) throws Exception {
         //给289590351@qq.com发送邮件
-        MailUtils.sendMail("289590351@qq.com", "hello，老弟");
+        MailUtils.sendMail("kangmu0412@163.com", "hello，老弟");
     }
 }

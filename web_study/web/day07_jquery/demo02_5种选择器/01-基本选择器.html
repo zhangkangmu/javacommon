@@ -41,7 +41,8 @@
 		$(function () {
             // <input type="button" value="改变 id 为 one 的元素的背景色为 红色"  id="b1"/>
 			$("#b1").click(function () {
-				$("#one").css("backgroundColor","pink");
+				// $("#one").css("backgroundColor","pink");
+				$("#aa>a").css("backgroundColor","pink");
             });
 
             // <input type="button" value=" 改变元素名为 <div> 的所有元素的背景色为 红色"  id="b2"/>
@@ -57,6 +58,7 @@
             $("#b4").click(function () {
                 $("span,#two").css("backgroundColor","pink");
             });
+
         });
 
 	</script>
@@ -71,7 +73,7 @@
 		 <input type="button" value=" 改变 class 为 mini 的所有元素的背景色为 红色"  id="b3"/>
 		 <input type="button" value=" 改变所有的<span>元素和 id 为 two 的元素的背景色为红色"  id="b4"/>
 		
- 
+
 		 <h1>有一种奇迹叫坚持</h1>
 		 <h2>自信源于努力</h2>
 		 
@@ -101,7 +103,12 @@
 		
 
 		<input type="text" value="zhang" id="username" name="username">
-	
+	<div id="aa">
+		<div style="width: 110px;height: 100px;">
+			<a>sun</a>
+		</div>
+		<a>zi</a>
+	</div>
 	</body>
 	
 	
