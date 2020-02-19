@@ -17,7 +17,7 @@
         3. {{}}插入的是文本
     -->
     <input type="button" value="修改message" @click="changeMsg">
-
+<!--显示不同得方式,后面一个demo有-->
     {{message + "，黄达凡"}}
     <!--{{if(true){}else{}}}-->
 </div>
@@ -30,7 +30,7 @@
         },
         methods:{
             changeMsg:function(){
-                this.message = "<h1>你好</h1>";
+                this.message = "<h1>你好</h1>";  //显示的还是<h1>你好</h1>文本
             }
         }
     });

@@ -11,6 +11,7 @@
         Vue框架会帮我们把data里的数据，显示到View页面上。 Model => View 有
         但是，如果页面上数据变化了，data里的数据是不会跟着变的。View => Model 没有
     -->
+    <!--默认省略了v-bind 但是如果下面的message改变了,这个也会改变-->
     <input type="text" :value="message">
 
     <!--
