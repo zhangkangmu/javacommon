@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>keydown事件</title>
+</head>
+<body>
+<div id="app">
+    <!--
+    要求：如果用户按下的是数字键，允许输入；否则不允许输入
+    分析：
+        当用户按下按键时，要获取到按下的是什么。
+            Vue提供了对象，是当前事件对象$event。可以从这个事件获取到 按下的是什么
+                preventDefault()：阻止事件的继续执行
+                stopPropagation()：阻止事件冒泡
+
+        判断：按下的是否是数字键
+            如果是，允许输入
+            如果不是，不允许输入
+    -->
+
+    输入数字：<input type="text" @keydown="numberCheck($event)">
+</div>
+
+<script src="js/vuejs-2.5.16.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{},
+        methods:{
+            numberCheck:function(e){
+                //从事件状态对象e里获取按下的按键  的ASCII码。其中数字0~9，对应键码是48~57
+                var keyCode = e.keyCode;
+                if (keyCode < 48 || keyCode > 57) {
+                    //说明用户按的不是数字键，要阻止事件继续执行
+                    e.preventDefault();
+                }
+            }
+        }
+    });
+</script>
+</body>
+</html>

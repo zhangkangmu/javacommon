@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-text和v-html</title>
+</head>
+<body>
+<div id="app">
+    <div>{{message}}</div>
+    <!--1. 把message的值，用v-text插入到div里-->
+    <div v-text="message"></div>
+    <!--2. 把message的值，用v-html插入到div里-->
+    <div v-html="message"></div>
+</div>
+<script src="js/vuejs-2.5.16.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            message:"<h1>黑马程序员</h1>"
+        }
+    });
+</script>
+</body>
+</html>

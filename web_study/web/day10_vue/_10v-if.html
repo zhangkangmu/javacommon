@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-if判断</title>
+</head>
+<body>
+<div id="app">
+
+    <!--如果年龄小于18，这个标签显示出来-->
+    <div v-if="age < 18">未成年</div>
+    <div v-else>已成年</div>
+
+</div>
+<script src="js/vuejs-2.5.16.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            age:20
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>快速入门</title>
+</head>
+<body>
+<!--
+有一项数据message，使用Vue显示到页面app里
+    View：id为app的html区域
+-->
+
+<div id="app">
+    {{message}}
+</div>
+
+<script src="js/vuejs-2.5.16.js"></script>
+<script>
+    //Vue框架做的事情：把我们把data里的数据，跟 id为app的标签，绑定起来了。
+
+    //创建Vue对象
+    new Vue({
+        //el：全拼element。表示Vue框架接管的html区域是  id为app的标签
+        el:"#app",
+        //data：我们定义的数据 Model
+        data:{
+            message:"hello"
+        }
+    });
+</script>
+</body>
+</html>

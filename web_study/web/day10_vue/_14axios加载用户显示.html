@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>axios加载用户显示</title>
+</head>
+<body>
+<!--
+要求：
+    1. 要求：页面上表格里显示的数据，是Vue里定义的
+    2. 要求：Vue里的数据，来自于users.json（将来可能是来自于服务端）
+        Vue里何时加载数据？
+-->
+<div id="app">
+    <table>
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+        </tr>
+        <tr v-for="user in users">
+            <td>{{user.name}}</td>
+            <td>{{user.age}}</td>
+        </tr>
+    </table>
+</div>
+<script src="js/vuejs-2.5.16.js"></script>
+<script src="js/axios-0.18.0.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            users:[
+                {"name":"张三","age":50},
+                {"name":"李四","age":60}
+            ]
+        },
+        created:function(){
+            //这里的this，是Vue对象
+            //console.log(this);
+            //var t = this;
+            //发ajax请求加载数据，把数据设置给data的users
+            /*axios.get("./data/users.json")
+                .then(function(response){
+                    //在这个函数里，this并不是Vue对象，所以this.users不是Vue里数据
+                    //console.log(this);
+                    t.users = response.data;
+                });*/
+
+            //=============================
+            axios.get("./data/users.json")
+                .then(response =>{
+                    this.users = response.data;
+                });
+        }
+    });
+</script>
+</body>
+</html>

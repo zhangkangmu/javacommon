@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-model</title>
+</head>
+<body>
+<div id="app">
+    <!--
+    注意：v-bind是单向绑定。
+        Vue框架会帮我们把data里的数据，显示到View页面上。 Model => View 有
+        但是，如果页面上数据变化了，data里的数据是不会跟着变的。View => Model 没有
+    -->
+    <input type="text" :value="message">
+
+    <!--
+    注意：v-model是双向绑定的
+        Vue框架会帮我们把data里的数据，显示到View页面上。 Model => View 有
+    -->
+    <input type="text" v-model="message"> <br>
+
+
+    <select name="" id="" v-model="province">
+        <option value="">--选择省--</option>
+        <option value="gd">广东省</option>
+        <option value="gx">广西省</option>
+        <option value="sd">山东省</option>
+        <option value="sx">山西省</option>
+    </select>
+    {{province}}
+
+    <br>
+    <textarea name="" cols="30" rows="10" v-model="introduce"></textarea>
+    {{introduce}}
+</div>
+<script src="js/vuejs-2.5.16.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            message:"hello",
+            province:"sd",
+            introduce:"我最帅"
+        }
+    });
+</script>
+</body>
+</html>

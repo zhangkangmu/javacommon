@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>生命周期</title>
+</head>
+<body>
+<div id="app">
+    {{message}}
+</div>
+<script src="js/vuejs-2.5.16.js"></script>
+<script>
+    //Vue提供了一些钩子函数，被Vue调用
+    /*
+        Vue生命周期过程：
+            1. new Vue。
+            2. 初始化生命周期和事件监听
+
+            ====调用钩子函数beforeCreate=====。
+            通过Vue对象操作data？不能，还没有加载data；
+            通过Vue得到el对应的元素？不能，还没有加载el对应的dom元素
+
+
+            3. 加载data数据
+            ====调用钩子函数created=====
+            通过Vue对象操作data？能，已经加载了data；
+            通过Vue得到el对应的元素？不能，还没有加载el对应的dom元素
+
+
+            4. 获取el对应的元素dom
+            ====调用钩子函数beforeMount====
+            通过Vue对象操作data？能，已经加载了data；
+            通过Vue得到el对应的元素？能，已经获取了el对应的dom元素。获取的dom里有{{}}
+
+
+            5. 把data数据，设置到dom里，显示出来
+            ====调用钩子函数mounted=====
+            通过Vue对象操作data？能，已经加载了data；
+            通过Vue得到el对应的元素？能，已经获取了el对应的dom元素。获取的dom里是最终要显示的内容
+
+            如果我们变更了data的数据
+            ====调用钩子函数beforeUpdate=====
+            把data数据更新到dom页面上显示出来
+            ====调用钩子函数updated=====
+
+            如果我们销毁了Vue实例对象
+            =====调用钩子函数beforeDestroy=====
+            销毁Vue对象：不再监听data变化
+            =====调用钩子函数destroyed=====
+     */
+    var v = new Vue({
+        el:"#app",
+        data:{
+            message:"hello"
+        },
+        beforeCreate:function(){
+            console.log("=========beforeCreate=======");
+            //通过Vue对象操作data？不能，还没有加载data；
+            console.log(" data : " + this.message);
+            //通过Vue得到el对应的元素？不能，还没有加载el对应的dom元素。 this.$el 获取Vue里加载的元素dom
+            console.log("   el : " + this.$el);
+        },
+        created:function(){
+            console.log("=========created=======");
+            //通过Vue对象操作data？能，已经加载了data；
+            console.log(" data : " + this.message);
+            //通过Vue得到el对应的元素？不能，还没有加载el对应的dom元素
+            console.log("   el : " + this.$el);
+        },
+        beforeMount:function(){
+            console.log("=========beforeMount=======");
+            //通过Vue对象操作data？能，已经加载了data；
+            console.log(" data : " + this.message);
+            //通过Vue得到el对应的元素？能，已经获取了el对应的dom元素。获取的dom里有{{}}
+            console.log("   el : " + this.$el);
+            console.log(document.getElementById("app"));
+        },
+        mounted:function(){
+            console.log("=========mounted=======");
+            //通过Vue对象操作data？能，已经加载了data；
+            console.log(" data : " + this.message);
+            //通过Vue得到el对应的元素？能，已经获取了el对应的dom元素。获取的dom里是最终要显示的内容
+            console.log("   el : " + this.$el);
+            console.log(document.getElementById("app"));
+        },
+        beforeUpdate:function(){
+            console.log("=========beforeUpdate=======");
+            //看data里的数据：已经变化了
+            console.log(" data : " + this.message);
+            //el对应的元素：没有变化，数据还没有更新显示到dom里
+            console.log("   el : " + this.$el.outerHTML);
+            //console.log(document.getElementById("app"));
+        },
+        updated:function(){
+            console.log("=========updated=======");
+            //看data里的数据：已经变化了
+            console.log(" data : " + this.message);
+            //el对应的元素：已经变化了
+            console.log("   el : " + this.$el.outerHTML);
+        },
+        beforeDestroy:function(){
+            console.log("=========beforeDestroy=======");
+            console.log(" data : " + this.message);
+            console.log("   el : " + this.$el.outerHTML);
+        },
+        destroyed:function(){
+            console.log("=========destroyed=======");
+            console.log(" data : " + this.message);
+            console.log("   el : " + this.$el.outerHTML);
+        }
+    });
+
+    //2秒后，修改Vue对象里的message的值
+    setTimeout(function () {
+        v.message = "你好";
+    }, 2000);
+
+    //5秒后，销毁Vue对象
+    setTimeout(function () {
+        v.$destroy();
+    }, 5000);
+</script>
+</body>
+</html>

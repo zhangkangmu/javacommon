@@ -1,5 +1,6 @@
 package day08_AJAX_JSON.json解析器;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import day08_AJAX_JSON.domain_JsonFormmat_ignore.Person;
 import org.junit.Test;
@@ -10,11 +11,11 @@ import java.util.*;
 public class JacksonTest {
 
 
-    //Java对象转为JSON字符串
+    //****************** Java对象转为JSON字符串******************
     @Test
     public void test1() throws Exception {
         //1.创建Person对象
-        Person p  = new Person();
+        Person p = new Person();
         p.setName("张三");
         p.setAge(23);
         p.setGender("男");
@@ -39,7 +40,7 @@ public class JacksonTest {
         //writeValue，将数据写到d://a.txt文件中
         //mapper.writeValue(new File("d://a.txt"),p);
         //writeValue.将数据关联到Writer中
-        mapper.writeValue(new FileWriter("d://b.txt"),p);
+        mapper.writeValue(new FileWriter("d://b.txt"), p);
         //d://a.txt---->{"name":"张三","age":23,"gender":"男","birthday":null}
     }
 
@@ -57,9 +58,8 @@ public class JacksonTest {
         String json = mapper.writeValueAsString(p);
 
         System.out.println(json);//{"name":"张三","age":23,"gender":"男","birthday":1530958029263}
-                                //{"name":"张三","age":23,"gender":"男","birthday":"2018-07-07"}
+        //{"name":"张三","age":23,"gender":"男","birthday":"2018-07-07"}
     }
-
 
 
     @Test
@@ -98,13 +98,14 @@ public class JacksonTest {
         //[{"name":"张三","age":23,"gender":"男","birthday":"2018-07-07"},{"name":"张三","age":23,"gender":"男","birthday":"2018-07-07"},{"name":"张三","age":23,"gender":"男","birthday":"2018-07-07"}]
         System.out.println(json);
     }
+
     @Test
     public void test4() throws Exception {
         //1.创建map对象
-        Map<String,Object> map = new HashMap<String,Object>();
-        map.put("name","张三");
-        map.put("age",23);
-        map.put("gender","男");
+        Map<String, Object> map = new HashMap<String, Object>();
+        map.put("name", "张三");
+        map.put("age", 23);
+        map.put("gender", "男");
         //2.转换
         ObjectMapper mapper = new ObjectMapper();
         String json = mapper.writeValueAsString(map);
@@ -115,14 +116,43 @@ public class JacksonTest {
     //演示 JSON字符串转为Java对象
     @Test
     public void test5() throws Exception {
-       //1.初始化JSON字符串
+        //1.初始化JSON字符串
         String json = "{\"gender\":\"男\",\"name\":\"张三\",\"age\":23}";
         //2.创建ObjectMapper对象
         ObjectMapper mapper = new ObjectMapper();
         //3.转换为Java对象 Person对象
         Person person = mapper.readValue(json, Person.class);
-
         System.out.println(person);
+    }
+
+    //演示 JSON字符串转为Java对象
+    @Test
+    public void test6() throws Exception {
+        //1.初始化JSON字符串
+        String json = "[{\"gender\":\"男\",\"name\":\"张三\",\"age\":23},{\"gender\":\"女\",\"name\":\"李四\",\"age\":50}]";
+        //2.创建ObjectMapper对象
+        ObjectMapper mapper = new ObjectMapper();
+        //3.转换为Java对象 Person对象
+        List<Person> person = mapper.readValue(json, new TypeReference<List<Person>>() {
+        });
+        for (Person p : person) {
+            System.out.println(p);
+        }
+    }
+
+    //****************** JSON字符串转为Java对象******************
+    @Test
+    public void test7() throws Exception {
+        //1.初始化JSON字符串
+        String json = "[\"person\":{\"gender\":\"男\",\"name\":\"张三\",\"age\":23},\"person2\":{\"gender\":\"女\",\"name\":\"李四\",\"age\":50}]";
+        //2.创建ObjectMapper对象
+        ObjectMapper mapper = new ObjectMapper();
+        //3.转换为Java对象 Person对象
+        Map<String, Person> person = mapper.readValue(json, new TypeReference<Map<String, Person>>() {
+        });
+        for (Map.Entry<String, Person> entry : person.entrySet()) {
+            System.out.println(entry);
+        }
     }
 
 }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-bind指令</title>
+</head>
+<body>
+<div id="app">
+    <!--把url的值，绑定给a标签的href属性：用v-bind-->
+    <a v-bind:href="url">{{title}}</a> <br>
+    <a :href="url">{{title}}</a>
+</div>
+<script src="js/vuejs-2.5.16.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            url:"http://www.baidu.com",
+            title:"百度"
+        }
+    });
+</script>
+</body>
+</html>

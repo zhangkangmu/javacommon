@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-for循环</title>
+</head>
+<body>
+<div id="app">
+    <!--把数据里的users，循环遍历显示出来-->
+    <ul>
+        <li v-for="(user,index) in users">{{user.name}}， {{user.sex}},  索引：{{index}}</li>
+    </ul>
+
+    <ul>
+        <!--<li v-for="user in users">{{user.name + ", " + user.sex}}，{{user.sex}}</li>-->
+        <li v-for="user in users">{{user.name}}，{{user.sex}}</li>
+    </ul>
+
+    <!--循环5次，显示偶数-->
+    <ul>
+        <li v-for="i in 5">{{i*2}}</li>
+    </ul>
+
+    <!--查询所有用户，显示到表格上-->
+    <table>
+        <tr>
+            <th>姓名</th>
+            <th>性别</th>
+        </tr>
+        <tr v-for="user in users">
+            <td>{{user.name}}</td>
+            <td>{{user.sex}}</td>
+        </tr>
+    </table>
+</div>
+<script src="js/vuejs-2.5.16.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            users:[
+                {name:"曾方舟", sex:"男"},
+                {name:"胡俊云", sex:"男"},
+                {name:"施焕", sex:"男"},
+                {name:"小仓", sex:"女"}
+            ]
+        },
+        created:function(){
+            //发Ajax请求，去服务端加载数据。把得到的数据赋值给data
+        }
+    });
+</script>
+</body>
+</html>

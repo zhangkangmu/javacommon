@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax和json配合使用</title>
+</head>
+<body>
+<input type="button" value="查询id为1的用户" id="btn">
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script>
+    $("#btn").click(function () {
+        $.post("./jsonServlet", "id=1", function(result){
+            //如果把type值设置为text，那么result是字符串: "{\"id\":1, \"name\":\"小王\", \"sex\":\"男\"}"
+            //如果把type值设置为json，那么jQuery会帮我们把字符串转换成json对象：{"id":1, "name":"小王", "sex":"男"}
+            //得到用户的id、姓名、性别
+            alert("id：" + result.id + "，name：" + result.name + "，sex：" + result.sex);
+        }, "json");  //重点看这里
+    });
+</script>
+</body>
+</html>

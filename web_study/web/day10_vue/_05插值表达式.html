@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>插值表达式</title>
+</head>
+<body>
+
+<div id="app">
+    <!--
+    {{}}的特性：类似于jQuery里的text()方法
+
+        1. 如果Vue实例里的数据变化了，dom里显示的数据会跟着变化。
+            提供一个按钮，点击时修改Vue实例里message的值，看页面上是否会跟着变
+        2. {{}}里可以写js表达式，但是不能有多条js代码
+
+        3. {{}}插入的是文本
+    -->
+    <input type="button" value="修改message" @click="changeMsg">
+
+    {{message + "，黄达凡"}}
+    <!--{{if(true){}else{}}}-->
+</div>
+<script src="js/vuejs-2.5.16.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            message:"hello"
+        },
+        methods:{
+            changeMsg:function(){
+                this.message = "<h1>你好</h1>";
+            }
+        }
+    });
+</script>
+</body>
+</html>

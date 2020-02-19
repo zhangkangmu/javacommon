@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-show显示与隐藏</title>
+</head>
+<body>
+<div id="app">
+
+    <!--如果年龄小于18，这个标签显示出来-->
+    <!--
+    v-show：
+        如果判断为false，元素仍然存在，只是有隐藏起来了  display:none
+        如果判断为true，元素存在，并且显示出来
+    -->
+    <div v-show="age < 18">未成年</div>
+
+    <input type="button" value="切换显示与隐藏" @click="toggle">
+    <div v-show="flag">显示/隐藏</div>
+</div>
+<script src="js/vuejs-2.5.16.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            age:20,
+            flag:true
+        },
+        methods:{
+            toggle:function(){
+                this.flag = !this.flag;
+            }
+        }
+    });
+</script>
+</body>
+</html>

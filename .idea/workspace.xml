@@ -12,41 +12,40 @@
     <bookmark url="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_07案例/计算器.html" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web_hong_test/web/day08_ajax_json/02_jquery_实现方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day00_img/man00.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day00_img/man01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day00_img/man02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day00_img/man03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day00_img/man04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day00_img/man05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day00_img/man06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day00_img/程序员.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_study/web/day00_img/程序员2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/dao/SearchKeyWordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/service/SearchKeyWordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/web/CheckCodeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/web/SearchKeyWordServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/src/需求说明" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/z_case01_curd_user_list_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/z_case01_curd_user_list_war_exploded.xml" afterDir="false" />
+    <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="功能：学习&#10;运用到的知识点：修改文件目录&#10;是否完成：NA">
+      <change afterPath="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/domain_JsonFormmat_ignore/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/DemoFastjson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/WEB-INF/lib/fastjson-1.2.39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/02-原生js实现ajax请求-get-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/06_jquery_Ajax_get_post异步请求总结.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/07-ajaxAndJson.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_01快速入门.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_02单击事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_03keydown事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_04mouseover事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_05插值表达式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_06v-text和v-html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_07v-bind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_08v-model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_09v-for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_10v-if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_11v-show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_12生命周期.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_13axios.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_14axios加载用户显示.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/data/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/js/axios-0.18.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_study/web/day10_vue/js/vuejs-2.5.16.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_02基本语法/_02运算符和流程控制语句.html" beforeDir="false" afterPath="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_02基本语法/_02运算符和流程控制语句.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/02.全选和全不选/全选和全不选.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/02.全选和全不选/全选和全不选.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/QQ表情选择.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/03.QQ表情选择/QQ表情选择.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/web/day07_jquery/demo06_jquery遍历/01-遍历.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo06_jquery遍历/01-遍历.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/web/day07_jquery/demo08_jQuery综合案例/广告的自动显示与隐藏.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo08_jQuery综合案例/广告的自动显示与隐藏.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/web/day07_jquery/demo08_jQuery综合案例/抽奖.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day07_jquery/demo08_jQuery综合案例/抽奖.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_case01_curd_user_list/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/z_case01_curd_user_list/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_case01_curd_user_list/z_case01_curd_user_list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/z_case01_curd_user_list/z_case01_curd_user_list.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/JacksonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/JacksonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax_文档里的.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/02-JQuery实现方式1_ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/03-JQuery实现方式1_ajax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/03-JQuery实现方式2_get.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/04-JQuery实现方式2_get.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/04-JQuery实现方式3_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/05-JQuery实现方式3_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/05-json数据语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/08-json数据语法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/06-json数据语法_遍历.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/09-json数据语法_遍历.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/07-regist.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/10-regist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web_study.iml" afterDir="false" />
     </list>
     <list id="34911b34-50c7-4a72-adab-d75ae52fe530" name="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;" comment="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;&#10;&#10;This reverts commit 81db3e2" />
     <list id="aabb1fcc-e94d-4ce7-ab35-f961a86e89dc" name="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;" comment="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;&#10;&#10;This reverts commit b45973f" />
@@ -152,8 +151,8 @@
           <entry key="css" value="577" />
           <entry key="dummy" value="42" />
           <entry key="gitignore" value="14" />
-          <entry key="html" value="10175" />
-          <entry key="java" value="18596" />
+          <entry key="html" value="10178" />
+          <entry key="java" value="18716" />
           <entry key="jsp" value="3132" />
           <entry key="properties" value="109" />
           <entry key="txt" value="656" />
@@ -166,8 +165,8 @@
         <counts>
           <entry key="CSS" value="578" />
           <entry key="Git file" value="14" />
-          <entry key="HTML" value="10174" />
-          <entry key="JAVA" value="18596" />
+          <entry key="HTML" value="10177" />
+          <entry key="JAVA" value="18716" />
           <entry key="JSP" value="3132" />
           <entry key="PLAIN_TEXT" value="775" />
           <entry key="Properties" value="109" />
@@ -176,15 +175,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="56" />
+          <entry key="class" value="57" />
           <entry key="css" value="9" />
           <entry key="dtd" value="5" />
           <entry key="fxml" value="1" />
           <entry key="gitignore" value="10" />
           <entry key="gitingore" value="1" />
-          <entry key="html" value="239" />
+          <entry key="html" value="252" />
           <entry key="iml" value="5" />
-          <entry key="java" value="988" />
+          <entry key="java" value="991" />
           <entry key="jpg" value="45" />
           <entry key="js" value="24" />
           <entry key="jsp" value="78" />
@@ -202,14 +201,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="56" />
+          <entry key="CLASS" value="57" />
           <entry key="CSS" value="9" />
           <entry key="DTD" value="5" />
           <entry key="Git file" value="10" />
-          <entry key="HTML" value="239" />
+          <entry key="HTML" value="252" />
           <entry key="IDEA_MODULE" value="5" />
           <entry key="Image" value="45" />
-          <entry key="JAVA" value="988" />
+          <entry key="JAVA" value="991" />
           <entry key="JSP" value="78" />
           <entry key="JavaScript" value="24" />
           <entry key="Markdown" value="1" />
@@ -226,65 +225,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax_文档里的.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/03-JQuery实现方式1_ajax.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/search.jsp">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/09-json数据语法_遍历.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+            <state relative-caret-position="450">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_hong_test/web/day08_ajax_json/06-json数据语法_遍历.html">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/06_jquery_Ajax_get_post异步请求总结.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/08-json数据语法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            <state relative-caret-position="350">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/07-ajaxAndJson.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/02-原生js实现ajax请求-get-post.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo08_jQuery综合案例/抽奖.html">
+        <entry file="file://$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/DemoFastjson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2150">
-              <caret line="86" column="4" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo6_Lambda的省略格式/Demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/web/SearchKeyWordServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state relative-caret-position="900">
+              <caret line="45" selection-start-line="45" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -293,32 +281,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/PrintWriter.java">
+        <entry file="file://$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/JacksonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10800">
-              <caret line="470" column="7" selection-start-line="470" selection-start-column="7" selection-end-line="470" selection-end-column="7" />
+            <state relative-caret-position="275">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding>
-                <element signature="e#15583#15584#0" expanded="true" />
-                <element signature="e#15622#15623#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/需求说明">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/js/jquery-3.3.1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18425">
-              <caret line="749" column="60" selection-start-line="749" selection-start-column="60" selection-end-line="749" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -395,8 +364,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/z_case01_curd_user_list/src/c3p0-config.xml" />
-        <option value="$PROJECT_DIR$/z_case01_curd_user_list/src/utils/JdbcUtil.java" />
         <option value="$PROJECT_DIR$/z_case01_curd_user_list/src/filter/EncodedFilter.java" />
         <option value="$PROJECT_DIR$/z_case01_curd_user_list/web/update.jsp" />
         <option value="$PROJECT_DIR$/z_case01_curd_user_list/web/add.jsp" />
@@ -446,6 +413,8 @@
         <option value="$PROJECT_DIR$/web_hong_test/web/day08_ajax_json/06-json数据语法_遍历.html" />
         <option value="$PROJECT_DIR$/z_case01_curd_user_list/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/z_case01_curd_user_list/web/search.jsp" />
+        <option value="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/JacksonTest.java" />
+        <option value="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/06-json数据语法_遍历.html" />
       </list>
     </option>
   </component>
@@ -573,48 +542,77 @@
           <expand>
             <path>
               <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="standardCode" type="462c0819:PsiDirectoryNode" />
+              <item name="web_hong_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="standardCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="standardCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="web相关" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="standardCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="web相关" type="462c0819:PsiDirectoryNode" />
-              <item name="day03_javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="standardCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="web相关" type="462c0819:PsiDirectoryNode" />
-              <item name="day03_javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="_05引用数据类型" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="z_case01_curd_user_list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="z_case01_curd_user_list" type="462c0819:PsiDirectoryNode" />
+              <item name="web_hong_test" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="z_case01_curd_user_list" type="462c0819:PsiDirectoryNode" />
+              <item name="web_hong_test" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="day10_vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day08_AJAX_JSON" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day08_AJAX_JSON" type="462c0819:PsiDirectoryNode" />
+              <item name="domain_JsonFormmat_ignore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day08_AJAX_JSON" type="462c0819:PsiDirectoryNode" />
+              <item name="json解析器" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="day08_AJAX_JSON" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="day10_vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -634,7 +632,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582114905970" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582121408255" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../war" />
@@ -649,8 +647,12 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="hong" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\javaProject\javacommon\web_hong_test\src" />
+      <recent name="H:\javaProject\javacommon\web_hong_test\src\day03_jsp" />
+      <recent name="H:\javaProject\javacommon\standardCode\lib" />
+      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib" />
+      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib\jstl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\javaProject\javacommon\z_case01_curd_user_list\web\js" />
@@ -666,12 +668,8 @@
       <recent name="hong.练习的包.Day10_io流" />
       <recent name="hong.练习的包.day09_线程唤醒.包子铺案例semaphron" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\javaProject\javacommon\web_hong_test\src" />
-      <recent name="H:\javaProject\javacommon\web_hong_test\src\day03_jsp" />
-      <recent name="H:\javaProject\javacommon\standardCode\lib" />
-      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib" />
-      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib\jstl" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hong" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -686,7 +684,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.32">
+  <component name="RunManager" selected="Tomcat Server.teacher8.0">
     <configuration name="MailTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day05_三层架构和JSP练习_email.demo05_email_SMTP.MailTest" />
       <module name="web_study" />
@@ -1297,7 +1295,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="702933000" />
+    <option name="totallyTimeSpent" value="703840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1327,7 +1325,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33039647" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32599118" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.7077827" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.4375918" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32892805" />
@@ -1384,6 +1382,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -1509,99 +1517,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo08_jQuery综合案例/zyh-广告的自动显示与隐藏.html" />
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo04_案例/04.多选下拉列表左右移动/左右移动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo08_jQuery综合案例/zyh抽奖.html" />
-    <entry file="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_02基本语法/_02运算符和流程控制语句.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="43" selection-start-line="43" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo06_jquery遍历/zyh_01-遍历.html" />
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo06_jquery遍历/01-遍历.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="60" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo09_jQuery的插件/02-jQuery全局进行方法扩展.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/js/hong自定义.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo09_jQuery的插件/01-jQuery对象进行方法扩展.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1006">
-          <caret line="50" column="63" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day08_ajax_json/2.JQuerys实现ajax.html" />
-    <entry file="file://$PROJECT_DIR$/web_study/web/day02_request_response/request/admin/manager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_hong_test/src/day08_ajax_json/AjaxServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/05-json数据语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/domain/SearchContact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day07_jquery/test4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_study/web/day07_jquery/demo08_jQuery综合案例/广告的自动显示与隐藏.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-800">
           <caret line="10" column="67" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1609,9 +1528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="217" column="6" lean-forward="true" selection-start-line="217" selection-start-column="6" selection-end-line="217" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1623,21 +1539,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/js/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/js/jquery-2.1.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="5094" selection-start-line="3" selection-start-column="5093" selection-end-line="3" selection-end-column="5094" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1645,13 +1552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/02-JQuery实现方式1_ajax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1669,22 +1569,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/06-json数据语法_遍历.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/list_page.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/03-JQuery实现方式2_get.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/domain/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1839,6 +1725,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/js/axios-0.18.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_01快速入门.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/10-regist.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/03-JQuery实现方式2_get.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/domain_JsonFormmat_ignore/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web_study/web/WEB-INF/lib/jackson-core-2.2.3.jar!/com/fasterxml/jackson/core/ObjectCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/JacksonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/DemoFastjson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" selection-start-line="45" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax_文档里的.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/02-原生js实现ajax请求-get-post.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/02-JQuery实现方式1_ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/05-json数据语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/03-JQuery实现方式1_ajax.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/07-ajaxAndJson.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/08-json数据语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/06_jquery_Ajax_get_post异步请求总结.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/07-regist.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/09-json数据语法_遍历.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>

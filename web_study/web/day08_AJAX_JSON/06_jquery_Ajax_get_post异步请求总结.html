@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery的Ajax</title>
+</head>
+<body>
+<!--
+要求：页面上有一个按钮，点击时，在页面不刷新的情况下，发请求到服务端
+      得到服务端的响应，显示到div里
+-->
+<input type="button" value="Ajax-get方法" id="btn1">
+<input type="button" value="Ajax-post方法" id="btn2">
+<input type="button" value="Ajax-ajax方法" id="btn3">
+<hr>
+<input type="button" value="Ajax-get方法-jQuery3.0签名方式" id="btn11">
+<input type="button" value="Ajax-post方法-jQuery3.0签名方式" id="btn22">
+<hr>
+<input type="button" value="测试：点击弹窗" onclick="alert()">
+<div id="resultDiv">
+    把响应结果显示到这里
+</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script>
+    $("#btn1").click(function () {
+        //$.get(url, data, callback, type)
+        /*
+            url：请求的地址
+            data：提交到服务端的参数，格式有两种：
+                字符串形式：name=value&name=value&...
+                js对象形式：{name:value, name:value, ...}
+            callback：用于处理响应结果的回调函数。函数参数是服务端返回的响应数据
+            text：服务端响应的数据的格式。text, json
+
+            注意：四个参数里，url必须。其它参数，如果没有，可以不写
+         */
+
+        /*$.get("./ajaxServlet", "username=tom&password=123", function(result){
+            $("#resultDiv").html(result);
+        }, "text");*/
+
+        /*$.get("./ajaxServlet", {username:"jerry", password:"111"}, function(result){
+            $("#resultDiv").html(result);
+        }, "text");*/
+
+        $.get("./ajaxServlet");
+    });
+    
+    $("#btn2").click(function () {
+        //发POST方式的Ajax请求
+        /*$.post("./ajaxServlet", "username=tom&password=123", function(result){
+            $("#resultDiv").html(result);
+        }, "text");*/
+
+        /*$.post("./ajaxServlet", {username:"lisi",password:"444"}, function(result){
+            $("#resultDiv").html(result);
+        }, "text");*/
+
+        $.post("./ajaxServlet", {username:"lisi",password:"444",age:20,email:"lisi@163.com"}, function(result){
+            $("#resultDiv").html(result);
+        }, "text");
+    });
+
+    $("#btn3").click(function () {
+        $.ajax({
+            url:"./ajaxServlet",   //请求地址
+            data:{username:"lisi"}, //提交的参数
+            type:"post",             //请求方式。默认get，常用的get、post，将来还会见到put、delete等等
+            dataType:"text",        //服务端响应的数据格式。常用的text、json
+            success:function(result){//处理响应结果的回调函数，其中形参result的值，就是响应结果
+                $("#resultDiv").html(result);
+            },
+            async:true              //是否异步。默认为true
+        });
+    });
+
+    $("#btn11").click(function () {
+        //$.get  jquery3.0新增签名方式：为了让API的风格保持一致
+        $.get({
+            url:"./ajaxServlet",   //请求地址
+            data:{username:"lisi"}, //提交的参数
+            type:"post",             //请求方式。默认get，常用的get、post，将来还会见到put、delete等等
+            dataType:"text",        //服务端响应的数据格式。常用的text、json
+            success:function(result){//处理响应结果的回调函数，其中形参result的值，就是响应结果
+                $("#resultDiv").html(result);
+            },
+            async:true              //是否异步。默认为true
+        });
+    });
+
+    $("#btn22").click(function () {
+        //$.post  jQuery3.0新增签名方式
+        $.post({
+            url:"./ajaxServlet",   //请求地址
+            data:{username:"lisi"}, //提交的参数
+            type:"post",             //请求方式。默认get，常用的get、post，将来还会见到put、delete等等
+            dataType:"text",        //服务端响应的数据格式。常用的text、json
+            success:function(result){//处理响应结果的回调函数，其中形参result的值，就是响应结果
+                $("#resultDiv").html(result);
+            },
+            async:true              //是否异步。默认为true
+        });
+    });
+</script>
+</body>
+</html>

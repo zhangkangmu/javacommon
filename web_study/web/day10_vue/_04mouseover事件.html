@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mouseover事件</title>
+    <style>
+        .c1{
+            width:200px;
+            height:200px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+
+    <div class="c1" @mouseover="showWin" @mouseout="showWin2"></div>
+
+</div>
+
+<script src="js/vuejs-2.5.16.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        methods:{
+            showWin:function(){
+                alert("来啦老弟");
+            },
+            showWin2:function () {
+                alert("下次再来");
+            }
+        }
+    });
+</script>
+</body>
+</html>

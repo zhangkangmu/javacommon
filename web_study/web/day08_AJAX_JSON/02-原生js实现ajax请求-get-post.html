@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js的Ajax</title>
+</head>
+<body>
+<!--
+要求：页面上有一个按钮。点击的时候，要在不刷新/跳转的请求下，发请求到服务端，得到响应结果，显示到div
+-->
+<input type="button" value="js的Ajax" onclick="fnAjax()">
+<input type="button" value="js的Ajax-get方式" onclick="fnAjaxGet()">
+<input type="button" value="js的Ajax-post方式" onclick="fnAjaxPost()">
+<input type="button" value="测试：点击弹窗" onclick="alert()">
+<div id="resultDiv">
+    要在这里显示响应的结果
+</div>
+
+<script>
+    /**
+     * 需要大家注意：
+     *  1. 点击按钮时，有没有把请求发送到服务端（服务端Servlet有没有输出）？请求到服务端了
+     *  2. 点击按钮发送请求时，页面有没有跳转/刷新？没有跳转，没有刷新
+     *
+     *  3. 弹窗了几次，为什么？弹了4次。
+     *   xhr的readyState状态变化了4次
+             •0: 请求未初始化。-----------创建出来xhr对象，默认是0
+             •1: 服务器连接已建立----------xhr已经连接上服务端
+             •2: 请求已接收---------------xhr把请求发送到了服务端
+             •3: 请求处理中---------------服务端处理请求中，准备响应
+             •4: 请求已完成，且响应已就绪--服务端已经把响应数据，返回给了客户端
+
+     *  4. 如何接收服务端响应的结果？
+     *      在xhr的readyState为4，并且响应状态status为200时，用xhr的responseTest得到响应结果
+     *
+     *
+     *  5. Ajax是如何实现局部刷新的？整个页面不刷新，只刷新页面的一部分
+     *      得到响应之后，使用JavaScript/jQuery等技术，操作dom，把响应的数据显示到网页上
+     *
+     *  6. Ajax有没有实现异步加载？发请求之后，浏览器不会“假死”
+     *      实现了。
+     */
+
+    //原生的js异步请求,很少用
+    function fnAjax() {
+        //1. 创建一个Ajax引擎对象
+        var xhr = new XMLHttpRequest();
+        //2. 给Ajax引擎对象绑定事件，监听状态变化
+        xhr.onreadystatechange = function(){
+            //当Ajax引擎对象状态为4的时候，说明响应已经返回客户端了，我们可以得到响应了
+            //当本次响应状态是200，表示一切正常
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var v = xhr.responseText;
+
+                //把响应结果，显示到页面上
+                document.getElementById("resultDiv").innerHTML = v;
+            }
+        };
+        //3. 给Ajax引擎对象设置请求信息。请求方式 请求资源 是否异步
+        // 写相对路径的技巧：
+        //   写当前资源的访问路径：http://localhost:80/day16/_01jsAjax.html
+        //   写目标资源的访问路径：http://localhost:80/day16/ajaxServlet
+        xhr.open("post", "./ajaxServlet", true);
+        //4. 发送请求
+        xhr.send();
+    }
+
+    //发GET方式的Ajax请求，并且传参
+    function fnAjaxGet() {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function(){
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var v = xhr.responseText;
+                document.getElementById("resultDiv").innerHTML = v;
+            }
+        };
+        xhr.open("get", "./ajaxServlet?username=tom&password=tom", true);
+        //4. 发送请求
+        xhr.send();
+    }
+
+    function fnAjaxPost() {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function(){
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var v = xhr.responseText;
+                document.getElementById("resultDiv").innerHTML = v;
+            }
+        };
+        xhr.open("post", "./ajaxServlet", true);
+        //4. 发送请求
+        xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        xhr.send("username=jerry&password=jerry");
+    }
+</script>
+</body>
+</html>

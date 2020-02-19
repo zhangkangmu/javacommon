@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>axios</title>
+
+</head>
+<body>
+
+<script src="js/vuejs-2.5.16.js"></script>
+<script src="js/axios-0.18.0.js"></script>
+<script>
+    //正常情况是请求到Servlet，得到响应的json格式的数据
+    //发get方式的ajax请求，直接请求到user.json，得到其中的数据
+    axios.get("./data/users.json?username=lisi")
+        .then(function(response){
+            //then：在得到响应数据之后会被执行
+            //response：是响应信息对象。
+            // response.data：是响应回来的数据
+            // response.status：是响应状态码
+            console.log(response.data);
+        })
+        .catch(function(error){
+            console.log(error);
+        });
+
+    //发post方式的ajax请求
+    axios.post("./data/users.json",{
+        username:"lisi",
+        password:"12345"
+    }).then(function(response){
+        console.log(response.data);
+    });
+</script>
+</body>
+</html>
