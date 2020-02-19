@@ -21,7 +21,7 @@
             var vcode = document.getElementById("vcode");
 
             //2.设置其src属性，加时间戳
-            vcode.src = "${pageContext.request.contextPath}/day03/checkCode?time="+new Date().getTime();
+            vcode.src = "${pageContext.request.contextPath}/checkCode?time="+new Date().getTime();
         }
     </script>
 </head>
@@ -43,7 +43,7 @@
             <label for="vcode">验证码：</label>
             <input type="text" name="verifycode" class="form-control" id="verifycode" placeholder="请输入验证码" style="width: 120px;"/>
             <a href="javascript:refreshCode();">
-                <img src="${pageContext.request.contextPath}/day03/checkCode" title="看不清点击刷新" id="vcode"/>
+                <img src="${pageContext.request.contextPath}/checkCode" title="看不清点击刷新" id="vcode"/>
             </a>
         </div>
         <hr/>

@@ -11,6 +11,8 @@
     <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
     <script>
         /*
+        前面的demo04还有案例
+
             需求：
                 1. 当页面加载完，3秒后。自动显示广告
                 2. 广告显示5秒后，自动消失。
@@ -21,13 +23,22 @@
                 3. 使用  show/hide方法来完成广告的显示
          */
 
-        //入口函数，在页面加载完成之后，定义定时器，调用这两个方法
+        //入口函数，在页面加载完成之后，定义定时器，调用这两个方法,不过只能支持一次
         $(function () {
            //定义定时器，调用adShow方法 3秒后执行一次
            setTimeout(adShow,3000);
            //定义定时器，调用adHide方法，8秒后执行一次
             setTimeout(adHide,8000);
         });
+
+        //循环播放的方法
+  /*      $(function () {
+            setInterval(function () {
+                $("#ad").fadeIn(2000);
+                $("#ad").fadeOut(2000);
+            }, 1000);
+        });*/
+
         //显示广告
         function adShow() {
             //获取广告div，调用显示方法
@@ -39,8 +50,6 @@
             $("#ad").hide("slow");
         }
 
-
-
     </script>
 </head>
 <body>
@@ -48,7 +57,7 @@
 <div>
     <!-- 广告DIV -->
     <div id="ad" style="display: none;">
-        <img style="width:100%" src="../img/adv.jpg" />
+        <img style="width:100%" src="../../day00_img/程序员.png" />
     </div>
 
     <!-- 下方正文部分 -->

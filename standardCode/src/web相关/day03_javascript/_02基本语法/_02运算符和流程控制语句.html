@@ -40,7 +40,8 @@
     }else{
         document.write("false");
     }
-    //------for in的使用-------
+    //------for in的使用  i:索引,注意  如果是map集合,那i就是key-------
+    //***********for in循环对象里的每个key和value ,也就是map,没有key和value就循环不了**********
     var array = new Array()[10,20,30];
     for (var i in array){
         document.write(i)

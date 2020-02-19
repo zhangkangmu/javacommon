@@ -17,8 +17,10 @@
         $(function () {
             //1.给img图片添加onclick事件
             $("ul img").click(function(){
-                //2.追加到p标签中即可。
+                //2.追加到p标签中即可,主要,要用this。
                 $(".word").append($(this).clone());
+                //这样也可以
+                // $(this).clone().appendTo(".word");
             });
 
         });

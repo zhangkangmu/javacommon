@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../day07_jquery/js/jquery-3.3.1.js"></script>
+    <script>
+
+        function fun() {
+            $.ajax({
+                url: "../ajaxServlet",
+                type: "get",
+                data: {"username": "jack"},
+                success: function (data) {
+                    alert(data);
+                },
+                error: function () {
+                    alert("出错啦...")
+                },
+                dataType: "text"
+            });
+        }
+
+        function fun2() {
+            $.get(
+                "../ajaxServlet", "username=zhang", function (data) {
+                    alert(data);
+                }, "text"
+            );
+        }
+
+        function fun3() {
+            $.get({
+                url:"../ajaxServlet",
+                data:{"username":"lisi"},
+                success:function (data) {
+                    alert(data);
+                },
+                error:function (data) {
+                    alert(data);
+                },
+                dataType:"text"
+                }
+            );
+        }
+    </script>
+</head>
+<body>
+
+<input type="button" value="发送异步请求1" onclick="fun();">
+<input type="button" value="发送异步请求2" onclick="fun2();">
+<input type="button" value="发送异步请求3" onclick="fun3();">
+</body>
+</html>
