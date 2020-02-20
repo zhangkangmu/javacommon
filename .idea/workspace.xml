@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web_study:war exploded" />
+      <artifact name="web_hong_test:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
@@ -12,12 +12,12 @@
     <bookmark url="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_07案例/计算器.html" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="功能：学习&#10;运用到的知识点：json和ajax异步请求,以及vue前端框架的使用&#10;是否完成：NA">
+    <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/web/day10_vue/_02单击事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_02单击事件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/web/day10_vue/_05插值表达式.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_05插值表达式.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/web/day10_vue/_06v-text和v-html.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_06v-text和v-html.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_study/web/day10_vue/_08v-model.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_08v-model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web/day10_vue/_10v-if.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_10v-if.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web/day10_vue/_11v-show.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_11v-show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_study/web/day10_vue/_12生命周期.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day10_vue/_12生命周期.html" afterDir="false" />
     </list>
     <list id="34911b34-50c7-4a72-adab-d75ae52fe530" name="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;" comment="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;&#10;&#10;This reverts commit 81db3e2" />
     <list id="aabb1fcc-e94d-4ce7-ab35-f961a86e89dc" name="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;" comment="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;&#10;&#10;This reverts commit b45973f" />
@@ -102,7 +102,7 @@
     <session id="1737415220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="48" />
+          <entry key="project.closed" value="50" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="9" />
           <entry key="project.open.time.10" value="3" />
@@ -112,10 +112,10 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="7" />
-          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.7" value="8" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="50" />
+          <entry key="project.opened" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -123,11 +123,11 @@
           <entry key="css" value="577" />
           <entry key="dummy" value="42" />
           <entry key="gitignore" value="14" />
-          <entry key="html" value="11278" />
+          <entry key="html" value="12515" />
           <entry key="java" value="18716" />
           <entry key="jsp" value="3132" />
           <entry key="properties" value="109" />
-          <entry key="txt" value="697" />
+          <entry key="txt" value="705" />
           <entry key="xml" value="297" />
           <entry key="敏感词汇" value="8" />
           <entry key="需求说明" value="69" />
@@ -137,10 +137,10 @@
         <counts>
           <entry key="CSS" value="578" />
           <entry key="Git file" value="14" />
-          <entry key="HTML" value="11277" />
+          <entry key="HTML" value="12514" />
           <entry key="JAVA" value="18716" />
           <entry key="JSP" value="3132" />
-          <entry key="PLAIN_TEXT" value="816" />
+          <entry key="PLAIN_TEXT" value="824" />
           <entry key="Properties" value="109" />
           <entry key="XML" value="297" />
         </counts>
@@ -153,11 +153,12 @@
           <entry key="fxml" value="1" />
           <entry key="gitignore" value="10" />
           <entry key="gitingore" value="1" />
-          <entry key="html" value="276" />
+          <entry key="html" value="295" />
           <entry key="iml" value="5" />
           <entry key="java" value="991" />
           <entry key="jpg" value="45" />
           <entry key="js" value="24" />
+          <entry key="json" value="3" />
           <entry key="jsp" value="78" />
           <entry key="md" value="1" />
           <entry key="properties" value="22" />
@@ -177,10 +178,11 @@
           <entry key="CSS" value="9" />
           <entry key="DTD" value="5" />
           <entry key="Git file" value="10" />
-          <entry key="HTML" value="276" />
+          <entry key="HTML" value="295" />
           <entry key="IDEA_MODULE" value="5" />
           <entry key="Image" value="45" />
           <entry key="JAVA" value="991" />
+          <entry key="JSON" value="3" />
           <entry key="JSP" value="78" />
           <entry key="JavaScript" value="24" />
           <entry key="Markdown" value="1" />
@@ -196,41 +198,23 @@
     <favorites_list name="javacommon" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41420913">
+    <splitter split-orientation="horizontal" split-proportion="0.41137123">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/_05_v-for.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="100">
+                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/_04_model.html">
+            <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/_07_axios.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="325">
-                  <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/_01_入门.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="9" column="35" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/_02_mouseover.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
-                  <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/_03_插值表达式.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="11" column="15" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="15" />
+                <state relative-caret-position="225">
+                  <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -238,12 +222,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_08v-model.html">
+            <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_14axios加载用户显示.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+                <state relative-caret-position="211">
+                  <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_12生命周期.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="217">
+                  <caret line="62" column="24" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -322,13 +315,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/z_case01_curd_user_list/src/web/ContactsServlet.java" />
-        <option value="$PROJECT_DIR$/z_case01_curd_user_list/src/dao/ContactsDao.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailUtils.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day05_三层架构和JSP练习/demo05_email_SMTP/MailTest.java" />
-        <option value="$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/03-层级选择器.html" />
-        <option value="$PROJECT_DIR$/web_study/web/day07_jquery/demo03_dom操作_增删改查元素/01-html&amp;text&amp;val.html" />
-        <option value="$PROJECT_DIR$/web_study/web/day07_jquery/demo07_jquery事件绑定与解绑/01-绑定事件.html" />
         <option value="$PROJECT_DIR$/web_study/web/day07_jquery/demo02_5种选择器/01-基本选择器.html" />
         <option value="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_02基本语法/_02运算符和流程控制语句.html" />
         <option value="$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_01-引入js.html" />
@@ -366,13 +352,20 @@
         <option value="$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/JacksonTest.java" />
         <option value="$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/06-json数据语法_遍历.html" />
         <option value="$PROJECT_DIR$/web_study/web/day10_vue/_02单击事件.html" />
-        <option value="$PROJECT_DIR$/web_hong_test/web/day10_vue/_01_入门.html" />
         <option value="$PROJECT_DIR$/web_hong_test/web/day10_vue/_02_mouseover.html" />
         <option value="$PROJECT_DIR$/web_study/web/day10_vue/_05插值表达式.html" />
         <option value="$PROJECT_DIR$/web_study/web/day10_vue/_06v-text和v-html.html" />
-        <option value="$PROJECT_DIR$/web_hong_test/web/day10_vue/_03_插值表达式.html" />
         <option value="$PROJECT_DIR$/web_hong_test/web/day10_vue/_04_model.html" />
         <option value="$PROJECT_DIR$/web_study/web/day10_vue/_08v-model.html" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/day10_vue/05_v-for.html" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/day10_vue/_03_插值表达式.html" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/day10_vue/_01_入门.html" />
+        <option value="$PROJECT_DIR$/web_study/web/day10_vue/_11v-show.html" />
+        <option value="$PROJECT_DIR$/web_study/web/day10_vue/_10v-if.html" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/day10_vue/_05_v-for.html" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/day10_vue/_06_生命周期.html" />
+        <option value="$PROJECT_DIR$/web_study/web/day10_vue/_12生命周期.html" />
+        <option value="$PROJECT_DIR$/web_hong_test/web/day10_vue/_07_axios.html" />
       </list>
     </option>
   </component>
@@ -413,10 +406,10 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -494,7 +487,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -519,6 +512,12 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="day10_vue" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_hong_test" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
@@ -572,6 +571,13 @@
               <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_study" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="day10_vue" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_study" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -585,8 +591,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -599,7 +605,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582132889265" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582199313624" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../war" />
@@ -614,12 +620,8 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\javaProject\javacommon\web_hong_test\src" />
-      <recent name="H:\javaProject\javacommon\web_hong_test\src\day03_jsp" />
-      <recent name="H:\javaProject\javacommon\standardCode\lib" />
-      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib" />
-      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib\jstl" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hong" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\javaProject\javacommon\web_hong_test\web\day10_vue" />
@@ -635,8 +637,12 @@
       <recent name="hong.练习的包.Day10_io流" />
       <recent name="hong.练习的包.day09_线程唤醒.包子铺案例semaphron" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="hong" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\javaProject\javacommon\web_hong_test\src" />
+      <recent name="H:\javaProject\javacommon\web_hong_test\src\day03_jsp" />
+      <recent name="H:\javaProject\javacommon\standardCode\lib" />
+      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib" />
+      <recent name="H:\javaProject\javacommon\web_study\web\WEB-INF\lib\jstl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -651,7 +657,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.teacher8.0">
+  <component name="RunManager" selected="Tomcat Server.hong8.0">
     <configuration name="MailTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day05_三层架构和JSP练习_email.demo05_email_SMTP.MailTest" />
       <module name="web_study" />
@@ -1050,6 +1056,8 @@
       <workItem from="1581918776489" duration="23286000" />
       <workItem from="1581994623080" duration="18639000" />
       <workItem from="1582076542724" duration="7452000" />
+      <workItem from="1582162074312" duration="5710000" />
+      <workItem from="1582170952018" duration="12058000" />
     </task>
     <task id="LOCAL-00001" summary="删除多余文件">
       <created>1577635424422</created>
@@ -1233,7 +1241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582121504467</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="功能：学习&#10;运用到的知识点：前端的vue补充&#10;是否完成：NA">
+      <created>1582132957896</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1582132957896</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1269,7 +1284,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="712802000" />
+    <option name="totallyTimeSpent" value="730747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1284,7 +1299,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47577092" visible="true" weight="0.19571045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47577092" visible="true" weight="0.19839142" />
       <window_info id="Structure" order="1" sideWeight="0.50807637" side_tool="true" weight="0.29088473" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1294,7 +1309,7 @@
       <window_info id="Web" order="7" sideWeight="0.52422905" side_tool="true" weight="0.1930295" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49875313" weight="0.6064611" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49875313" visible="true" weight="0.37591776" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.4375918" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1397,7 +1412,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="io流全部的相关知识点" />
     <MESSAGE value="Socket网络编程和NIO相关的知识点总结" />
     <MESSAGE value="JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点" />
     <MESSAGE value="JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交" />
@@ -1422,7 +1436,8 @@
     <MESSAGE value="功能：学习&#10;运用到的知识点：email的发送以及imtp,mstp,POP3协议&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：修改文件目录&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：json和ajax异步请求,以及vue前端框架的使用&#10;是否完成：NA" />
-    <option name="LAST_COMMIT_MESSAGE" value="功能：学习&#10;运用到的知识点：json和ajax异步请求,以及vue前端框架的使用&#10;是否完成：NA" />
+    <MESSAGE value="功能：学习&#10;运用到的知识点：前端的vue补充&#10;是否完成：NA" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能：学习&#10;运用到的知识点：前端的vue补充&#10;是否完成：NA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1491,58 +1506,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/web/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/z_case01_curd_user_list.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/web/SearchKeyWordServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/PrintWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10800">
-          <caret line="470" column="7" selection-start-line="470" selection-start-column="7" selection-end-line="470" selection-end-column="7" />
-          <folding>
-            <element signature="e#15583#15584#0" expanded="true" />
-            <element signature="e#15622#15623#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list/src/需求说明">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1623,13 +1586,7 @@
     <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/10-regist.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/03-JQuery实现方式2_get.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/03-JQuery实现方式2_get.html" />
     <entry file="file://$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/domain_JsonFormmat_ignore/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1644,33 +1601,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax.html" />
     <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/01-原生js实现ajax_文档里的.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/02-原生js实现ajax请求-get-post.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/02-JQuery实现方式1_ajax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/05-json数据语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/02-JQuery实现方式1_ajax.html" />
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/05-json数据语法.html" />
     <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/03-JQuery实现方式1_ajax.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1687,9 +1626,7 @@
     <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/06_jquery_Ajax_get_post异步请求总结.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/07-regist.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/07-regist.html" />
     <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/09-json数据语法_遍历.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1701,9 +1638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="45" selection-start-line="45" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1711,9 +1645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1745,28 +1676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_09v-for.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_12生命周期.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="88" column="49" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_14axios加载用户显示.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_10v-if.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_05插值表达式.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1788,38 +1697,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_08v-model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/_01_入门.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="350">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_09v-for.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_11v-show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_10v-if.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/_03_插值表达式.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="15" />
+        <state relative-caret-position="325">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/_06_生命周期.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/_02_mouseover.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="316">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/_04_model.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="441">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_08v-model.html">
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/_05_v-for.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="100">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/data/users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/users.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_13axios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="26" selection-start-line="26" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_12生命周期.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day10_vue/_14axios加载用户显示.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_hong_test/web/day10_vue/_07_axios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
         </state>
       </provider>
     </entry>
