@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="../day10_vue/js/vuejs-2.5.16.js"></script>
+    <script src="../day10_vue/js/axios-0.18.0.js"></script>
+
+
+</head>
+<body>
+<div id="app">
+    <select id="province">
+        <option v-for="pro in province">{{pro.name}}</option>
+    </select>
+    {{province}}
+</div>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            province: {}
+        },
+        created: function () {
+            this.queryProvince();
+        },
+        methods: {
+            queryProvince: function () {
+                //这里是新方法,字符串转成json对象
+                axios.get("../day09/caseServlet?action=queryProvince").then(response => {
+                    this.province = JSON.parse(response.data.provinceAll);
+                });
+            }
+        }
+    });
+</script>
+</body>
+</html>

@@ -7,6 +7,7 @@ import redis.clients.jedis.JedisPoolConfig;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+import java.util.ResourceBundle;
 
 /**
  JedisPool工具类
@@ -29,6 +30,10 @@ public class JedisPoolUtils {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        //获取properties文件
+        ResourceBundle jedis = ResourceBundle.getBundle("jedis");
+        String host = jedis.getString("host");
+
         //获取数据，设置到JedisPoolConfig中
         JedisPoolConfig config = new JedisPoolConfig();
         config.setMaxTotal(Integer.parseInt(pro.getProperty("maxTotal")));

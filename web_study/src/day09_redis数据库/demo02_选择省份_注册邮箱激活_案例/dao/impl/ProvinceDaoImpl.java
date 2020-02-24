@@ -1,9 +1,10 @@
-package day09_redis数据库.demo02_选择省份案例.dao.impl;
+package day09_redis数据库.demo02_选择省份_注册邮箱激活_案例.dao.impl;
 
 
 import day00_utils.DruidJDBCUtils;
-import day09_redis数据库.demo02_选择省份案例.dao.ProvinceDao;
-import day09_redis数据库.demo02_选择省份案例.domain.Province;
+import day09_redis数据库.demo02_选择省份_注册邮箱激活_案例.dao.ProvinceDao;
+import day09_redis数据库.demo02_选择省份_注册邮箱激活_案例.domain.Province;
+import day09_redis数据库.demo02_选择省份_注册邮箱激活_案例.domain.User;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 
@@ -33,4 +34,6 @@ public class ProvinceDaoImpl implements ProvinceDao {
         return list;
 
     }
+
+
 }

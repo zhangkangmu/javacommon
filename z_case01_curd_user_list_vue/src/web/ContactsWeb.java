@@ -101,7 +101,11 @@ public class ContactsWeb extends HttpServlet {
             ContactPage contactPage = contactsService.queryAll(1, 20);
             contactPage.setFlag(true);
             contactPage.setMessage("查询成功");
-            JsonUtils.printResult(response, contactPage);
+
+            ObjectMapper mapper = new ObjectMapper();
+            String string = mapper.writeValueAsString(contactPage);
+
+            JsonUtils.printResult(response, string);
         } catch (Exception e) {
             e.printStackTrace();
         }

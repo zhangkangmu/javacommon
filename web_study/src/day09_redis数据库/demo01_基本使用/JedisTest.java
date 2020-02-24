@@ -57,6 +57,7 @@ public class JedisTest {
      */
     @Test
     public void test3(){
+
         //1. 获取连接
         Jedis jedis = new Jedis();//如果使用空参构造，默认值 "localhost",6379端口
         //2. 操作
@@ -194,7 +195,4 @@ public class JedisTest {
         jedis.close();
 
     }
-
-
-
 }
