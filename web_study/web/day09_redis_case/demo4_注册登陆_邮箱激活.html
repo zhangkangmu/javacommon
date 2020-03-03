@@ -12,13 +12,13 @@
 <body>
 <center id="app">
     <h1>用户注册</h1>
-    <form method="get" style="align: center">
+    <form style="align: center">
         账号: <input type="text" v-model="user.username"><br>
         密码:<input type="password" v-model="user.password"><br>
         邮箱:<input type="text" v-model="user.email"value="zhang_kangmu@163.com"><br>
         姓名:<input type="radio" name="gender" value="男" v-model="user.sex">男
         <input type="radio" name="gender" value="女" v-model="user.sex">女<br>
-        <input type="submit" value="注册" @click="register"><br>
+        <input type="button" value="注册" @click="register"><br>
     </form>
     {{user}}
     <br>

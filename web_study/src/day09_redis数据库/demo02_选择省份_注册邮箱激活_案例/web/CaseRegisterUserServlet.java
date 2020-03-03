@@ -49,12 +49,13 @@ public class CaseRegisterUserServlet extends HttpServlet {
                 //发送激活邮件
                 String url = "http://localhost:8080/" + request.getContextPath() + "/userLoginServlet?username=" + user.getUsername() + "&uuid=" + uuid;
                 String content = "您的账号已成功注册,请在两分钟内登录网址激活"+ url;
-                System.out.println("url:"+url);
-                MailUtils.sendMail(user.getEmail(), content);
+
+                System.out.println("发出去的邮箱激活 url:"+url);
+//                MailUtils.sendMail(user.getEmail(), content);
                 //这里有问题,页面显示不出来alert.
                 JackJsonUtil.printResult(response, new Result(true, "注册成功"));
 //                跳转
-//                response.sendRedirect("day09_redis_case/demo5_rgister_login.html");
+                response.sendRedirect("day09_redis_case/demo5_rgister_login.html");
             }
         } catch (Exception e) {
             e.printStackTrace();
