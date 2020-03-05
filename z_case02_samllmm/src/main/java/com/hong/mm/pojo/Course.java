@@ -25,7 +25,7 @@ public class Course {
 
   // 扩展字段，用户前端页面显示
   private String creator; // 创建者
-  private Integer catalogQty; // 学科目录数量
+  private Integer catalogQty; // 学科目录数量，二级目录
   private Integer tagQty;     // 学科标签数量
   private Integer questionQty; // 题目数量
   private String title;

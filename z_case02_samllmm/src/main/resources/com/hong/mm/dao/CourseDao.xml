@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hong.mm.dao.CourseDao">
+
+    <select id="getAllCount" parameterType="QueryPageBean" resultType="_long">
+        select count(*) from t_course
+        <include refid="searchCourse"/>
+    </select>
+    <select id="getPageList" resultType="course" parameterType="QueryPageBean">
+        SELECT c.NAME,
+        (SELECT username FROM t_user WHERE id=c.user_id) creator ,
+        c.create_date createDate,
+        c.is_show isShow,
+        (SELECT COUNT(*) FROM t_catalog WHERE course_id=c.id) catalogQty,
+        (SELECT COUNT(*) FROM t_tag WHERE course_id=c.id) tagQty,
+        (SELECT COUNT(*) FROM t_question WHERE course_id=c.id) questionQty
+        FROM t_course c
+        <include refid="searchCourse"/>
+        order by create_date desc
+        LIMIT #{offset},#{pageSize}
+    </select>
+
+    <!--查询科目的时候可以不带的参数,因为有很多功能都要用到,比如说搜索,第一次进入-->
+    <sql id="searchCourse">
+        <where>
+            <if test="queryParams!=null">
+                <if test="queryParams.name!='' and queryParams.name!=null">
+                    and name like "%"#{queryParams.name}"%"
+                </if>
+                <if test="queryParams.status!=null and queryParams.status!=''">
+                    AND is_show=#{queryParams.status}
+                </if>
+            </if>
+        </where>
+    </sql>
+</mapper>

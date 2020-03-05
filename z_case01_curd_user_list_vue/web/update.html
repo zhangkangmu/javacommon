@@ -88,6 +88,7 @@
         },
         methods: {
             submit: function () {
+                //这里用了异步
                 axios.post("/contactsWeb?action=updataContact", this.contact).then(response => {
                     if (response.data.flag) {
                         location.href = "list.html";

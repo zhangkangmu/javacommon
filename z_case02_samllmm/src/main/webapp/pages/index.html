@@ -115,6 +115,8 @@
         // router,
         data() {
             return {
+                //以前：需要发ajax请求到服务端，从session里获取当前登录的用户
+                //现在：用到了一项新的技术：浏览器提供，数据存储的技术 sessionStorage
                 userName: sessionStorage.getItem("userName"),
                 visible: false,
                 isCollapse: false,
@@ -140,7 +142,15 @@
             handleClose(key, keyPath) {
                 // console.log(key, keyPath);
             },
-            logout(){
+            logout() {
+                sessionStorage.removeItem("userName");
+                axios.get("../user/logout").then(response => {
+                    if (response.data.flag) {
+                        window.location.href = "../login.html";
+                    } else {
+                        this.$message.error(response.data.message);
+                    }
+                });
                 window.location.href = "../login.html";
             },
             isClossTabFun() {

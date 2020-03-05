@@ -12,272 +12,227 @@
     <bookmark url="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_07案例/计算器.html" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="功能：学习&#10;运用到的知识点：使用redis完成邮箱激活的案例--主要练习redis的使用&#10;是否完成：NA">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/z_case02_samllmm_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/z_case02_samllmm_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itheima_mm_mvc_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/constants/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/entity/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/entity/QueryPageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/filter/CharchaterFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Catalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Dict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Industry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/QuestionItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/ReviewLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/WxMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/JedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/SqlSessionFactoryUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/jedis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/css/AdminLTE.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/css/element-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/css/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/css/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/css/quill.bubble.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/css/quill.core.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/css/quill.snow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/css/zpageNav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/american-express.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/avatar04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/boxed-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/boxed-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/cirrus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/code.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/icon1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/icons/fangxiangguanli.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/icons/mianshijiqiao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/icons/qieyeguanli.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/icons/shitiguanli.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/icons/xuekeguanli.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/icons/yonghuguanli.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/loginLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/logingBg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/logo_new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/mastercard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/mestro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/minilogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/minilogo_new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/paypal2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/photo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/photo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/user1-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/user2-160x160.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/user3-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/user4-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/user5-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/user6-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/user7-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/user8-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/js/axios-0.18.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/js/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/js/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/js/element-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/js/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/js/quill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/js/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/js/vue-quill-editor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/js/zpageNav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/catalogList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/comList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/courseList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/industryList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionBasicList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionClassicList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionEditor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionPreview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/tagList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/test_upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/userList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/AUTHORS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/dist/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/dist/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/dist/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/dist/jquery.slim.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/external/sizzle/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/external/sizzle/dist/sizzle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/external/sizzle/dist/sizzle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/external/sizzle/dist/sizzle.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/ajax/jsonp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/ajax/load.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/ajax/parseJSON.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/ajax/parseXML.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/ajax/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/ajax/var/location.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/ajax/var/nonce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/ajax/var/rquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/ajax/xhr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/attributes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/attributes/attr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/attributes/classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/attributes/prop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/attributes/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/attributes/val.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/callbacks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/core/DOMEval.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/core/access.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/core/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/core/nodeName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/core/parseHTML.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/core/ready-no-deferred.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/core/ready.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/core/readyException.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/core/stripAndCollapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/core/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/core/var/rsingleTag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/addGetHookIf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/adjustCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/curCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/defaultDisplay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/showHide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/var/cssExpand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/var/getStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/var/isHidden.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/var/isHiddenWithinTree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/var/rmargin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/var/rnumnonpx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/css/var/swap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/data/Data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/data/var/acceptData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/data/var/dataPriv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/data/var/dataUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/deferred.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/deferred/exceptionHook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/deprecated.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/dimensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/effects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/effects/Tween.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/effects/animatedSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/event/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/event/alias.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/event/focusin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/event/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/event/trigger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/exports/amd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/exports/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/intro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/manipulation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/manipulation/_evalUrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/manipulation/buildFragment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/manipulation/getAll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/manipulation/setGlobalEval.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/manipulation/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/manipulation/var/rcheckableType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/manipulation/var/rscriptType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/manipulation/var/rtagName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/manipulation/wrapMap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/offset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/outro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/queue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/queue/delay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/selector-native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/selector-sizzle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/serialize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/traversing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/traversing/findFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/traversing/var/dir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/traversing/var/rneedsContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/traversing/var/siblings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/ObjectFunctionString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/arr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/class2type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/concat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/document.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/documentElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/fnToString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/getProto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/hasOwn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/indexOf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/pnum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/push.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/rcssNum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/rnothtmlwhite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/rnotwhite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/slice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/var/toString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/plugins/jquery/src/wrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/z_case02_samllmm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="功能：面试题库项目&#10;运用到的知识点：初始化面试题库工程&#10;是否完成：NA">
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/CourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/CourseDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/web/CaseRegisterUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/web/CaseRegisterUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_study/web/day09_redis_case/demo4_注册登陆_邮箱激活.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_study/web/day09_redis_case/demo4_注册登陆_邮箱激活.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/utils/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/前端/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/前端/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day01/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day01/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day01/ZYHJDBCUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day01/bean/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day02/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/login/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/pool/DruidPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/pool/PoolUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/pool/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/pool/pool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/Day10_io流/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/Day10_io流/ReadAndWriteDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day07_线程/Demo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day07_线程/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day07_线程/MyRunable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day07_线程/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/Test6/ClassRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/Test6/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/Test6/Thread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test1/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test1/MyRunable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test1/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test2/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test2/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test2/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test3/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test4/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test4/Thread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test4/Thread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test4/Thread3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Metting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Thread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Thread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Thread3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Thread4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test7/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test7/Thread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test7/Thread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test8/Demo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test8/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test9/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/Lambda表达式/Demo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/Lambda表达式/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/PersonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/BaoZi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/BaoZiPu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/ChiHuo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/ChiHuo222.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例cyclicBarrier/BaoziPu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例cyclicBarrier/ChiHuo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例cyclicBarrier/ChiHuo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例cyclicBarrier/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程练习/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程练习/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/z其他/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/z其他/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/student/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/student/StudentMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/superclass/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/teacher/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/teacher/TeacherMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/utils/StudentManagerUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/utils/TeacherManagerUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/utils/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/发牌/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/发牌排序/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/递归相关_删除_检索_阶乘等/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/算法/排序/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/算法/递归相关_求阶乘_搜索文件/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/AbstractFactoryPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/BlackAnimalFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/BlackCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/BlackDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/IAnimalFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/ICat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/IDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/WhiteAnimalFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/WhiteCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/WhiteDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/adapter/Adaptee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/adapter/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/adapter/AdapterPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/adapter/Target.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/BlackShoe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/BridgePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/Clothing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/Lady.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/Man.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/WhiteShoe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/BuilderPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/Man.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/ManBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/PersonBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/PersonDirector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/AbstractAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/AbstractReceiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/ActionA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/ActionB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/CommandPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/Invoker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/ReceiverA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/ReceiverB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/composite/Component.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/composite/Composite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/composite/CompositePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/composite/Leaf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/Decorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/DecoratorPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/Man.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/ManDecoratorA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/ManDecoratorB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/Facade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/FacadePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceAImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceBImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceCImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/FactoryMethodPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/IWorkFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/StudentWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/StudentWorkFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/TeacherWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/TeacherWorkFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/Work.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/flyweight/FlyWeight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/flyweight/FlyWeightFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/flyweight/FlyWeightImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/flyweight/FlyweightPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/AdvanceExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/InterpreterPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/SimpleExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/IteratorImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/IteratorPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/ListImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/Colleague.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/ColleagueA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/ColleagueB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/ConcreteMediator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/Mediator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/MediatorPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/memento/Caretaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/memento/Memento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/memento/MementoPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/memento/Originator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/ObserverPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/ObserverServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/Observerable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/prototype/ConcreatePrototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/prototype/Prototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/prototype/PrototypePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/proxy/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/proxy/DogImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/proxy/DogProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/proxy/ProxyPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/AddMoneyRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/DimissionRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/HRRequestHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/PMRequestHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/RequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/ResponsibilityPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/EnumSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonD$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonD$SingletonHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/Rain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/StatePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/SunShine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/strategy/CalculateStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/strategy/Strategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/strategy/StrategyPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/strategy/TranficCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/template/CarA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/template/CarB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/template/CarModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/template/TemplatePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/visitor/BodyA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/visitor/BodyB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/visitor/VisitorPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case01_curd_user_list_vue/web/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/z_case01_curd_user_list_vue/web/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/logo_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/logo_new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/courseList.html" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/courseList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/z_case02_samllmm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/z_case02_samllmm.iml" afterDir="false" />
     </list>
     <list id="34911b34-50c7-4a72-adab-d75ae52fe530" name="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;" comment="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;&#10;&#10;This reverts commit 81db3e2" />
     <list id="aabb1fcc-e94d-4ce7-ab35-f961a86e89dc" name="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;" comment="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;&#10;&#10;This reverts commit b45973f" />
@@ -364,20 +319,20 @@
     <session id="1737415220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="65" />
+          <entry key="project.closed" value="70" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="13" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.2" value="7" />
+          <entry key="project.open.time.2" value="8" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="9" />
           <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="7" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="67" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -385,12 +340,12 @@
           <entry key="css" value="577" />
           <entry key="dummy" value="65" />
           <entry key="gitignore" value="14" />
-          <entry key="html" value="15808" />
-          <entry key="java" value="22274" />
+          <entry key="html" value="16261" />
+          <entry key="java" value="23116" />
           <entry key="jsp" value="3132" />
           <entry key="properties" value="121" />
-          <entry key="txt" value="1031" />
-          <entry key="xml" value="321" />
+          <entry key="txt" value="1063" />
+          <entry key="xml" value="634" />
           <entry key="敏感词汇" value="8" />
           <entry key="需求说明" value="86" />
         </counts>
@@ -399,12 +354,13 @@
         <counts>
           <entry key="CSS" value="578" />
           <entry key="Git file" value="14" />
-          <entry key="HTML" value="15807" />
-          <entry key="JAVA" value="22274" />
+          <entry key="HTML" value="16260" />
+          <entry key="JAVA" value="23116" />
           <entry key="JSP" value="3132" />
-          <entry key="PLAIN_TEXT" value="1190" />
+          <entry key="PLAIN_TEXT" value="1222" />
           <entry key="Properties" value="121" />
-          <entry key="XML" value="321" />
+          <entry key="SQL" value="13" />
+          <entry key="XML" value="621" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -415,20 +371,21 @@
           <entry key="fxml" value="1" />
           <entry key="gitignore" value="10" />
           <entry key="gitingore" value="1" />
-          <entry key="html" value="356" />
-          <entry key="iml" value="6" />
-          <entry key="java" value="1143" />
-          <entry key="jpg" value="45" />
-          <entry key="js" value="27" />
+          <entry key="html" value="372" />
+          <entry key="iml" value="7" />
+          <entry key="java" value="1192" />
+          <entry key="jpg" value="47" />
+          <entry key="js" value="31" />
           <entry key="json" value="3" />
           <entry key="jsp" value="82" />
           <entry key="md" value="1" />
-          <entry key="properties" value="27" />
+          <entry key="png" value="14" />
+          <entry key="properties" value="29" />
           <entry key="tld" value="2" />
           <entry key="txt" value="35" />
           <entry key="upignore" value="1" />
           <entry key="words" value="2" />
-          <entry key="xml" value="57" />
+          <entry key="xml" value="67" />
           <entry key="xsd" value="6" />
           <entry key="敏感词汇" value="1" />
           <entry key="需求说明" value="5" />
@@ -440,18 +397,18 @@
           <entry key="CSS" value="11" />
           <entry key="DTD" value="5" />
           <entry key="Git file" value="10" />
-          <entry key="HTML" value="356" />
-          <entry key="IDEA_MODULE" value="6" />
-          <entry key="Image" value="45" />
-          <entry key="JAVA" value="1143" />
+          <entry key="HTML" value="372" />
+          <entry key="IDEA_MODULE" value="7" />
+          <entry key="Image" value="61" />
+          <entry key="JAVA" value="1192" />
           <entry key="JSON" value="3" />
           <entry key="JSP" value="82" />
-          <entry key="JavaScript" value="27" />
+          <entry key="JavaScript" value="31" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Properties" value="27" />
+          <entry key="Properties" value="29" />
           <entry key="Up file" value="1" />
-          <entry key="XML" value="66" />
+          <entry key="XML" value="76" />
         </counts>
       </usages-collector>
     </session>
@@ -462,42 +419,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/pom.xml">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/CourseDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="200">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/constants/Constants.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/courseList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6275">
+              <caret line="251" column="40" selection-start-line="251" selection-start-column="36" selection-end-line="251" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/SqlMapConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/db.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="44" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="44" />
+            <state relative-caret-position="75">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/filter/CharchaterFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="332">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/filter/CharchaterFilter.java">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="525">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/entity/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3825">
+              <caret line="153" column="45" selection-start-line="153" selection-start-column="45" selection-end-line="153" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#nav#0;n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -507,48 +519,48 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="FxmlFile" />
-        <option value="XML" />
         <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="XML" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>获取不到</find>
-      <find>searchWord</find>
-      <find>href</find>
-      <find>getMethod</find>
-      <find>saveContact</find>
-      <find>saveContact:function</find>
-      <find>contactsWeb</find>
-      <find>提交</find>
-      <find>contactAll</find>
-      <find>findById</find>
-      <find>修改</find>
-      <find>updataContact</find>
-      <find>删除</find>
-      <find>delete</find>
-      <find>s_username</find>
-      <find>commons</find>
-      <find>created:function</find>
-      <find>v-for=</find>
-      <find>TypeReference</find>
-      <find>&lt;List&lt;Province&gt;&gt;</find>
-      <find>new TypeReference</find>
-      <find>contextConfigLocation</find>
-      <find>@click</find>
-      <find>QueryRunner</find>
-      <find>statement.execute</find>
-      <find>executeQuery</find>
       <find>预编译</find>
       <find>set</find>
       <find>自定义注解</find>
       <find>mm_mvc</find>
+      <find>登录</find>
+      <find>axios.post</find>
+      <find>onSubmit</find>
+      <find>app</find>
+      <find>ith</find>
+      <find>log</find>
+      <find>promise</find>
+      <find>logo_new</find>
+      <find>ava</find>
+      <find>userName</find>
+      <find>logout</find>
+      <find>handleOpen</find>
+      <find>error</find>
+      <find>class=&quot;el</find>
+      <find>courseList.html</find>
+      <find>item.children</find>
+      <find>getList</find>
+      <find>requestParameters</find>
+      <find>item</find>
+      <find>catalogList</find>
+      <find>catalogQty</find>
+      <find>this.$message</find>
+      <find>/course/pageList</find>
+      <find>黑马面面</find>
+      <find>handleRest</find>
+      <find>新增学科</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -574,21 +586,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/z_case01_curd_user_list_vue_test/web/add.html" />
-        <option value="$PROJECT_DIR$/z_case01_curd_user_list_vue/src/dao/ContactsDao.java" />
-        <option value="$PROJECT_DIR$/z_case01_curd_user_list_vue/web/add.html" />
-        <option value="$PROJECT_DIR$/z_case01_curd_user_list_vue/src/domain/ContactPage.java" />
-        <option value="$PROJECT_DIR$/z_case01_curd_user_list_vue/src/service/ContactsService.java" />
-        <option value="$PROJECT_DIR$/z_case01_curd_user_list_vue/web/update.html" />
-        <option value="$PROJECT_DIR$/z_case01_curd_user_list_vue/web/list.html" />
-        <option value="$PROJECT_DIR$/web_study/src/day09_redis数据库/demo01_基本使用/JedisTest.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份案例/案例要求.txt" />
-        <option value="$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份案例/servlet/ProvinceServlet.java" />
-        <option value="$PROJECT_DIR$/web_study/web/day09_redis_case/demo3_vue实现查找省份.html" />
-        <option value="$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份案例/service/ProvinceService.java" />
-        <option value="$PROJECT_DIR$/web_study/web/day09_redis_case/demo3_vue_province.html" />
-        <option value="$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份案例/dao/Result.java" />
-        <option value="$PROJECT_DIR$/web_study/src/day00_hong/AllServletFilter.java" />
         <option value="$PROJECT_DIR$/web_study/src/day09_redis数据库/demo01_基本使用/util/JedisUtil.java" />
         <option value="$PROJECT_DIR$/web_study/src/day09_redis数据库/demo01_基本使用/util/JedisPoolUtils.java" />
         <option value="$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份案例/utils/JedisPoolUtil.java" />
@@ -622,9 +619,24 @@
         <option value="$PROJECT_DIR$/web_study/web/day09_redis_case/demo4_注册登陆_邮箱激活.html" />
         <option value="$PROJECT_DIR$/smallmm/pom.xml" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/constants/Constants.java" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/pom.xml" />
+        <option value="$PROJECT_DIR$/z_case01_curd_user_list_vue/web/update.html" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/Test.java" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/index.html" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/UserService.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Course.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/CourseDao.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/CourseDao.xml" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/CourseService.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/courseList.html" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/db.properties" />
       </list>
     </option>
   </component>
@@ -662,16 +674,26 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="z_case02_samllmm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="z_case02_samllmm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="305" />
-    <option name="y" value="-30" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="535" />
+    <option name="y" value="-20" />
     <option name="width" value="1365" />
     <option name="height" value="1040" />
   </component>
@@ -684,31 +706,28 @@
             <id>Android</id>
           </State>
           <State>
+            <id>Ant</id>
+          </State>
+          <State>
             <id>CorrectnessLintAndroid</id>
           </State>
           <State>
-            <id>Error handlingJava</id>
+            <id>FreeMarker</id>
           </State>
           <State>
-            <id>GSPGrailsGroovy</id>
+            <id>Inheritance issuesJava</id>
           </State>
           <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>GrailsGroovy</id>
-          </State>
-          <State>
-            <id>Groovy</id>
+            <id>InternationalizationLintAndroid</id>
           </State>
           <State>
             <id>Java</id>
           </State>
           <State>
-            <id>JavaScript</id>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
           </State>
           <State>
             <id>Kotlin</id>
@@ -717,29 +736,33 @@
             <id>LintAndroid</id>
           </State>
           <State>
-            <id>Maven</id>
+            <id>LintLintAndroid</id>
           </State>
           <State>
-            <id>MessagesCorrectnessLintAndroid</id>
+            <id>MemoryJava</id>
           </State>
           <State>
-            <id>Numeric issuesJava</id>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
           </State>
           <State>
             <id>PerformanceLintAndroid</id>
           </State>
           <State>
-            <id>Plugin DevKit</id>
+            <id>PortabilityJava</id>
           </State>
           <State>
-            <id>XPath</id>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
           </State>
         </expanded-state>
-        <selected-state>
-          <State>
-            <id>FinallyBlockCannotCompleteNormally</id>
-          </State>
-        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -751,7 +774,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -776,12 +798,13 @@
               <item name="z_case02_samllmm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -796,7 +819,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583249518016" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583337365128" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../war" />
@@ -819,18 +842,18 @@
       <recent name="H:\javaProject\javacommon\standardCode\lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\javaProject\javacommon\z_case02_samllmm\src\main\webapp\img" />
       <recent name="H:\javaProject\javacommon\z_case02_samllmm\src\main\webapp" />
       <recent name="H:\javaProject\javacommon\z_case02_samllmm\src\main\resources" />
       <recent name="H:\javaProject\javacommon\z_case02_samllmm\src\main\java\com\hong\mm" />
       <recent name="H:\javaProject\javacommon\web_hong_test\web\WEB-INF\lib" />
-      <recent name="H:\javaProject\javacommon\web_study\web\day09_redis_case" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hong.mm.service" />
       <recent name="day09_redis数据库.demo02_选择省份_注册邮箱激活_案例.domain" />
       <recent name="day09_redis数据库.demo02_选择省份案例.utils" />
       <recent name="web" />
       <recent name="domain" />
-      <recent name="hong.练习的包.day12_packagegram_socket.上传文件" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="hong" />
@@ -1255,7 +1278,12 @@
       <workItem from="1582766039811" duration="1450000" />
       <workItem from="1582793041318" duration="2711000" />
       <workItem from="1582957567492" duration="8152000" />
-      <workItem from="1583247716864" duration="1796000" />
+      <workItem from="1583247716864" duration="4687000" />
+      <workItem from="1583286207828" duration="1838000" />
+      <workItem from="1583288090005" duration="4089000" />
+      <workItem from="1583304268057" duration="3513000" />
+      <workItem from="1583311510657" duration="16774000" />
+      <workItem from="1583375226273" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="删除多余文件">
       <created>1577635424422</created>
@@ -1467,7 +1495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582554878101</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="功能：面试题库项目&#10;运用到的知识点：初始化面试题库工程&#10;是否完成：NA">
+      <created>1583249632532</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1583249632532</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1503,7 +1538,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="834310000" />
+    <option name="totallyTimeSpent" value="864028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1515,10 +1550,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47174448" visible="true" weight="0.20978552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47174448" visible="true" weight="0.22252011" />
       <window_info id="Structure" order="1" sideWeight="0.5288889" side_tool="true" weight="0.2707775" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1528,17 +1562,17 @@
       <window_info id="Web" order="7" sideWeight="0.5282555" side_tool="true" weight="0.18297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.5227606" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.4375918" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" weight="0.2804699" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.37738618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33039647" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.7077827" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50268096" side_tool="true" weight="0.56828195" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5033512" side_tool="true" weight="0.72246695" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32892805" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32892805" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.66226137" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.38619676" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32892805" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32892805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1631,7 +1665,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="单例设计模式，枚举，工厂设计模式" />
     <MESSAGE value="数据库大全的excel，以后要的直接在这里找就可以了" />
     <MESSAGE value="枚举补充" />
     <MESSAGE value="创建web项目，以及修改包的路径" />
@@ -1656,7 +1689,8 @@
     <MESSAGE value="功能：学习&#10;运用到的知识点：前端的vue完善&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：使用vue实现增删改查联系人&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：使用redis完成邮箱激活的案例--主要练习redis的使用&#10;是否完成：NA" />
-    <option name="LAST_COMMIT_MESSAGE" value="功能：学习&#10;运用到的知识点：使用redis完成邮箱激活的案例--主要练习redis的使用&#10;是否完成：NA" />
+    <MESSAGE value="功能：面试题库项目&#10;运用到的知识点：初始化面试题库工程&#10;是否完成：NA" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能：面试题库项目&#10;运用到的知识点：初始化面试题库工程&#10;是否完成：NA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1692,6 +1726,9 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1743,307 +1780,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_study/src/jedis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/jdk/internal/org/objectweb/asm/TypeReference.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/domain/Province.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1268">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day09_redis_case/demo2_js实现查找省份.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day08_AJAX_JSON/json解析器/JacksonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="123" column="61" lean-forward="true" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list_vue/src/需求说明">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/案例要求.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list_vue/src/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list_vue/src/web/ContactsWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="79" column="48" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/a_练习/Demo4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/dao/ProvinceDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/UUID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/web/Case.java" />
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/utils/UUIDUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/dao/impl/ProvinceDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/domain/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/service/ProvinceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/utils/JackJsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/web/UserLoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/request/_01request/Demo01RequestLineServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/request/_01request/Demo02RequestHeaderServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day02_response和request/request/_01request/Demo03RequestParam1Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/数据库/day01_JDBC基础_增删改查_api_事务/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/数据库/day01_JDBC基础_增删改查_api_事务/demo04_封装util/JdbcUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/数据库/day01_JDBC基础_增删改查_api_事务/demo05_login案例/DemoLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/数据库/day01_JDBC基础_增删改查_api_事务/demo03_curd增删改查/Demo01Curd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="41" column="39" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/数据库/day01_JDBC基础_增删改查_api_事务/demo06_preparedstatement预编译对象/DemoPreparedCurd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day09_redis_case/demo3_vue_实现查找省份.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day09_redis_case/demo5_rgister_login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day09_redis_case/demo4_注册登陆_邮箱激活.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/utils/JedisPoolUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/web/CaseRegisterUserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo05_metadata元数据/Demo01ParameterMetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo05_metadata元数据/Demo02ResultSetMetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo15_注解练习/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/web/CaseProvinceServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/src/day09_redis数据库/demo02_选择省份_注册邮箱激活_案例/utils/MailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smallmm/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/smallmm/pom.xml" />
     <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo10_自定义注解/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -2061,34 +1798,274 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/pom.xml">
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/constants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list_vue/web/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list_vue/web/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list_vue/web/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/JedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/js/axios-0.18.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="178" selection-start-line="1" selection-start-column="178" selection-end-line="1" selection-end-column="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/Test.java" />
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/js/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="1949" column="28" lean-forward="true" selection-start-line="1949" selection-start-column="28" selection-end-line="1949" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/z_case02_samllmm.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/annotations/Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/loginLogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/logingBg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/icons.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/icon1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/cirrus.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/code.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/logo_new.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/minilogo_new.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/img/avatar5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_study/web/day08_AJAX_JSON/03-JQuery实现方式1_ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/js/element-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret column="47783" selection-start-column="47783" selection-end-column="47783" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/UserDao.xml" />
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Catalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/SqlSessionFactoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/entity/QueryPageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/entity/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/CourseDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/CourseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/courseList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6275">
+          <caret line="251" column="40" selection-start-line="251" selection-start-column="36" selection-end-line="251" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="44" />
+        <state relative-caret-position="75">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3825">
+          <caret line="153" column="45" selection-start-line="153" selection-start-column="45" selection-end-line="153" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#nav#0;n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/filter/CharchaterFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/constants/Constants.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="332">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
