@@ -14,7 +14,7 @@ public class Course {
   private Integer id;
   private String name;    // 学科名
   private String icon;    //
-  private String createDate;
+  private String createDate;  //创建科目的日期
   private Integer isShow;     // 0 显示  1 不显示
   private Integer userId;
   private Integer orderNo;    // 显示顺序权重，提高该值的显示顺序

@@ -9,7 +9,7 @@
         <include refid="searchCourse"/>
     </select>
     <select id="getPageList" resultType="course" parameterType="QueryPageBean">
-        SELECT c.NAME,
+        SELECT c.id,c.NAME,
         (SELECT username FROM t_user WHERE id=c.user_id) creator ,
         c.create_date createDate,
         c.is_show isShow,
@@ -21,6 +21,13 @@
         order by create_date desc
         LIMIT #{offset},#{pageSize}
     </select>
+
+    <insert id="addCourse" parameterType="course">
+        INSERT INTO t_course (NAME,create_date,is_show,user_id)
+        VALUES
+        (#{name}, #{createDate},#{isShow},#{userId});
+    </insert>
+
 
     <!--查询科目的时候可以不带的参数,因为有很多功能都要用到,比如说搜索,第一次进入-->
     <sql id="searchCourse">
