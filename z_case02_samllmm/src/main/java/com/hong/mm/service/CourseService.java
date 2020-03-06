@@ -40,7 +40,7 @@ public class CourseService {
         CourseDao mapper = session.getMapper(CourseDao.class);
         int i = mapper.updataCourse(course);
         SqlSessionFactoryUtils.commitAndClose(session);
-        return i>0;
+        return i > 0;
     }
 
     public boolean deleteCourse(Course course) throws IOException {
@@ -48,7 +48,14 @@ public class CourseService {
         CourseDao mapper = session.getMapper(CourseDao.class);
         int i = mapper.deleteCourse(course);
         SqlSessionFactoryUtils.commitAndClose(session);
-        System.out.println("影响行数:" + i);
-        return i>0;
+        return i > 0;
+    }
+
+    public  List<Course> queryAllCourseName() throws IOException {
+        SqlSession session = SqlSessionFactoryUtils.openSqlSession();
+        CourseDao mapper = session.getMapper(CourseDao.class);
+        List<Course> courses = mapper.queryAllCourseName();
+        SqlSessionFactoryUtils.commitAndClose(session);
+        return courses;
     }
 }

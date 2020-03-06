@@ -29,14 +29,20 @@
     </insert>
 
 
-    <!--查询科目的时候可以不带的参数,因为有很多功能都要用到,比如说搜索,第一次进入-->
+    <!--查询科目的时候可以不带的参数,因为有很多功能都要用到,比如说搜索,第一次进入
+    注意:mybatis中,status的值为0的时候,0==''为true,也就是默认0是空字符串,
+    所有传的数据要统一,不能一下子是string,一下子是int,
+    要把前端的默认改成null,而不是''空字符串
+    而且 and queryParams.status!=''不能要
+    -->
     <sql id="searchCourse">
         <where>
             <if test="queryParams!=null">
                 <if test="queryParams.name!='' and queryParams.name!=null">
                     and name like "%"#{queryParams.name}"%"
                 </if>
-                <if test="queryParams.status!=null and queryParams.status!=''">
+
+                <if test="queryParams.status!=null">
                     AND is_show=#{queryParams.status}
                 </if>
             </if>

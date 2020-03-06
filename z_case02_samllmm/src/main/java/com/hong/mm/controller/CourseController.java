@@ -32,7 +32,7 @@ public class CourseController {
      * 退出登录的功能
      */
     @RequestMapping("/course/pageList")
-    public void pageList(HttpServletRequest request, HttpServletResponse response) throws IOException{
+    public void pageList(HttpServletRequest request, HttpServletResponse response) throws IOException {
         QueryPageBean pageBean = null;
         try {
             pageBean = JsonUtils.parseJSON2Object(request, QueryPageBean.class);
@@ -42,10 +42,9 @@ public class CourseController {
             PageResult pageList = courseService.getPageList(pageBean);
             if (pageList != null) {
                 JsonUtils.printResult(response, new Result(true, "查询学科列表成功", pageList));
-            }else {
+            } else {
                 JsonUtils.printResult(response, new Result(true, "查询学科列表失败"));
             }
-//            System.out.println("pageBean:" + pageBean);
         } catch (Exception e) {
             JsonUtils.printResult(response, new Result(true, "查询学科列表失败"));
             e.printStackTrace();
@@ -57,7 +56,7 @@ public class CourseController {
      * 增加学科功能
      */
     @RequestMapping("/course/addCourse")
-    public void addCourse(HttpServletRequest request, HttpServletResponse response) throws IOException{
+    public void addCourse(HttpServletRequest request, HttpServletResponse response) throws IOException {
         try {
             Course course = JsonUtils.parseJSON2Object(request, Course.class);
             course.setCreateDate(DateUtils.parseDate2String(new Date()));
@@ -66,13 +65,13 @@ public class CourseController {
                 course.setUserId(user.getId());
             }
             boolean addSuccess = courseService.addCourse(course);
-            if (addSuccess){
-                JsonUtils.printResult(response,new Result(true,"增加学科成功"));
-            }else{
-                JsonUtils.printResult(response,new Result(false,"增加学科失败"));
+            if (addSuccess) {
+                JsonUtils.printResult(response, new Result(true, "增加学科成功"));
+            } else {
+                JsonUtils.printResult(response, new Result(false, "增加学科失败"));
             }
         } catch (IOException e) {
-            JsonUtils.printResult(response,new Result(false,"增加学科失败"));
+            JsonUtils.printResult(response, new Result(false, "增加学科失败"));
             e.printStackTrace();
         }
     }
@@ -81,17 +80,17 @@ public class CourseController {
      * 修改学科功能
      */
     @RequestMapping("/course/updataCourse")
-    public void updataCourse(HttpServletRequest request, HttpServletResponse response) throws IOException{
+    public void updataCourse(HttpServletRequest request, HttpServletResponse response) throws IOException {
         try {
             Course course = JsonUtils.parseJSON2Object(request, Course.class);
             boolean updataSuccess = courseService.updataCourse(course);
-            if (updataSuccess){
-                JsonUtils.printResult(response,new Result(true,"修改科目成功"));
-            }else{
-                JsonUtils.printResult(response,new Result(false,"修改科目失败"));
+            if (updataSuccess) {
+                JsonUtils.printResult(response, new Result(true, "修改科目成功"));
+            } else {
+                JsonUtils.printResult(response, new Result(false, "修改科目失败"));
             }
         } catch (Exception e) {
-            JsonUtils.printResult(response,new Result(false,"修改科目失败"));
+            JsonUtils.printResult(response, new Result(false, "修改科目失败"));
             e.printStackTrace();
         }
     }
@@ -100,18 +99,36 @@ public class CourseController {
      * 删除学科功能
      */
     @RequestMapping("/course/deleteCourse")
-    public void deleteCourse(HttpServletRequest request, HttpServletResponse response) throws IOException{
+    public void deleteCourse(HttpServletRequest request, HttpServletResponse response) throws IOException {
         try {
             Course course = JsonUtils.parseJSON2Object(request, Course.class);
-            System.out.println(course);
             boolean deleteSuccess = courseService.deleteCourse(course);
-            if (deleteSuccess){
-                JsonUtils.printResult(response,new Result(true,"删除成功"));
-            }else{
-                JsonUtils.printResult(response,new Result(false,"删除失败"));
+            if (deleteSuccess) {
+                JsonUtils.printResult(response, new Result(true, "删除成功"));
+            } else {
+                JsonUtils.printResult(response, new Result(false, "删除失败"));
             }
         } catch (Exception e) {
-            JsonUtils.printResult(response,new Result(false,"删除失败"));
+            JsonUtils.printResult(response, new Result(false, "删除失败"));
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 查询全部的学科功能
+     */
+    @RequestMapping("/course/queryAllCourseName")
+    public void queryAllCourseName(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        try {
+            List<Course> courses = courseService.queryAllCourseName();
+            if (courses != null && courses.size() > 0) {
+                JsonUtils.printResult(response, new Result(true, "获取学科成功",courses));
+            } else {
+                JsonUtils.printResult(response, new Result(false, "获取学科失败"));
+            }
+
+        } catch (Exception e) {
+            JsonUtils.printResult(response, new Result(false, "获取学科失败"));
             e.printStackTrace();
         }
     }

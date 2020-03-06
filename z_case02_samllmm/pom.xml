@@ -35,6 +35,7 @@
     <jackson.version>2.3.3</jackson.version>
   </properties>
   <dependencies>
+
     <!--自定义MVC-->
     <dependency>
       <groupId>com.itheima</groupId>
@@ -133,6 +134,14 @@
       <artifactId>slf4j-log4j12</artifactId>
       <version>${slf4j-api.version}</version>
     </dependency>
+    <!--added by zhangyuhong start-->
+    <!--为了log日志有颜色-->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-1.2-api</artifactId>
+      <version>2.0-rc1</version>
+    </dependency>
+    <!--added by zhangyuhong end-->
     <!--lombok-->
     <dependency>
       <groupId>org.projectlombok</groupId>

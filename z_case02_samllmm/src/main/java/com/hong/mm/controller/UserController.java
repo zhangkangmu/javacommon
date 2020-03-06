@@ -34,7 +34,6 @@ public class UserController {
                 User loginUser = service.login(user);
                 if (loginUser != null) {
                     request.getSession().setAttribute("user", loginUser);
-                    System.out.println("user:"+loginUser);
                     JsonUtils.printResult(response, new Result(true, "登录成功"));
                 } else {
                     JsonUtils.printResult(response, new Result(false, "登录失败"));

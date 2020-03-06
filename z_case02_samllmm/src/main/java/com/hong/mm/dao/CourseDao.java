@@ -3,6 +3,7 @@ package com.hong.mm.dao;
 import com.hong.mm.entity.QueryPageBean;
 import com.hong.mm.pojo.Course;
 import org.apache.ibatis.annotations.Delete;
+import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
 import java.util.List;
@@ -29,4 +30,9 @@ public interface CourseDao {
 
     @Delete("DELETE FROM t_course WHERE id=#{id}")
     int deleteCourse(Course course);
+
+
+    @Select("SELECT id,NAME FROM t_course")
+    List<Course> queryAllCourseName();
+
 }

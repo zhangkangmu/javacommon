@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hong.mm.dao.QuestionDao">
+    <resultMap id="questionList" type="Question">
+
+    </resultMap>
+    <select id="getQuestionList" resultMap="questionList" parameterType="QueryPageBean">
+        select q.id ,q.id+1000 number,(SELECT NAME FROM t_course WHERE id=q.course_id) courseName,
+        q.type,
+        q.subject ,
+        q.create_date createDate,q.difficulty,
+        (SELECT COUNT(*) FROM tr_member_question WHERE question_id=q.id) usedQty,
+        (select username from t_user where id=q.user_id) creator from t_question q
+        <where>
+            <if test="queryParams!=null">
+                <if test="queryParams.courseId!=null and queryParams.courseId!=''">
+                    and q.course_id=#{queryParams.courseId}
+                </if>
+                <if test="queryParams.difficulty!=null">
+                    and q.difficulty=#{queryParams.difficulty}
+                </if>
+                <if test="queryParams.type!=null">
+                    and q.type=#{queryParams.type}
+                </if>
+                <if test="queryParams.keyWord!=null">
+                    and q.subject like "%"#{queryParams.keyWord}"%"
+                </if>
+            </if>
+        </where>
+        limit #{offset},#{pageSize}
+    </select>
+
+    <select id="getAllQuestion" parameterType="QueryPageBean" resultType="_long">
+        select count(*) from t_question q
+        <where>
+            <if test="queryParams!=null">
+                <if test="queryParams.courseId!=null and queryParams.courseId!=''">
+                    and q.course_id=#{queryParams.courseId}
+                </if>
+                <if test="queryParams.difficulty!=null">
+                    and q.difficulty=#{queryParams.difficulty}
+                </if>
+                <if test="queryParams.type!=null">
+                    and q.type=#{queryParams.type}
+                </if>
+                <if test="queryParams.keyWord!=null">
+                    and q.subject like "%"#{queryParams.keyWord}"%"
+                </if>
+            </if>
+        </where>
+    </select>
+</mapper>
