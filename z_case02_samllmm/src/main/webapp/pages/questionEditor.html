@@ -318,7 +318,7 @@
             initFormData() {
                 console.log("初始化试题返回结果：");
                 let response = {
-                    data:{
+                    data: {
                         "flag": true,
                         "message": "获取成功",
                         "result": {
@@ -479,101 +479,15 @@
             // 学科下拉列表
             initCourses() {
                 let t = this;
-                let response = {
-                    data:{
-                        "flag": true,
-                        "message": "获取列表成功",
-                        "result": [
-                            {
-                                "catalogList": [
-                                    {
-                                        "id": 1,
-                                        "name": "Java基础"
-                                    },
-                                    {
-                                        "id": 2,
-                                        "name": "JavaWeb"
-                                    },
-                                    {
-                                        "id": 3,
-                                        "name": "Spring MVC"
-                                    },
-                                    {
-                                        "id": 4,
-                                        "name": "Spring boot"
-                                    },
-                                    {
-                                        "id": 8,
-                                        "name": "进程线程"
-                                    },
-                                    {
-                                        "id": 13,
-                                        "name": "aaaa"
-                                    }
-                                ],
-                                "tagList": [
-                                    {
-                                        "id": 1,
-                                        "name": "String字符串"
-                                    },
-                                    {
-                                        "id": 2,
-                                        "name": "Java类与对象"
-                                    },
-                                    {
-                                        "id": 3,
-                                        "name": "Servlet"
-                                    },
-                                    {
-                                        "id": 4,
-                                        "name": "多线程"
-                                    }
-                                ],
-                                "id": 1,
-                                "name": "Java"
-                            },
-                            {
-                                "catalogList": [
-                                    {
-                                        "id": 5,
-                                        "name": "Python基础"
-                                    },
-                                    {
-                                        "id": 6,
-                                        "name": "函数编程"
-                                    },
-                                    {
-                                        "id": 7,
-                                        "name": "面向对象编程"
-                                    }
-                                ],
-                                "id": 2,
-                                "name": "Python"
-                            },
-                            {
-                                "catalogList": [],
-                                "id": 3,
-                                "name": "大数据"
-                            },
-                            {
-                                "catalogList": [],
-                                "id": 4,
-                                "name": "Php"
-                            },
-                            {
-                                "catalogList": [],
-                                "id": 8,
-                                "name": "888"
-                            },
-                            {
-                                "catalogList": [],
-                                "id": 9,
-                                "name": "2"
-                            }
-                        ]
+                //异步请求新增试题
+                axios.post("../course/addQuestionQueryCourse.do").then(response => {
+                    if (response.data.flag) {
+                        t.courses = response.data.result;
+                    } else {
+                        this.$message.error(response.data.message);
                     }
-                }
-                t.courses = response.data.result;
+                });
+
             },
             changeCourse() {
                 let courseId = this.formData.courseId;
@@ -590,58 +504,16 @@
             // 企业下拉列表
             initCompanys() {
                 let t = this;
-                let response = {
-                    data:{
-                        "flag": true,
-                        "message": "获取成功",
-                        "result": [
-                            {
-                                "cityId": 9,
-                                "id": 1,
-                                "industryList": [
-                                    {
-                                        "id": 1,
-                                        "name": "电商平台"
-                                    },
-                                    {
-                                        "id": 2,
-                                        "name": "金融服务"
-                                    },
-                                    {
-                                        "id": 3,
-                                        "name": "电竞游戏"
-                                    }
-                                ],
-                                "shortName": "北京淘宝网"
-                            },
-                            {
-                                "cityId": 10,
-                                "id": 2,
-                                "industryList": [
-                                    {
-                                        "id": 2,
-                                        "name": "金融服务"
-                                    }
-                                ],
-                                "shortName": "北京支付宝"
-                            },
-                            {
-                                "cityId": 1,
-                                "id": 3,
-                                "industryList": [
-                                    {
-                                        "id": 2,
-                                        "name": "金融服务"
-                                    }
-                                ],
-                                "shortName": "北京蚂蚁金服"
-                            }
-                        ]
+                axios.post("../company/addQuestionQueryCompany.do").then(response => {
+                    if (response.data.flag) {
+                        t.companys = response.data.result;
+                        // 初始化试题(初始化公司时，需要在初始化公司之后再初始化)
+                        this.initQuestionById()
+                    } else {
+                        this.$message.error(response.data.message);
                     }
-                }
-                t.companys = response.data.result;
-                // 初始化试题(初始化公司时，需要在初始化公司之后再初始化)
-                this.initQuestionById()
+                });
+
             },
             changeCompany(val) {
                 let companyId = this.formData.companyId;
@@ -661,99 +533,14 @@
             intDicts() {
                 let t = this;
                 // 获取省市数据
-                let response = {
-                    data:{
-                        "flag": true,
-                        "message": "获取成功",
-                        "result": [
-                            {
-                                "dataValue": "北京",
-                                "id": 1,
-                                "subList": [
-                                    {
-                                        "dataValue": "北京",
-                                        "id": 9
-                                    }
-                                ]
-                            },
-                            {
-                                "dataValue": "上海",
-                                "id": 2,
-                                "subList": [
-                                    {
-                                        "dataValue": "上海",
-                                        "id": 10
-                                    }
-                                ]
-                            },
-                            {
-                                "dataValue": "天津",
-                                "id": 3,
-                                "subList": [
-                                    {
-                                        "dataValue": "天津",
-                                        "id": 11
-                                    }
-                                ]
-                            },
-                            {
-                                "dataValue": "广东省",
-                                "id": 4,
-                                "subList": [
-                                    {
-                                        "dataValue": "广州",
-                                        "id": 12
-                                    },
-                                    {
-                                        "dataValue": "深圳",
-                                        "id": 13
-                                    }
-                                ]
-                            },
-                            {
-                                "dataValue": "浙江省",
-                                "id": 5,
-                                "subList": [
-                                    {
-                                        "dataValue": "杭州",
-                                        "id": 14
-                                    }
-                                ]
-                            },
-                            {
-                                "dataValue": "山东省",
-                                "id": 6,
-                                "subList": [
-                                    {
-                                        "dataValue": "济南",
-                                        "id": 15
-                                    }
-                                ]
-                            },
-                            {
-                                "dataValue": "四川省",
-                                "id": 7,
-                                "subList": [
-                                    {
-                                        "dataValue": "成都",
-                                        "id": 16
-                                    }
-                                ]
-                            },
-                            {
-                                "dataValue": "陕西省",
-                                "id": 8,
-                                "subList": [
-                                    {
-                                        "dataValue": "西安",
-                                        "id": 17
-                                    }
-                                ]
-                            }
-                        ]
+                axios.post("../dict/addQuestionQueryDict.do").then(response=>{
+                    if (response.data.flag) {
+                        t.dicts = response.data.result;
+                    }else {
+                        this.$message.error(response.data.message);
                     }
-                }
-                t.dicts = response.data.result;
+                });
+
             },
             // 方向下拉列表
             initIndustrys() {
@@ -852,15 +639,15 @@
                     });
                     // TODO 会有新增的方向
                     //industryList.push(industry);
-					if(industry){
-						industryList.push(industry);
-					}else{
-						industryList.push({
-							id:0,
-							name:industryId
-						});
-					}
-					
+                    if (industry) {
+                        industryList.push(industry);
+                    } else {
+                        industryList.push({
+                            id: 0,
+                            name: industryId
+                        });
+                    }
+
                 });
                 let company = {
                     id: formData.companyId,
@@ -882,14 +669,14 @@
                     });
                     // TODO 会有新增的标签
                     //tagList.push(tag);
-					if(tag){
-						tagList.push(tag);
-					}else{
-						tagList.push({
-							id:0,
-							name:tagId
-						});
-					}
+                    if (tag) {
+                        tagList.push(tag);
+                    } else {
+                        tagList.push({
+                            id: 0,
+                            name: tagId
+                        });
+                    }
                 });
                 formData.tagList = tagList;
                 console.log("新增更新题库请求参数：");

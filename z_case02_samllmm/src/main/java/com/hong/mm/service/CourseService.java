@@ -58,4 +58,12 @@ public class CourseService {
         SqlSessionFactoryUtils.commitAndClose(session);
         return courses;
     }
+
+    public List<Course>  addQuestionQueryCourse() throws IOException {
+        SqlSession session = SqlSessionFactoryUtils.openSqlSession();
+        CourseDao mapper = session.getMapper(CourseDao.class);
+        List<Course> courses = mapper.addQuestionQueryCourse();
+        SqlSessionFactoryUtils.commitAndClose(session);
+        return courses;
+    }
 }

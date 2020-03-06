@@ -48,4 +48,20 @@
             </if>
         </where>
     </sql>
+
+
+    <select id="addQuestionQueryCourse" resultMap="questionCourse">
+SELECT id,NAME FROM t_course
+    </select>
+    <resultMap id="questionCourse" type="Course">
+        <id column="id" property="id"></id>
+        <!--查询目录-->
+        <collection property="catalogList" ofType="Catalog"
+                    select="com.hong.mm.dao.CatalogListDao.getQueryCatalogListByCourseId"
+                    column="id"/>
+        <!--查询标签-->
+        <collection property="tagList" ofType="Tag"
+                    select="com.hong.mm.dao.TagDao.getQueryQuestionTagByCourseId"
+                    column="id"/>
+    </resultMap>
 </mapper>

@@ -132,4 +132,25 @@ public class CourseController {
             e.printStackTrace();
         }
     }
+
+
+    /**
+     * z增加试题的时候需要查询的学科信息
+     * 这个需要关联的数据多一点,
+     */
+    @RequestMapping("/course/addQuestionQueryCourse")
+    public void addQuestionQueryCourse(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        try {
+            List<Course> courses = courseService.addQuestionQueryCourse();
+            if (courses != null && courses.size() > 0) {
+                JsonUtils.printResult(response, new Result(true, "获取学科成功",courses));
+            } else {
+                JsonUtils.printResult(response, new Result(false, "获取学科失败"));
+            }
+
+        } catch (Exception e) {
+            JsonUtils.printResult(response, new Result(false, "获取学科失败"));
+            e.printStackTrace();
+        }
+    }
 }

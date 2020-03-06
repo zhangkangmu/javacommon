@@ -35,4 +35,9 @@ public interface CourseDao {
     @Select("SELECT id,NAME FROM t_course")
     List<Course> queryAllCourseName();
 
+    /**
+     * 增加题目的时候需要查询的学科列表
+     */
+    List<Course> addQuestionQueryCourse();
+
 }

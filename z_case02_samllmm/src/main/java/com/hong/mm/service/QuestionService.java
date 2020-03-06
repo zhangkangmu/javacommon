@@ -23,4 +23,5 @@ public class QuestionService {
         SqlSessionFactoryUtils.commitAndClose(sqlSession);
         return new PageResult(allQuestion,questionList);
     }
+
 }
