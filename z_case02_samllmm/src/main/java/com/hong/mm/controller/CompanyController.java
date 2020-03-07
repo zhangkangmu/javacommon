@@ -1,6 +1,7 @@
 package com.hong.mm.controller;
 
 import com.hong.mm.entity.Result;
+import com.hong.mm.pojo.Company;
 import com.hong.mm.pojo.Course;
 import com.hong.mm.service.CompanyService;
 import com.hong.mm.utils.JsonUtils;
@@ -18,13 +19,19 @@ import java.util.List;
  */
 @Controller
 public class CompanyController {
-    private CompanyService service=new CompanyService();
+    private CompanyService service = new CompanyService();
+
     @RequestMapping("/company/addQuestionQueryCompany")
     public void addQuestionQueryCompany(HttpServletRequest request, HttpServletResponse response) throws IOException {
         try {
-            service.addQuestionQueryCompany();
+            List<Company> companies = service.addQuestionQueryCompany();
+            if (companies != null) {
+                JsonUtils.printResult(response, new Result(true, "获取获取公司和行业信息成功", companies));
+            } else {
+                JsonUtils.printResult(response, new Result(false, "获取获取公司和行业信息失败"));
+            }
         } catch (Exception e) {
-            JsonUtils.printResult(response, new Result(false, "获取学科失败"));
+            JsonUtils.printResult(response, new Result(false, "获取获取公司和行业信息失败"));
             e.printStackTrace();
         }
     }

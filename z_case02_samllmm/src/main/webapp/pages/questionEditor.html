@@ -502,6 +502,9 @@
                 this.tags = course.tagList;
             },
             // 企业下拉列表
+            //打开页面时，加载了企业列表，加载了城市列表
+            //当选择了一个企业时，获取这个企业所在的地区， 然后把这个地区  在城市下拉列表里对应选项  设置为选中状态
+            //所以记得回传城市的id
             initCompanys() {
                 let t = this;
                 axios.post("../company/addQuestionQueryCompany.do").then(response => {
@@ -533,10 +536,10 @@
             intDicts() {
                 let t = this;
                 // 获取省市数据
-                axios.post("../dict/addQuestionQueryDict.do").then(response=>{
+                axios.post("../dict/addQuestionQueryDict.do").then(response => {
                     if (response.data.flag) {
                         t.dicts = response.data.result;
-                    }else {
+                    } else {
                         this.$message.error(response.data.message);
                     }
                 });
@@ -545,27 +548,13 @@
             // 方向下拉列表
             initIndustrys() {
                 let t = this;
-                let response = {
-                    data: {
-                        "flag": true,
-                        "message": "获取成功",
-                        "result": [
-                            {
-                                "id": 1,
-                                "name": "电商平台"
-                            },
-                            {
-                                "id": 2,
-                                "name": "金融服务"
-                            },
-                            {
-                                "id": 3,
-                                "name": "移动通讯"
-                            }
-                        ]
+                axios.post("../industry/addQuestionQueryIndustry.do").then(response => {
+                    if (response.data.flag) {
+                        t.industrys = response.data.result;
+                    } else {
+                        this.$message.error(response.data.message);
                     }
-                }
-                t.industrys = response.data.result;
+                });
             },
             // 切换题型，重置选项选中状态
             changeType(val) {
@@ -681,18 +670,25 @@
                 formData.tagList = tagList;
                 console.log("新增更新题库请求参数：");
                 console.log(this.formData);
-                this.$message.success("操作成功");
-                // 返回到上一级
-                if (!this.formData.is_classic) {
-                    setTimeout(function () {
-                            //window.location.href = "questionBasicList.html";
+                //新增试题异步请求
+                axios.post("../question/questionSave.do", formData).then(response => {
+                    if (response.data.flag) {
+                        this.$message.success("操作成功");
+                        // 返回到上一级
+                        if (!this.formData.is_classic) {
+                            setTimeout(function () {
+                                    window.location.href = "questionBasicList.html";
+                                }
+                                , 1000);
+                        } else {
+                            setTimeout(function () {
+                                window.location.href = "questionClassicList.html";
+                            }, 1000);
                         }
-                        , 1000);
-                } else {
-                    setTimeout(function () {
-                        //window.location.href = "questionClassicList.html";
-                    }, 1000);
-                }
+                    } else {
+                        this.$message.error(response.data.message);
+                    }
+                });
             },
             // 取消提交
             cancelItem() {

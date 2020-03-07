@@ -52,5 +52,43 @@
         </where>
     </select>
 
-
+    <insert id="saveQuestion" parameterType="question">
+--         keyProperty,不是keyComn
+        <selectKey resultType="int" keyProperty="id" order="AFTER">
+            select last_insert_id()
+        </selectKey>
+        insert into t_question(
+        number,
+        subject,
+        type,
+        difficulty,
+        analysis,
+        analysis_video,
+        remark,
+        is_classic,
+        status,
+        review_status,
+        create_date,
+        user_id,
+        company_id,
+        catalog_id,
+        course_id
+        ) values (
+        #{number},
+        #{subject},
+        #{type},
+        #{difficulty},
+        #{analysis},
+        #{analysisVideo},
+        #{remark},
+        #{isClassic},
+        #{status},
+        #{reviewStatus},
+        #{createDate},
+        #{userId},
+        #{companyId},
+        #{catalogId},
+        #{courseId}
+        )
+    </insert>
 </mapper>

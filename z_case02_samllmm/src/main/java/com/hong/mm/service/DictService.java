@@ -17,9 +17,6 @@ public class DictService {
         SqlSession sqlSession = SqlSessionFactoryUtils.openSqlSession();
         DictDao mapper = sqlSession.getMapper(DictDao.class);
         List<Dict> dicts=mapper.addQuestionQueryDict();
-        for (Dict dict : dicts) {
-            System.out.println(dict);
-        }
         SqlSessionFactoryUtils.commitAndClose(sqlSession);
         return dicts;
     }

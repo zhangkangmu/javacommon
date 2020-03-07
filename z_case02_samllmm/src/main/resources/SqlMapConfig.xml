@@ -3,6 +3,9 @@
         PUBLIC "-//com.itheima.mm.database.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <properties resource="db.properties"/>
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
     <typeAliases>
         <package name="com.hong.mm.pojo"/>
         <package name="com.hong.mm.entity"/>

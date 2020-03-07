@@ -4,14 +4,15 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.hong.mm.dao.CompanyDao">
 
-    <select id="addQuestionQueryCompany" >
-
+    <select id="addQuestionQueryCompany" resultMap="queryCompany">
+-- SELECT id,short_name,industry_id FROM t_company c LEFT JOIN tr_company_industry ci ON ci.company_id=c.id
+SELECT id,short_name,city_id cityId FROM t_company
     </select>
     <resultMap id="queryCompany" type="Company">
         <id property="id" column="id"></id>
         <result property="shortName" column="short_Name"></result>
-        <collection property="industryList"
-                    select=""
+        <collection property="industryList" ofType="Industry"
+                    select="com.hong.mm.dao.IndustryDao.addQuestionQueryCompany2Industry"
                     column="id"/>
     </resultMap>
 

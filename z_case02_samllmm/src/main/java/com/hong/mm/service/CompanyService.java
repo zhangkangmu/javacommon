@@ -13,10 +13,14 @@ import java.util.List;
  * Date:2020/3/6
  */
 public class CompanyService {
-    public void addQuestionQueryCompany() throws IOException {
-//        SqlSession sqlSession = SqlSessionFactoryUtils.openSqlSession();
-//        CompanyDao mapper = sqlSession.getMapper(CompanyDao.class);
-//       List<Company> Companys=mapper.addQuestionQueryCompany();
-//        SqlSessionFactoryUtils.commitAndClose(sqlSession);
+    public List<Company> addQuestionQueryCompany() throws IOException {
+        SqlSession sqlSession = SqlSessionFactoryUtils.openSqlSession();
+        CompanyDao mapper = sqlSession.getMapper(CompanyDao.class);
+       List<Company> companys=mapper.addQuestionQueryCompany();
+//        for (Company company : companys) {
+//            System.out.println(company);
+//        }
+        SqlSessionFactoryUtils.commitAndClose(sqlSession);
+        return companys;
     }
 }
