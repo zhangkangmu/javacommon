@@ -1,5 +1,6 @@
 package com.hong.mm.controller;
 
+import com.hong.mm.constants.Constants;
 import com.hong.mm.entity.PageResult;
 import com.hong.mm.entity.QueryPageBean;
 import com.hong.mm.entity.Result;
@@ -50,6 +51,8 @@ public class QuestionController {
     public void questionSave(HttpServletRequest request, HttpServletResponse response) throws IOException {
         Question question = JsonUtils.parseJSON2Object(request, Question.class);
         //补全question的信息
+        question.setStatus(Constants.QUESTION_PRE_PUBLISH);  //待发布
+        question.setReviewStatus(Constants.QUESTION_PRE_REVIEW);  //待审核
         User user = (User) request.getSession().getAttribute("user");
         if (user != null) {
             question.setUserId(user.getId());

@@ -91,4 +91,8 @@
         #{courseId}
         )
     </insert>
+
+    <update id="updateQuestionReview" parameterType="hashmap">
+        update t_question set is_classic=#{is_classic},status=#{status},review_status=#{review_status} where id=#{questionId}
+    </update>
 </mapper>

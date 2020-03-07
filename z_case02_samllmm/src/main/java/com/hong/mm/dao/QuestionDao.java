@@ -3,6 +3,7 @@ package com.hong.mm.dao;
 import com.hong.mm.entity.QueryPageBean;
 import com.hong.mm.pojo.Question;
 
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -21,4 +22,6 @@ public interface QuestionDao {
      * @return 保存后影响的行数
      */
     int saveQuestion(Question question);
+
+    int updateQuestionReview(HashMap<String, Integer> hashMap);
 }

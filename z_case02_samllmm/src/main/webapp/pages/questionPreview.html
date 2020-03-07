@@ -173,7 +173,7 @@
             initForm() {
                 // 发送请求
                 let response = {
-                    data:{
+                    data: {
                         "flag": true,
                         "message": "获取成功",
                         "result": {
@@ -289,12 +289,24 @@
 
                 // 必传参数
                 let params = {
-                    questionId: this.questionId,
+                    // questionId: this.questionId,
+                    // status: status,
+                    //审核的题目id。我们这里是模拟审核过程，写死一个question的id
+                    //todo    以后有空再做--做好显示审核的列表,这里的固定id去掉,前面是正确的
+                    questionId: 675,
                     status: status,
+                    //审核的备注说明
                     comments: ''
                 };
-                this.$message.success("审核通过");
-                window.location.href = "questionClassicList.html";
+                axios.post("../review/reviewQuestion.do", params).then(response => {
+                    if (response.data.flag) {
+                        this.$message.success("审核通过");
+                        window.location.href = "questionClassicList.html";
+                    } else {
+                        this.$message.error(response.data.message);
+                    }
+                });
+
             }
         }
     })
