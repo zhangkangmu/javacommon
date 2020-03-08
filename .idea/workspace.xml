@@ -13,9 +13,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="功能：面试题库项目&#10;运用到的知识点：初始化面试题库工程&#10;是否完成：NA">
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/ReviewLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/ReviewLogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/ReviewLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/PermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/security/PreAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/security/SecurityFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/PermissionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/RoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/mm-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_case02_samllmm/说明文档" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/utils/Utils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/前端/Contact.class" beforeDir="false" />
@@ -219,10 +224,14 @@
       <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/visitor/BodyA.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/visitor/BodyB.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/visitor/VisitorPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/QuestionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/QuestionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/QuestionDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/QuestionDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/ReviewLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/ReviewLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionPreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionPreview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_case02_samllmm/z_case02_samllmm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/z_case02_samllmm/z_case02_samllmm.iml" afterDir="false" />
     </list>
     <list id="34911b34-50c7-4a72-adab-d75ae52fe530" name="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;" comment="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;&#10;&#10;This reverts commit 81db3e2" />
     <list id="aabb1fcc-e94d-4ce7-ab35-f961a86e89dc" name="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;" comment="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;&#10;&#10;This reverts commit b45973f" />
@@ -309,9 +318,9 @@
     <session id="1737415220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="74" />
+          <entry key="project.closed" value="75" />
           <entry key="project.open.time.0" value="8" />
-          <entry key="project.open.time.1" value="13" />
+          <entry key="project.open.time.1" value="14" />
           <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="9" />
@@ -322,21 +331,22 @@
           <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="9" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="76" />
+          <entry key="project.opened" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="577" />
-          <entry key="dummy" value="76" />
+          <entry key="dummy" value="79" />
           <entry key="gitignore" value="14" />
-          <entry key="html" value="17692" />
-          <entry key="java" value="27487" />
+          <entry key="html" value="17781" />
+          <entry key="java" value="30077" />
           <entry key="jsp" value="3132" />
           <entry key="properties" value="121" />
-          <entry key="txt" value="1124" />
-          <entry key="xml" value="1817" />
+          <entry key="txt" value="1179" />
+          <entry key="xml" value="2009" />
           <entry key="敏感词汇" value="8" />
+          <entry key="说明文档" value="510" />
           <entry key="需求说明" value="86" />
         </counts>
       </usages-collector>
@@ -344,26 +354,26 @@
         <counts>
           <entry key="CSS" value="578" />
           <entry key="Git file" value="14" />
-          <entry key="HTML" value="17691" />
-          <entry key="JAVA" value="27487" />
+          <entry key="HTML" value="17780" />
+          <entry key="JAVA" value="30077" />
           <entry key="JSP" value="3132" />
-          <entry key="PLAIN_TEXT" value="1294" />
+          <entry key="PLAIN_TEXT" value="1862" />
           <entry key="Properties" value="121" />
           <entry key="SQL" value="40" />
-          <entry key="XML" value="1777" />
+          <entry key="XML" value="1969" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="73" />
+          <entry key="class" value="75" />
           <entry key="css" value="11" />
           <entry key="dtd" value="5" />
           <entry key="fxml" value="1" />
           <entry key="gitignore" value="10" />
           <entry key="gitingore" value="1" />
-          <entry key="html" value="385" />
+          <entry key="html" value="391" />
           <entry key="iml" value="7" />
-          <entry key="java" value="1303" />
+          <entry key="java" value="1325" />
           <entry key="jpg" value="47" />
           <entry key="js" value="31" />
           <entry key="json" value="3" />
@@ -375,30 +385,31 @@
           <entry key="txt" value="35" />
           <entry key="upignore" value="1" />
           <entry key="words" value="2" />
-          <entry key="xml" value="94" />
+          <entry key="xml" value="102" />
           <entry key="xsd" value="6" />
           <entry key="敏感词汇" value="1" />
+          <entry key="说明文档" value="5" />
           <entry key="需求说明" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="73" />
+          <entry key="CLASS" value="75" />
           <entry key="CSS" value="11" />
           <entry key="DTD" value="5" />
           <entry key="Git file" value="10" />
-          <entry key="HTML" value="385" />
+          <entry key="HTML" value="391" />
           <entry key="IDEA_MODULE" value="7" />
           <entry key="Image" value="61" />
-          <entry key="JAVA" value="1303" />
+          <entry key="JAVA" value="1325" />
           <entry key="JSON" value="3" />
           <entry key="JSP" value="82" />
           <entry key="JavaScript" value="31" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="PLAIN_TEXT" value="49" />
           <entry key="Properties" value="34" />
           <entry key="Up file" value="1" />
-          <entry key="XML" value="103" />
+          <entry key="XML" value="111" />
         </counts>
       </usages-collector>
     </session>
@@ -409,94 +420,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/security/SecurityFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="97" column="36" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="152" column="57" selection-start-line="152" selection-start-column="57" selection-end-line="152" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionPreview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="297" column="29" selection-start-line="297" selection-start-column="29" selection-end-line="297" selection-end-column="29" />
+            <state relative-caret-position="231">
+              <caret line="306" column="31" lean-forward="true" selection-start-line="306" selection-start-column="31" selection-end-line="306" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionClassicList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="168" column="23" lean-forward="true" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionEditor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="681" column="40" lean-forward="true" selection-start-line="681" selection-start-column="40" selection-end-line="681" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/ReviewLogController.java">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/JsonUtils.java">
+        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/ReviewLogService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/ReviewLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
+            <state relative-caret-position="100">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/QuestionDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/QuestionDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="88" column="21" lean-forward="true" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/ReviewLogDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/entity/Result.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -506,29 +517,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="FxmlFile" />
         <option value="Jsp File" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="XML" />
         <option value="Class" />
+        <option value="XML" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pagination</find>
-      <find>leCurrentChange--va</find>
-      <find>getAllQuestion</find>
-      <find>System.out.pr</find>
-      <find>getQuestionList</find>
-      <find>addQuestionQueryCourse</find>
-      <find>course/addQuestionQueryCourse</find>
-      <find>执行到了这里</find>
-      <find>initCompanys</find>
-      <find>intDicts</find>
-      <find>initQuestionById</find>
       <find>ompany/addQuestionQueryCompany</find>
       <find>initFormData</find>
       <find>答案</find>
@@ -548,6 +548,17 @@
       <find>审核</find>
       <find>reviewItem</find>
       <find>行到了verifyQues</find>
+      <find>sessi</find>
+      <find>@req</find>
+      <find>new Proper</find>
+      <find>chain</find>
+      <find>正在登录,不需要判断权</find>
+      <find>请登录</find>
+      <find>questionClassicList</find>
+      <find>,不需要判断权限,直接放</find>
+      <find>需要判断权限,直接放</find>
+      <find>user/login</find>
+      <find>axios</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -573,19 +584,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/constants/Constants.java" />
-        <option value="$PROJECT_DIR$/z_case01_curd_user_list_vue/web/update.html" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/Test.java" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/index.html" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/UserDao.xml" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/UserService.java" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/login.html" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Course.java" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/pom.xml" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/LogUtil.java" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/courseList.html" />
@@ -607,7 +605,6 @@
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/IndustryController.java" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/CompanyService.java" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/CompanyDao.xml" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionEditor.html" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/IndustryService.java" />
@@ -618,12 +615,26 @@
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/TagDao.xml" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/QuestionController.java" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/VerifyController.java" />
-        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionPreview.html" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/QuestionDao.java" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/QuestionDao.xml" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/ReviewLogService.java" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/ReviewLogDao.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/RoleDao.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/RoleDao.xml" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/Permission.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/PermissionDao.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/PermissionDao.xml" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/security/PreAuthority.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/说明文档" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/UserService.java" />
         <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/ReviewLogController.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/resources/mm-security.xml" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionPreview.html" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/security/SecurityFilter.java" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/index.html" />
+        <option value="$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/UserDao.java" />
       </list>
     </option>
   </component>
@@ -762,8 +773,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -825,74 +834,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="hong" type="462c0819:PsiDirectoryNode" />
               <item name="mm" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="z_case02_samllmm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hong" type="462c0819:PsiDirectoryNode" />
-              <item name="mm" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="z_case02_samllmm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hong" type="462c0819:PsiDirectoryNode" />
-              <item name="mm" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="z_case02_samllmm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="z_case02_samllmm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="z_case02_samllmm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hong" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="z_case02_samllmm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hong" type="462c0819:PsiDirectoryNode" />
-              <item name="mm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="z_case02_samllmm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hong" type="462c0819:PsiDirectoryNode" />
-              <item name="mm" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
@@ -909,18 +851,12 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="z_case02_samllmm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -934,7 +870,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583590091301" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583681137593" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../war" />
@@ -949,12 +885,10 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\javaProject\javacommon\z_case01_curd_user_list_vue_test\web" />
-      <recent name="H:\javaProject\javacommon\z_case01_curd_user_list_vue_test\web\WEB-INF" />
-      <recent name="H:\javaProject\javacommon\web_hong_test\src" />
-      <recent name="H:\javaProject\javacommon\web_hong_test\src\day03_jsp" />
-      <recent name="H:\javaProject\javacommon\standardCode\lib" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hong.mm.dao" />
+      <recent name="com.hong.mm.service" />
+      <recent name="hong" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\javaProject\javacommon\z_case02_samllmm\src\main\webapp\img" />
@@ -970,10 +904,12 @@
       <recent name="web" />
       <recent name="domain" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.hong.mm.dao" />
-      <recent name="com.hong.mm.service" />
-      <recent name="hong" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\javaProject\javacommon\z_case01_curd_user_list_vue_test\web" />
+      <recent name="H:\javaProject\javacommon\z_case01_curd_user_list_vue_test\web\WEB-INF" />
+      <recent name="H:\javaProject\javacommon\web_hong_test\src" />
+      <recent name="H:\javaProject\javacommon\web_hong_test\src\day03_jsp" />
+      <recent name="H:\javaProject\javacommon\standardCode\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1403,7 +1339,8 @@
       <workItem from="1583457641333" duration="14280000" />
       <workItem from="1583489335856" duration="1068000" />
       <workItem from="1583490425323" duration="16102000" />
-      <workItem from="1583545081981" duration="33973000" />
+      <workItem from="1583545081981" duration="34866000" />
+      <workItem from="1583629705621" duration="24073000" />
     </task>
     <task id="LOCAL-00001" summary="删除多余文件">
       <created>1577635424422</created>
@@ -1657,7 +1594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583584646409</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="功能：面试题库项目&#10;运用到的知识点：审核精选题目功能,但是这个只是模拟了一个固定的id,在html中固定了,以后有时间再完善&#10;是否完成：NA">
+      <created>1583590176908</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1583590176908</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1693,7 +1637,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="941913000" />
+    <option name="totallyTimeSpent" value="966879000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1706,9 +1650,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47174448" visible="true" weight="0.23458445" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47174448" visible="true" weight="0.25402144" />
       <window_info id="Structure" order="1" sideWeight="0.5288889" side_tool="true" weight="0.2707775" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1718,8 +1661,8 @@
       <window_info id="Web" order="7" sideWeight="0.5282555" side_tool="true" weight="0.18297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4966488" visible="true" weight="0.51395005" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.40088105" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4966488" visible="true" weight="0.3979442" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.47136563" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33039647" />
@@ -1822,7 +1765,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="功能：html前端案例&#10;运用到的知识点：以前做的自我简介的html+css页面&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：javascript常用知识点以及一些案例&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：js做的计算器&#10;是否完成：NA" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：常见正则表达式&#10;是否完成：NA" />
@@ -1847,40 +1789,59 @@
     <MESSAGE value="功能：面试题库项目&#10;运用到的知识点：基础题库查询功能&#10;是否完成：NA" />
     <MESSAGE value="功能：面试题库项目&#10;运用到的知识点：省市联动,完成&#10;是否完成：NA" />
     <MESSAGE value="功能：面试题库项目&#10;运用到的知识点：增加试题功能完成&#10;是否完成：NA" />
-    <option name="LAST_COMMIT_MESSAGE" value="功能：面试题库项目&#10;运用到的知识点：增加试题功能完成&#10;是否完成：NA" />
+    <MESSAGE value="功能：面试题库项目&#10;运用到的知识点：审核精选题目功能,但是这个只是模拟了一个固定的id,在html中固定了,以后有时间再完善&#10;是否完成：NA" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能：面试题库项目&#10;运用到的知识点：审核精选题目功能,但是这个只是模拟了一个固定的id,在html中固定了,以后有时间再完善&#10;是否完成：NA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/exercise/src/标准的代码/数据库/day02_JDBC连接池_JDBCTemplate_datasource_c3p0/jdbctemplate/JdbcTemplateDemo2.java</url>
           <line>51</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/exercise/src/hong/练习的包/day08_同步线程锁/test4/Thread3.java</url>
           <line>18</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/z_case01_curd_user_list_vue/src/service/ContactsService.java</url>
           <line>32</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/z_case01_curd_user_list_vue/src/dao/ContactsDao.java</url>
           <line>37</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/exercise/src/a_练习/Demo4.java</url>
           <line>49</line>
           <properties />
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/UserController.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/security/SecurityFilter.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/security/SecurityFilter.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1937,233 +1898,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/entity/QueryPageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/entity/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionBasicList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="245" column="54" selection-start-line="245" selection-start-column="54" selection-end-line="245" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Catalog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Tag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/CatalogListDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/CourseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-538">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/CourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="913">
-          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="154" column="5" lean-forward="true" selection-start-line="136" selection-start-column="2" selection-end-line="154" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Dict.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/DictService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/DictDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/CourseDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/DictController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/DictDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Industry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/IndustryDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/IndustryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/IndustryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/CompanyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/CompanyDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/CompanyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/CompanyDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionEditor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="672" column="26" selection-start-line="672" selection-start-column="26" selection-end-line="672" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -2222,27 +1956,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/TagDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/TagDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/QuestionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2273,13 +1990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionPreview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="297" column="29" selection-start-line="297" selection-start-column="29" selection-end-line="297" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/utils/JsonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -2294,37 +2004,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/z_case01_curd_user_list_vue/src/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/CompanyDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/TagDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar!/com/mysql/jdbc/AbandonedConnectionCleanupThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/ReviewLogService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
+        <state relative-caret-position="300">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/QuestionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/QuestionDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="88" column="21" lean-forward="true" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/ReviewLogDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2333,18 +2047,252 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/ReviewLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
+        <state relative-caret-position="225">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/QuestionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/ReviewLogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/QuestionDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="54" column="53" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/IndustryDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/itheima/mm_mvc/1.0-SNAPSHOT/mm_mvc-1.0-SNAPSHOT.jar!/com/itheima/mm/framework/annotation/RequestMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/RoleDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/com/hong/mm/dao/PermissionDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/PermissionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/annotation/Retention.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/annotation/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/说明文档">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="1924" column="18" selection-start-line="1924" selection-start-column="18" selection-end-line="1924" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/FilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/ReviewLogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
+        <state relative-caret-position="308">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/security/PreAuthority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/zyh_source/apache-tomcat-8.5.32-src.zip!/apache-tomcat-8.5.32-src/java/org/apache/catalina/core/ApplicationFilterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="288" selection-start-line="288" selection-end-line="288" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/resources/mm-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionClassicList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="168" column="23" lean-forward="true" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionEditor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="681" column="40" lean-forward="true" selection-start-line="681" selection-start-column="40" selection-end-line="681" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/questionPreview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="306" column="31" lean-forward="true" selection-start-line="306" selection-start-column="31" selection-end-line="306" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/security/SecurityFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="97" column="36" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="152" column="57" selection-start-line="152" selection-start-column="57" selection-end-line="152" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_case02_samllmm/src/main/java/com/hong/mm/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
         </state>
       </provider>
     </entry>

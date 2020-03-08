@@ -32,6 +32,18 @@
         <filter-name>CharchaterFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+   <filter>
+       <filter-name>SecurityFilter</filter-name>
+       <filter-class>com.hong.mm.security.SecurityFilter</filter-class>
+       <init-param>
+           <param-name>configLocation</param-name>
+           <param-value>mm-security.xml</param-value>
+       </init-param>
+   </filter>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
     <welcome-file-list>
         <welcome-file>login.html</welcome-file>
     </welcome-file-list>

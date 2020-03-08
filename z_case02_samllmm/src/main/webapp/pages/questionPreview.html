@@ -302,8 +302,13 @@
                     if (response.data.flag) {
                         this.$message.success("审核通过");
                         window.location.href = "questionClassicList.html";
-                    } else {
+                        //如果message有数据
+                    } else if (response.data.message) {
+                        //js的if判断：0, "", null, undefined是false
                         this.$message.error(response.data.message);
+                    }else{
+                        //直接返回的字符串
+                        this.$message.error(response.data);
                     }
                 });
 

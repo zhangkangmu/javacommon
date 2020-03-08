@@ -1,0 +1,20 @@
+1.引用了自定义的springmvc的坐标
+2.自己自定义了权限控制框架,security---控制权限经典五张表
+3.关联了18张表
+4.比较麻烦的地方--新增试题功能questiondao接口类
+                --公司查询,关联了行业
+                --省级联动
+
+
+一些经验:
+    1.一些方法放在那个dao.xml里,以及那个dao映射器接口中?---看表,查那个表就放在那个到里
+    2.查表的时候:先差主表,再关联其他的表,要什么条件就再查
+    3.查询用户权限的时候,(我们用了查出表的权限再new list封装起来在set)
+    可以使用拆分表的方式,也可以跟查询公司以及关联的行业,那种collection--select的方式
+    5.Filter中怎么获取配置文件?
+        web.xml中配置
+               <init-param>
+                   <param-name>configLocation</param-name>
+                   <param-value>mm-security.xml</param-value>
+               </init-param>
+    6.权限管理(自定义security里的),分为几种情况-------用户没有登录,用户登录了但没有任何权限,用户登录了但权限不足

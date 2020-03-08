@@ -147,8 +147,10 @@
                 axios.get("../user/logout").then(response => {
                     if (response.data.flag) {
                         window.location.href = "../login.html";
-                    } else {
+                    } else if (response.data.message) {
                         this.$message.error(response.data.message);
+                    }else{
+                        this.$message.error(response.data);
                     }
                 });
                 window.location.href = "../login.html";

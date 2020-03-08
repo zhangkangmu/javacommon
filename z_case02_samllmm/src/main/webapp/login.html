@@ -84,8 +84,10 @@
                             if ( response.data.flag){
                                 sessionStorage.setItem("userName",this.form.userName);
                                 window.location.href = "pages/index.html";
-                            }else{
+                            }else if (response.data.message) {
                                 this.$message.error(response.data.message);
+                            }else{//直接输出返回的字符串
+                                this.$message.error(response.data);
                             }
                         });
                     }

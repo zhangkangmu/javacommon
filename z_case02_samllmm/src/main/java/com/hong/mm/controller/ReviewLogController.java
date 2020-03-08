@@ -5,6 +5,7 @@ import com.hong.mm.entity.Result;
 import com.hong.mm.pojo.Question;
 import com.hong.mm.pojo.ReviewLog;
 import com.hong.mm.pojo.User;
+import com.hong.mm.security.PreAuthority;
 import com.hong.mm.service.ReviewLogService;
 import com.hong.mm.utils.DateUtils;
 import com.hong.mm.utils.JsonUtils;
@@ -26,7 +27,9 @@ public class ReviewLogController {
 private ReviewLogService service=new ReviewLogService();
     /**
      * 审核试题是否通过
+     * 表示/review/reviewQuestion，需要有QUESTION_REVIEW_UPDATE权限 才可以访问
      */
+    @PreAuthority("QUESTION_REVIEW_UPDATE")
     @RequestMapping("/review/reviewQuestion")
     public void  reviewQuestion(HttpServletRequest request, HttpServletResponse response)  {
         try {
