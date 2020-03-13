@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hong.mm.dao.MemberDao">
+    <insert id="saveWxMember" parameterType="WxMember">
+<selectKey resultType="int" keyColumn="id" keyProperty="id">
+    select last_insert_id()
+</selectKey>
+     insert into t_wx_member (
+     id,
+      nick_name,
+      avatar_url,
+      gender,
+      city,
+      province,
+      country,
+      language,
+      open_id,
+      create_time
+    )
+    values
+      (
+      #{id},
+      #{nickName},
+      #{avatarUrl},
+      #{gender},
+      #{city},
+      #{province},
+      #{country},
+      #{language},
+      #{openId},
+      #{createTime}
+      ) ;
+</insert>
+</mapper>

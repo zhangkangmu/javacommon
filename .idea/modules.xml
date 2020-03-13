@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/z_case01_curd_user_list/z_case01_curd_user_list.iml" filepath="$PROJECT_DIR$/z_case01_curd_user_list/z_case01_curd_user_list.iml" />
       <module fileurl="file://$PROJECT_DIR$/z_case01_curd_user_list_vue/z_case01_curd_user_list_vue.iml" filepath="$PROJECT_DIR$/z_case01_curd_user_list_vue/z_case01_curd_user_list_vue.iml" />
       <module fileurl="file://$PROJECT_DIR$/z_case02_samllmm/z_case02_samllmm.iml" filepath="$PROJECT_DIR$/z_case02_samllmm/z_case02_samllmm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z_case02_smallmm_wechat/z_case02_smallmm_wechat.iml" filepath="$PROJECT_DIR$/z_case02_smallmm_wechat/z_case02_smallmm_wechat.iml" />
     </modules>
   </component>
 </project>

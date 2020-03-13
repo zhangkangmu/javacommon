@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hong.mm.dao.CatalogDao">
+    <!--注意:别名的大小写记得区分-->
+    <!--这里没有拆分sql-->
+    <!-- 复杂的sql语句,
+    功能:获取用户所做的题目数,即总数量和已做题目数-->
+    <select id="getList" parameterType="hashmap" resultType="hashmap">
+    select c.id,c.name title,
+    (select count(*) from t_question where catalog_id=c.id) allCount ,
+    (select count(*) from t_question q where q.catalog_id=c.id
+    and
+    q.id in
+    (select question_id from tr_member_question where member_id=#{id})) finishedCount
+    from t_catalog c
+    where course_id=#{course_id}
+</select>
+    <!--功能:根据维信用户查询表中的值-->
+    <select id="findWxMember" resultType="hashmap" parameterType="string">
+        SELECT id, course_id FROM t_wx_member WHERE open_id=#{openid}
+    </select>
+</mapper>

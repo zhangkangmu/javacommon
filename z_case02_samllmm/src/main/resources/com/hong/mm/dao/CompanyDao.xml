@@ -4,6 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.hong.mm.dao.CompanyDao">
 
+    <!--这里用了拆分sql,因为,封装的bean在另外一个表中,而且是list类型-->
     <select id="addQuestionQueryCompany" resultMap="queryCompany">
 -- SELECT id,short_name,industry_id FROM t_company c LEFT JOIN tr_company_industry ci ON ci.company_id=c.id
 SELECT id,short_name,city_id cityId FROM t_company
