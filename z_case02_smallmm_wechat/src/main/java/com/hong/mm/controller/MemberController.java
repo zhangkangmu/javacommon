@@ -22,11 +22,13 @@ import java.util.Map;
 /**
  * Created by zhangyuhong
  * Date:2020/3/11
+ * 小程序前端在:H:\wechatProjects\project-mp-mianshi
  */
 @Controller
 public class MemberController {
     private MemberService service = new MemberService();
 
+    //功能:c层,保存用户信息--城市,微信用户
     @RequestMapping("/member/login")
     public void saveMember(HttpServletRequest request, HttpServletResponse response) throws IOException {
         HashMap map = JsonUtils.parseJSON2Object(request, HashMap.class);
@@ -70,11 +72,13 @@ public class MemberController {
 
     }
 
+//    功能:保存小程序城市的信息
     @RequestMapping("/member/setCityAndCourse")
     public void saveCityAndCourse(HttpServletRequest request, HttpServletResponse response) throws IOException {
         HashMap map = JsonUtils.parseJSON2Object(request, HashMap.class);
         //接收到的参数:{cityID=18, subjectID=1}
         String authorization = request.getHeader("Authorization");
+        //前端返回的请求头:bears 微信唯一标识
         authorization = authorization.substring(7);
         map.put("openid", authorization);
         System.out.println(map);
