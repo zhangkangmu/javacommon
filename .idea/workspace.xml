@@ -12,213 +12,8 @@
     <bookmark url="file://$PROJECT_DIR$/standardCode/src/web相关/day03_javascript/_07案例/计算器.html" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="功能：网络爬虫&#10;运用到的知识点：&#10;是否完成：NA">
-      <change afterPath="$PROJECT_DIR$/pachong/A-crawler-first/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/A-crawler-first/src/main/java/cn/itcast/crawler/test/CrawlerFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/A-crawler-first/src/main/java/cn/itcast/crawler/test/HttpClientPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/A-crawler-first/src/main/java/cn/itcast/crawler/test/HttpConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/A-crawler-first/src/main/java/cn/itcast/crawler/test/HttpGetParamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/A-crawler-first/src/main/java/cn/itcast/crawler/test/HttpGetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/A-crawler-first/src/main/java/cn/itcast/crawler/test/HttpPostParamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/A-crawler-first/src/main/java/cn/itcast/crawler/test/HttpPostTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/A-crawler-first/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/A-crawler-first/src/test/java/jsoup/JsoupFirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/java/cn/itcast/jd/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/java/cn/itcast/jd/dao/ItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/java/cn/itcast/jd/pojo/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/java/cn/itcast/jd/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/java/cn/itcast/jd/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/java/cn/itcast/jd/task/ItemTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/java/cn/itcast/jd/util/HttpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/module_webmagic-core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/ResultItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/Site.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/Spider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/SpiderListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/downloader/AbstractDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/downloader/CustomRedirectStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/downloader/Downloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientRequestContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpUriRequestConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/downloader/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/model/HttpRequestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/CollectorPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/ConsolePipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/FilePipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/Pipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/ResultItemsCollectorPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/processor/PageProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/processor/SimplePageProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/BaiduBaikePageProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/GithubRepoPageProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/ZhihuPageProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/processor/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/proxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/proxy/ProxyProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/proxy/SimpleProxyProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/DuplicateRemovedScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/MonitorableScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/PriorityScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/QueueScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/component/DuplicateRemover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/component/HashSetDuplicateRemover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/component/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/AbstractSelectable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/AndSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/BaseElementSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/CssSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/ElementSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/Html.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/HtmlNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/Json.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/JsonPathSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/LinksSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/OrSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/PlainText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/RegexResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/RegexSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/ReplaceSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/Selectable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/Selector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/Selectors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/SmartContentSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/XpathSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/selector/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/thread/CountableThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/utils/CharsetUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/utils/Experimental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/utils/FilePersistentBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/utils/HttpClientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/utils/HttpConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/utils/NumberUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/utils/ProxyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/utils/UrlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/utils/WMCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/java/us/codecraft/webmagic/utils/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/HtmlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/RequestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/ResultItemsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/SpiderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/downloader/HttpClientDownloaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/downloader/HttpUriRequestConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/downloader/MockGithubDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/downloader/SSLCompatibilityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/example/GithubRepoPageProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/pipeline/FilePipelineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/proxy/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/proxy/SimpleProxyProviderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/scheduler/DuplicateRemovedSchedulerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/scheduler/PrioritySchedulerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/selector/ExtractorsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/selector/JsonPathSelectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/selector/JsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/selector/LinksSelectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/selector/RegexSelectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/selector/SelectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/java/us/codecraft/webmagic/utils/UrlUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/resources/html/mock-github.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/C_webmagic-core/src/test/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/D_crawler-webmagic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/D_crawler-webmagic/src/main/java/cn/itcast/webmagic/test/JobProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/D_crawler-webmagic/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/controller/SearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/dao/JobInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/dao/JobRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/pojo/JobInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/pojo/JobInfoField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/pojo/JobResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/service/JobInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/service/JobRepositoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/service/impl/JobInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/service/impl/JobRepositoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/task/JobProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/task/MathSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/task/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/task/SpringDataPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/java/cn/itcast/job/task/TaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/CV_QuickApply.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/JsBase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/NewScrollText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/Qpost_set.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/ScrollText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/area_array_c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/association_main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/bsqqb0525_7150wh.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/common_association.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/common_layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/common_select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/delivery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/dw_joblist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/funtype_array_c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/indtype_array_c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/jquery.placeholder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/layer_c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/layer_main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/layer_main_map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/layer_main_navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/lfctc0524_7150wh.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/logo_20jubilee_116x46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/merge_data_c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/my_collection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/nnn0108_7203wh.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/panel-pop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/pointtrack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/pointtrack_search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/search_box.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/search_data_c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/search_result.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/slogen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/tag_shixi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/trackData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/wc0319a_7235wh.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/web_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/web_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/wylpc0517_7150wh.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/main/resources/static/source/zp0516b_7331wh.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/E_crawler_case_job/src/test/java/cn/itcast/job/test/ESTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/F_es/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/F_es/src/main/java/cn/itcast/es/dao/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/F_es/src/main/java/cn/itcast/es/pojo/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/F_es/src/main/java/cn/itcast/es/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/F_es/src/main/java/cn/itcast/es/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/F_es/src/main/java/cn/itcast/es/test/ESTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/F_es/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/G_simhash/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/G_simhash/src/main/java/com/lou/simhasher/KeywordExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/G_simhash/src/main/java/com/lou/simhasher/SimHasher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/G_simhash/src/main/java/com/lou/simhasher/seg/WordsSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/G_simhash/src/main/java/com/lou/simhasher/util/DicReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/G_simhash/src/main/java/com/lou/simhasher/util/FNVHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/G_simhash/src/main/resources/dict/idf.utf8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/G_simhash/src/main/resources/dict/stop_words.utf8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong/G_simhash/src/test/java/com/lou/simhasher/SimhashTest.java" afterDir="false" />
+    <list default="true" id="bf96222e-8a83-457d-895f-b0255a2e2282" name="Default Changelist" comment="功能：网络爬虫&#10;运用到的知识点：增加网络爬虫的东西,以及删除不需要提交的资源&#10;是否完成：NA">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_study_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/z_case01_curd_user_list_vue_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/z_case01_curd_user_list_war_exploded.xml" beforeDir="false" />
@@ -273,602 +68,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/c3p0-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/druid.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/myjdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/utils/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/前端/Contact.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/前端/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/前端/contact_read.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/前端/contact_write.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/前端/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day01/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day01/Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day01/ZYHJDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day01/bean/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/day02/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/login/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/pool/DruidPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/pool/PoolUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/pool/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/数据库/pool/pool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/Day10_io流/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/Day10_io流/ReadAndWriteDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/Day10_io流/file/b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/Day10_io流/file/char.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/Day10_io流/file/charCopy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/Day10_io流/file/zhang.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/Day10_io流/file2/b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/Day10_io流/zhang.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day07_线程/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day07_线程/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day07_线程/MyRunable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day07_线程/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/Test6/ClassRoom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/Test6/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/Test6/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test1/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test1/MyRunable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test1/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test2/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test2/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test2/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test3/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test4/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test4/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test4/Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test4/Thread3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Metting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Thread3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test5/Thread4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test7/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test7/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test7/Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test8/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test8/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day08_同步线程锁/test9/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/Lambda表达式/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/Lambda表达式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/PersonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/BaoZi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/BaoZiPu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/ChiHuo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/ChiHuo222.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例cyclicBarrier/BaoziPu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例cyclicBarrier/ChiHuo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例cyclicBarrier/ChiHuo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程唤醒/包子铺案例cyclicBarrier/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程练习/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/day09_线程练习/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/z其他/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/hong/练习的包/z其他/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/student/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/student/StudentMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/superclass/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/teacher/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/teacher/TeacherMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/utils/StudentManagerUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/utils/TeacherManagerUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/My学生管理系统/utils/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/发牌/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/发牌排序/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/小案例/递归相关_删除_检索_阶乘等/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/算法/排序/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/算法/递归相关_求阶乘_搜索文件/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/AbstractFactoryPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/BlackAnimalFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/BlackCat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/BlackDog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/IAnimalFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/ICat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/IDog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/WhiteAnimalFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/WhiteCat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/abstractfactory/WhiteDog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/adapter/Adaptee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/adapter/Adapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/adapter/AdapterPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/adapter/Target.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/BlackShoe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/BridgePattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/Clothing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/Lady.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/Man.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/bridge/WhiteShoe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/BuilderPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/Man.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/ManBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/PersonBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/build/PersonDirector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/AbstractAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/AbstractReceiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/ActionA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/ActionB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/CommandPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/Invoker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/ReceiverA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/command/ReceiverB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/composite/Component.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/composite/Composite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/composite/CompositePattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/composite/Leaf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/Decorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/DecoratorPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/Man.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/ManDecoratorA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/ManDecoratorB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/decorator/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/Facade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/FacadePattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceAImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceBImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/facade/ServiceCImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/FactoryMethodPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/IWorkFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/StudentWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/StudentWorkFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/TeacherWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/TeacherWorkFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/factorymethod/Work.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/flyweight/FlyWeight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/flyweight/FlyWeightFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/flyweight/FlyWeightImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/flyweight/FlyweightPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/AdvanceExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/Expression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/InterpreterPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/interpreter/SimpleExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/Iterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/IteratorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/IteratorPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/iterator/ListImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/Colleague.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/ColleagueA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/ColleagueB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/ConcreteMediator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/Mediator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/mediator/MediatorPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/memento/Caretaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/memento/Memento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/memento/MementoPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/memento/Originator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/ObserverPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/ObserverServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/Observerable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/observer/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/prototype/ConcreatePrototype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/prototype/Prototype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/prototype/PrototypePattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/proxy/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/proxy/DogImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/proxy/DogProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/proxy/ProxyPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/AddMoneyRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/DimissionRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/HRRequestHandle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/PMRequestHandle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/RequestHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/responsibility/ResponsibilityPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/EnumSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonD$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonD$SingletonHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/singleton/SingletonD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/Rain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/StatePattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/state/SunShine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/strategy/CalculateStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/strategy/Strategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/strategy/StrategyPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/strategy/TranficCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/template/CarA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/template/CarB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/template/CarModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/template/TemplatePattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/visitor/BodyA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/visitor/BodyB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise/设计模式/visitor/VisitorPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/c3p0-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/druid.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/mustEnglishPath/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo10_继承后成员方法重名/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo10_继承后成员方法重名/Fu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo10_继承后成员方法重名/Zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo11_方法重写/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo11_方法重写/Fu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo11_方法重写/Zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo12_方法重写的注意事项/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo12_方法重写的注意事项/Fu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo12_方法重写的注意事项/Zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo13_继承构造方法访问规则/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo13_继承构造方法访问规则/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo13_继承构造方法访问规则/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo14_super关键字的三种方式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo14_super关键字的三种方式/Fu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo14_super关键字的三种方式/Zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo15_this关键字的三种用法/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo15_this关键字的三种用法/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo16_继承的特点/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo16_继承的特点/Fu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo16_继承的特点/SuperFu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo16_继承的特点/Zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo17_绘制继承体系对象的内存图/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo17_绘制继承体系对象的内存图/Fu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo17_绘制继承体系对象的内存图/Zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo18_抽象方法和抽象类的概念/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo19_抽象方法和抽象类的定义和使用/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo19_抽象方法和抽象类的定义和使用/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo19_抽象方法和抽象类的定义和使用/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo19_抽象方法和抽象类的定义和使用/Monkey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo1_面向对象复习/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo1_面向对象复习/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo1_面向对象复习/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo20_抽象类使用的注意事项/AbstractClassFu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo20_抽象类使用的注意事项/AbstractClassZi1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo20_抽象类使用的注意事项/AbstractClassZi2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo20_抽象类使用的注意事项/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo20_抽象类使用的注意事项/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo20_抽象类使用的注意事项/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo20_抽象类使用的注意事项/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo21_模板设计思想案例/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo21_模板设计思想案例/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo21_模板设计思想案例/NewDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo21_模板设计思想案例/OldDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo22_final关键字的使用/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo22_final关键字的使用/FinalClassFu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo22_final关键字的使用/FinalClassZi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo22_final关键字的使用/FinalMethodFu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo22_final关键字的使用/FinalMethodZi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo22_final关键字的使用/FinalVariable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo2_继承的格式/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo2_继承的格式/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo2_继承的格式/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo3_继承的案例/BanZhuRen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo3_继承的案例/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo3_继承的案例/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo3_继承的案例/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo3_继承的案例/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo4_idea快捷键/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo5_子类不能继承的内容/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo5_子类不能继承的内容/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo5_子类不能继承的内容/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo6_继承后父子类成员变量不重名/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo6_继承后父子类成员变量不重名/Fu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo6_继承后父子类成员变量不重名/Zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo7_继承后父子类成员变量重名/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo7_继承后父子类成员变量重名/Fu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo7_继承后父子类成员变量重名/Zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo8_super访问父类继承过来的成员变量/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo8_super访问父类继承过来的成员变量/Fu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo8_super访问父类继承过来的成员变量/Zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo9_继承后成员方法不重名/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo9_继承后成员方法不重名/Fu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day01静态_继承_模板设计模式_抽象类_final/demo9_继承后成员方法不重名/Zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo10_抽象类和接口的练习/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo10_抽象类和接口的练习/JiDuInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo10_抽象类和接口的练习/JiDuQuan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo10_抽象类和接口的练习/JiDuZhu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo10_抽象类和接口的练习/Quan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo11_抽象类和接口的区别和使用/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo11_抽象类和接口的区别和使用/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo12_实现多态/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo12_实现多态/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo12_实现多态/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo12_实现多态/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo13_多态成员访问特点/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo13_多态成员访问特点/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo13_多态成员访问特点/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo14_多态的几种表现形式/AInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo14_多态的几种表现形式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo14_多态的几种表现形式/ImpA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo15_多态的应用场景/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo15_多态的应用场景/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo15_多态的应用场景/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo15_多态的应用场景/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo16_多态的好处和弊端/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo16_多态的好处和弊端/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo16_多态的好处和弊端/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo16_多态的好处和弊端/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo17_引用类型的转型/AImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo17_引用类型的转型/AInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo17_引用类型的转型/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo17_引用类型的转型/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo17_引用类型的转型/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo17_引用类型的转型/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo17_引用类型的转型/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo18_为什么要向下转型/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo18_为什么要向下转型/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo18_为什么要向下转型/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo18_为什么要向下转型/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo19_成员内部类/AInterface$BInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo19_成员内部类/AInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo19_成员内部类/Body$Heart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo19_成员内部类/Body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo19_成员内部类/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo1_static关键字修饰成员变量/ChinesePeople.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo1_static关键字修饰成员变量/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo20_抽象类的匿名内部类/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo20_抽象类的匿名内部类/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo20_抽象类的匿名内部类/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo20_抽象类的匿名内部类/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo21_接口的匿名内部类/AImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo21_接口的匿名内部类/AInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo21_接口的匿名内部类/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo21_接口的匿名内部类/Demo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo21_接口的匿名内部类/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo22_引用类型作为方法参数和返回值/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo22_引用类型作为方法参数和返回值/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo2_static修饰成员方法/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo2_static修饰成员方法/People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo33_引用类型作为成员变量/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo33_引用类型作为成员变量/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo33_引用类型作为成员变量/FaShu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo33_引用类型作为成员变量/Hero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo33_引用类型作为成员变量/Weapon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo3_static修饰代码块/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo3_static修饰代码块/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo4_以后开发中static的应用/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo4_以后开发中static的应用/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo5_定义接口/AInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo5_定义接口/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo6_实现接口/AImps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo6_实现接口/AInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo6_实现接口/Aimps2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo6_实现接口/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo7_接口的多实现/AInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo7_接口的多实现/BInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo7_接口的多实现/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo7_接口的多实现/ImpClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo8_接口中优先级的问题/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo8_接口中优先级的问题/FuClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo8_接口中优先级的问题/FuInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo8_接口中优先级的问题/Zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo9_接口的多继承/AInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo9_接口的多继承/BInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo9_接口的多继承/CInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day02_static_接口_多态_内部类/demo9_接口的多继承/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo10_Calendar类/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo11_练习计算一个人的出生天数/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo12_Math类/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo13_System类/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo14_BigDecimal类/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo15_包装类/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo16_Integer类/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo17_装箱与拆箱/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo18_基本类型与字符串之间的转换/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo19_包装类的使用/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo1_访问权限/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo1_访问权限/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo1_访问权限/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo2_访问权限/Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo2_访问权限/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo3_构造代码块/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo3_构造代码块/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo4_静态代码块/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo4_静态代码块/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo5_Object类概述/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo6_toString方法/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo6_toString方法/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo7_equals方法/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo7_equals方法/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo8_Date类/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day03_权限修饰符_代码块_常用API/demo9_DateFormat类/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day04_综合练习_管理系统/main/MainApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day04_综合练习_管理系统/student/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day04_综合练习_管理系统/superclass/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day04_综合练习_管理系统/teacher/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day04_综合练习_管理系统/utils/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo10_泛型通配符/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo11_泛型通配符的限制/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo12_List接口介绍/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo13_List集合特有的方法/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo14_List的子类/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo15_集合综合案例/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo1_集合概述/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo2_Collection常用功能/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo3_Iterator迭代器/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo4_增强for循环/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo5_泛型的概述/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo6_使用泛型的好处/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo7_定义和使用含有泛型的类/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo7_定义和使用含有泛型的类/GenericClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo8_定义和使用含有泛型的方法/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo8_定义和使用含有泛型的方法/GenericMethodClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo9_定义和使用含有泛型的接口/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo9_定义和使用含有泛型的接口/GenericInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo9_定义和使用含有泛型的接口/Imp1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day05_Collection_List_泛型_数据结构/demo9_定义和使用含有泛型的接口/Imp2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo10_Map集合的特点/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo11_Map的常用方法/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo12_Map遍历方式一/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo13_Map遍历方式二/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo14_HashMap存储自定义类型/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo14_HashMap存储自定义类型/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo15_LinkedHashMap介绍/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo16_TreeMap集合的介绍和使用/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo16_TreeMap集合的介绍和使用/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo17_Map集合练习/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo18_模拟斗地主洗牌发牌/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo1_Collections常用功能/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo1_Collections常用功能/Demo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo1_Collections常用功能/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo1_Collections常用功能/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo2_可变参数/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo3_Set接口/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo4_HashSet集合/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo5_HashSet集合保证元素唯一的原理/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo6_HashSet存储自定义类型元素/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo6_HashSet存储自定义类型元素/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo7_LinkedHashSet的介绍和使用/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo8_TreeSet集合的介绍和使用/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo8_TreeSet集合的介绍和使用/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo9_TreeSet集合存储自定义类型的元素/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day06_Collections_Set_Map_斗地主排序/demo9_TreeSet集合存储自定义类型的元素/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo10_finally代码块/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo11_异常注意事项/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo11_异常注意事项/Fu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo11_异常注意事项/Zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo12_异常经典面试题/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo13_自定义异常/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo13_自定义异常/RegisterException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo14_多线程的相关概念/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo15_Thread线程类的API/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo16/创建线程方式一继承Thread类方式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo16/创建线程方式一继承Thread类方式/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo17_创建线程方式二实现Runnable接口方式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo17_创建线程方式二实现Runnable接口方式/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo18_创建线程方式一和方式二的区别/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo18_创建线程方式一和方式二的区别/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo18_创建线程方式一和方式二的区别/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo19_匿名内部类的方式创建线程/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo19_匿名内部类的方式创建线程/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo1_冒泡排序/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo20_Thread类的API演示/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo20_Thread类的API演示/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo20_Thread类的API演示/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo2_选择排序/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo3_二分查找/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo4_异常的相关概念/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo5_throw关键字/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo6_Objects非空判断/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo7_处理异常方式一声明处理异常/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo8_处理异常方式二捕获处理异常/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day07_排序算法_异常_多线程基础/demo9_如何获取异常信息/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo10_volatile原子性测试/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo10_volatile原子性测试/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo11_使用锁机制解决高并发原子性问题/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo11_使用锁机制解决高并发原子性问题/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo12_AtomicInteger类/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo13_使用原子类解决原子性问题/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo13_使用原子类解决原子性问题/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo14_ConcurrentHashMap/Const.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo14_ConcurrentHashMap/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo14_ConcurrentHashMap/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo15_扩展CopyOnWriteArrayList/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo16_CountDownLatch/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo16_CountDownLatch/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo16_CountDownLatch/Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo17_CyclicBarrier/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo17_CyclicBarrier/MeetingThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo17_CyclicBarrier/PersonThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo18_Semaphore/ClassRoom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo18_Semaphore/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo18_Semaphore/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo19_Exchange/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo19_Exchange/ThreadA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo19_Exchange/ThreadB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo1_线程安全问题/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo1_线程安全问题/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo20_线程池的使用/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo20_线程池的使用/MyCallable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo20_线程池的使用/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo21_线程池的练习/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo21_线程池的练习/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo22_死锁/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo22_死锁/ThreadA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo22_死锁/ThreadB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo2_同步代码块解决线程安全问题/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo2_同步代码块解决线程安全问题/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo3_同步方法解决线程安全问题/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo3_同步方法解决线程安全问题/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo4_同步代码块和同步方法混合使用/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo4_同步代码块和同步方法混合使用/Demo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo4_同步代码块和同步方法混合使用/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo5_Lock锁解决线程安全问题/Demo/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo5_Lock锁解决线程安全问题/Demo/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo6_高并发可见性问题/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo6_高并发可见性问题/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo7_使用加锁处理高并发可见性问题/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo7_使用加锁处理高并发可见性问题/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo8_volatile关键字处理高并发可见性问题/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo8_volatile关键字处理高并发可见性问题/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo9_演示高并发原子性问题/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池/demo5_Lock锁解决线程安全问题/demo9_演示高并发原子性问题/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo10_Stream流的常用方法/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo11_Stream综合案例/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo11_Stream综合案例/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo12_收集Stream结果/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo1_线程进入计时等待/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo2_实现线程的等待唤醒/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo2_实现线程的等待唤醒/Demo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo2_实现线程的等待唤醒/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo3_等待唤醒案例包子铺卖包子/BaoZi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo3_等待唤醒案例包子铺卖包子/BaoZiPuThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo3_等待唤醒案例包子铺卖包子/ChiHuoThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo3_等待唤醒案例包子铺卖包子/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo4_Lambda表达式的概述/AInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo4_Lambda表达式的概述/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo4_Lambda表达式的概述/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo4_Lambda表达式的概述/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo5_Lambda的标准格式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo6_Lambda的省略格式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo7_Lambda的几种使用形式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo8_Stream流的引入/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day09_线程状态_等待与唤醒_Lambda表达式_Stream流/demo9_获取Stream流方式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day10_File类_递归_字节流_字符流/demo10_字节流读取文本文件/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day10_File类_递归_字节流_字符流/demo11_字符输入流Reader/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day10_File类_递归_字节流_字符流/demo12_字符输出流Writer/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day10_File类_递归_字节流_字符流/demo1_File类/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day10_File类_递归_字节流_字符流/demo2_递归的概述和执行流程/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day10_File类_递归_字节流_字符流/demo3_递归计算累加和/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day10_File类_递归_字节流_字符流/demo4_递归求阶乘/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day10_File类_递归_字节流_字符流/demo5_递归搜索文件/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day10_File类_递归_字节流_字符流/demo6_IO概述/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day10_File类_递归_字节流_字符流/demo7_字节输出流OutputStream/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day10_File类_递归_字节流_字符流/demo8_字节输入流InputStream/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/基础/day10_File类_递归_字节流_字符流/demo9_字节流拷贝文件/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/domain/Emp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/jdbc/JDBCDemo10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/jdbc/JDBCDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/jdbc/JDBCDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/jdbc/JDBCDemo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/jdbc/JDBCDemo5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/jdbc/JDBCDemo6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/jdbc/JDBCDemo7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/jdbc/JDBCDemo8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/jdbc/JDBCDemo9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/jdbc/JdbcDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day01_JDBC基础/util/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day02_JDBC连接池_JDBCTemplate_datasource_c3p0/datasource/c3p0/C3P0Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day02_JDBC连接池_JDBCTemplate_datasource_c3p0/datasource/c3p0/C3P0Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day02_JDBC连接池_JDBCTemplate_datasource_c3p0/datasource/druid/DruidDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day02_JDBC连接池_JDBCTemplate_datasource_c3p0/datasource/druid/DruidDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day02_JDBC连接池_JDBCTemplate_datasource_c3p0/domain/Emp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day02_JDBC连接池_JDBCTemplate_datasource_c3p0/jdbctemplate/JdbcTemplateDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day02_JDBC连接池_JDBCTemplate_datasource_c3p0/jdbctemplate/JdbcTemplateDemo2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day02_JDBC连接池_JDBCTemplate_datasource_c3p0/jdbctemplate/JdbcTemplateDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/standardCode/数据库/day02_JDBC连接池_JDBCTemplate_datasource_c3p0/utils/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pachong/pachong.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pachong/pachong.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pachong/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pachong/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pachong/src/main/java/com/hong/crawler/CrawlerFirst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pachong/src/main/java/com/hong/crawler/HttpGetParamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pachong/src/main/java/com/hong/crawler/HttpPoolGet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pachong/src/main/java/com/hong/crawler/HttpPostParamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pachong/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pachong/爬虫-总结.docx" beforeDir="false" afterPath="$PROJECT_DIR$/pachong/爬虫-总结.docx" afterDir="false" />
     </list>
     <list id="34911b34-50c7-4a72-adab-d75ae52fe530" name="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;" comment="Revert &quot;JUnit单元测试、反射、注解、动态代理、JDK8新特性等相关知识点补充提交&quot;&#10;&#10;This reverts commit 81db3e2" />
     <list id="aabb1fcc-e94d-4ce7-ab35-f961a86e89dc" name="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;" comment="Revert &quot;功能：学习 运用到的知识点：过滤器和监听器,以及一些案例 是否完成：NA&quot;&#10;&#10;This reverts commit b45973f" />
@@ -967,7 +166,7 @@
     <session id="1737415220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="94" />
+          <entry key="project.closed" value="95" />
           <entry key="project.open.time.0" value="11" />
           <entry key="project.open.time.1" value="21" />
           <entry key="project.open.time.10" value="7" />
@@ -980,8 +179,8 @@
           <entry key="project.open.time.6" value="9" />
           <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="12" />
-          <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="97" />
+          <entry key="project.open.time.9" value="8" />
+          <entry key="project.opened" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -994,7 +193,7 @@
           <entry key="jsp" value="3132" />
           <entry key="module介绍" value="80" />
           <entry key="properties" value="151" />
-          <entry key="txt" value="1257" />
+          <entry key="txt" value="1283" />
           <entry key="xml" value="2513" />
           <entry key="敏感词汇" value="8" />
           <entry key="说明文档" value="510" />
@@ -1008,7 +207,7 @@
           <entry key="HTML" value="17780" />
           <entry key="JAVA" value="33944" />
           <entry key="JSP" value="3132" />
-          <entry key="PLAIN_TEXT" value="2031" />
+          <entry key="PLAIN_TEXT" value="2057" />
           <entry key="Properties" value="151" />
           <entry key="SQL" value="61" />
           <entry key="XML" value="2452" />
@@ -1021,11 +220,11 @@
           <entry key="css" value="12" />
           <entry key="dtd" value="5" />
           <entry key="fxml" value="1" />
-          <entry key="gitignore" value="12" />
+          <entry key="gitignore" value="13" />
           <entry key="gitingore" value="1" />
           <entry key="html" value="400" />
-          <entry key="iml" value="10" />
-          <entry key="java" value="1425" />
+          <entry key="iml" value="11" />
+          <entry key="java" value="1428" />
           <entry key="jpg" value="47" />
           <entry key="js" value="33" />
           <entry key="json" value="3" />
@@ -1034,12 +233,12 @@
           <entry key="module介绍" value="2" />
           <entry key="png" value="14" />
           <entry key="pom" value="1" />
-          <entry key="properties" value="44" />
+          <entry key="properties" value="45" />
           <entry key="tld" value="2" />
           <entry key="txt" value="36" />
           <entry key="upignore" value="1" />
           <entry key="words" value="2" />
-          <entry key="xml" value="129" />
+          <entry key="xml" value="130" />
           <entry key="xsd" value="6" />
           <entry key="敏感词汇" value="1" />
           <entry key="说明文档" value="5" />
@@ -1051,20 +250,20 @@
           <entry key="CLASS" value="80" />
           <entry key="CSS" value="12" />
           <entry key="DTD" value="5" />
-          <entry key="Git file" value="12" />
+          <entry key="Git file" value="13" />
           <entry key="HTML" value="400" />
-          <entry key="IDEA_MODULE" value="10" />
+          <entry key="IDEA_MODULE" value="11" />
           <entry key="Image" value="61" />
-          <entry key="JAVA" value="1425" />
+          <entry key="JAVA" value="1428" />
           <entry key="JSON" value="3" />
           <entry key="JSP" value="90" />
           <entry key="JavaScript" value="33" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="52" />
-          <entry key="Properties" value="44" />
+          <entry key="Properties" value="45" />
           <entry key="UML" value="1" />
           <entry key="Up file" value="1" />
-          <entry key="XML" value="139" />
+          <entry key="XML" value="140" />
         </counts>
       </usages-collector>
     </session>
@@ -1075,37 +274,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pachong/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pachong/module介绍">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/B-crawler-case-jd-mobile.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="325">
+              <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pachong/A-crawler-first/src/main/java/cn/itcast/crawler/test/CrawlerFirst.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="75">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/java/cn/itcast/jd/dao/ItemDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1114,28 +318,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pachong/A-crawler-first/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="-694">
               <caret line="7" column="39" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pachong/C_webmagic-core/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/java/cn/itcast/jd/service/impl/ItemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="525">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1152,7 +352,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pachong/F_es/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="375">
               <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
@@ -1422,6 +622,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1497,13 +700,103 @@
               <item name="crawler" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+              <item name="B-crawler-case-jd-mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+              <item name="B-crawler-case-jd-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+              <item name="B-crawler-case-jd-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+              <item name="B-crawler-case-jd-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+              <item name="B-crawler-case-jd-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+              <item name="B-crawler-case-jd-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+              <item name="B-crawler-case-jd-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+              <item name="B-crawler-case-jd-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+              <item name="B-crawler-case-jd-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachong" type="462c0819:PsiDirectoryNode" />
+              <item name="B-crawler-case-jd-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1517,7 +810,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585154185934" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585154601279" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../war" />
@@ -2006,7 +1299,8 @@
       <workItem from="1585048593868" duration="4028000" />
       <workItem from="1585101191123" duration="1237000" />
       <workItem from="1585112591640" duration="10788000" />
-      <workItem from="1585151321908" duration="2077000" />
+      <workItem from="1585151321908" duration="2246000" />
+      <workItem from="1585154366343" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="删除多余文件">
       <created>1577635424422</created>
@@ -2316,7 +1610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585150421025</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="功能：网络爬虫&#10;运用到的知识点：增加网络爬虫的东西,以及删除不需要提交的资源&#10;是否完成：NA">
+      <created>1585154303137</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1585154303137</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2352,7 +1653,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1068332000" />
+    <option name="totallyTimeSpent" value="1068748000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2367,7 +1668,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47174448" visible="true" weight="0.22855228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47174448" visible="true" weight="0.23190348" />
       <window_info id="Structure" order="1" sideWeight="0.5288889" side_tool="true" weight="0.2707775" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -2391,7 +1692,6 @@
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32892805" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32892805" />
       <window_info anchor="bottom" id="Tail" order="15" />
-      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.40884718" />
@@ -2402,6 +1702,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
       <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="9" side_tool="true" weight="0.33378017" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4729412" visible="true" weight="0.17627347" />
@@ -2482,7 +1783,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="功能：学习&#10;运用到的知识点：AJAX和json的相关知识点&#10;是否完成：NA" />
     <MESSAGE value="主要是redis是知识点,但是案例case中运用到了数据库查询数据,封装json,ajax异步加载的综合知识点" />
     <MESSAGE value="补充文件" />
     <MESSAGE value="功能：学习&#10;运用到的知识点：cookies和session&#10;是否完成：NA" />
@@ -2507,7 +1807,8 @@
     <MESSAGE value="功能：&#10;运用到的知识点：测试两次commit&#10;是否完成：NA" />
     <MESSAGE value="功能：面试题库项目&#10;运用到的知识点：初始化面试题库工程&#10;是否完成：NA" />
     <MESSAGE value="功能：爬虫&#10;运用到的知识点：爬虫的基操以及总结&#10;是否完成：NA" />
-    <option name="LAST_COMMIT_MESSAGE" value="功能：爬虫&#10;运用到的知识点：爬虫的基操以及总结&#10;是否完成：NA" />
+    <MESSAGE value="功能：网络爬虫&#10;运用到的知识点：增加网络爬虫的东西,以及删除不需要提交的资源&#10;是否完成：NA" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能：网络爬虫&#10;运用到的知识点：增加网络爬虫的东西,以及删除不需要提交的资源&#10;是否完成：NA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2685,37 +1986,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exercise/src/hong/数据库/pool/pool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" column="77" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z_case02_smallmm_wechat/src/main/java/com/hong/mm/utils/SqlSessionFactoryUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/数据库/day03_JDBC_c3p0_druid_连接池_元数据_DBUtils/demo01_自定义mydatasource/MyDataSourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standardCode/src/基础/day13_JUnit单元测试_反射_注解_动态代理_JDK新特性/demo17_动态代理/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_study/web/day01_servlet入门/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_study/web/day01_servlet入门/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2853,144 +2123,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/crawler/TestGit2.java" />
     <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/crawler/TestGit.java" />
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/CrawlerFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/CrawlerFirst.java" />
     <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/crawler/HttpPoolGet.java" />
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/HttpPostTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/HttpPostParamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/HttpGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/HttpGetParamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" selection-start-line="23" selection-start-column="11" selection-end-line="31" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/HttpConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/HttpClientPoolTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/B_crawler_case_jingdong_mobile/dao/ItemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/B_crawler_case_jingdong_mobile/pojo/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/B_crawler_case_jingdong_mobile/service/impl/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/B_crawler_case_jingdong_mobile/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/B_crawler_case_jingdong_mobile/task/ItemTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/B_crawler_case_jingdong_mobile/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/test/java/com/hong/C_case_job_test/ESTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/src/main/resources/static/source/base.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/itcast-crawler-jd.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="88" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/HttpPostTest.java" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/HttpPostParamTest.java" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/HttpGetTest.java" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/HttpGetParamTest.java" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/HttpConfigTest.java" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/A_crawler/HttpClientPoolTest.java" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/B_crawler_case_jingdong_mobile/dao/ItemDao.java" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/B_crawler_case_jingdong_mobile/pojo/Item.java" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/B_crawler_case_jingdong_mobile/service/impl/ItemServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/B_crawler_case_jingdong_mobile/service/ItemService.java" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/B_crawler_case_jingdong_mobile/task/ItemTask.java" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/java/com/hong/B_crawler_case_jingdong_mobile/Application.java" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/test/java/com/hong/C_case_job_test/ESTest.java" />
+    <entry file="file://$PROJECT_DIR$/pachong/src/main/resources/static/source/base.css" />
+    <entry file="file://$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/itcast-crawler-jd.iml" />
     <entry file="file://$PROJECT_DIR$/pachong/A-crawler-first/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -2998,17 +2149,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pachong/C_webmagic-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pachong/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pachong/A-crawler-first/src/main/java/cn/itcast/crawler/test/CrawlerFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pachong/A-crawler-first/src/main/java/cn/itcast/crawler/test/HttpClientPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -3021,7 +2189,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pachong/F_es/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="375">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
@@ -3033,34 +2201,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/java/cn/itcast/jd/service/impl/ItemServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="525">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pachong/module介绍">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-694">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/src/main/java/cn/itcast/jd/dao/ItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pachong/B-crawler-case-jd-mobile/B-crawler-case-jd-mobile.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pachong/A-crawler-first/src/main/java/cn/itcast/crawler/test/CrawlerFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
