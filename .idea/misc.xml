@@ -12,10 +12,11 @@
       <list>
         <option value="$PROJECT_DIR$/z_case02_samllmm/pom.xml" />
         <option value="$PROJECT_DIR$/z_case02_smallmm_wechat/pom.xml" />
+        <option value="$PROJECT_DIR$/pachong/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
