@@ -16,6 +16,7 @@ import java.util.Map;
  * 1.入门案例--get请求
  */
 public class CrawlerFirst {
+
     public static void main(String[] args) {
         //1.打开浏览器,创建httpclient对象
         CloseableHttpClient httpClient = HttpClients.createDefault();
