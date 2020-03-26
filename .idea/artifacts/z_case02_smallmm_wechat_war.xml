@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="z_case02_smallmm_wechat:war">
-    <output-path>$PROJECT_DIR$/z_case02_smallmm_wechat/target</output-path>
-    <root id="archive" name="z_case02_smallmm_wechat-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="z_case02_smallmm_wechat:war exploded" />
-    </root>
-  </artifact>
-</component>
