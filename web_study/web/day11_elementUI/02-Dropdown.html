@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>element-下拉菜单</title>
+    <link rel="stylesheet" href="elementui/index.css">
+    <script src="elementui/vue.js"></script>
+    <script src="elementui/index.js"></script>
+</head>
+<body>
+<div id="app">
+
+    <!--1.启动点击item功能  有123步-->
+    <el-dropdown  @command="handleCommand">
+      <span class="el-dropdown-link" >
+        下拉菜单<i class="el-icon-arrow-down el-icon--right"></i>
+      </span>
+        <el-dropdown-menu slot="dropdown">
+            <!--2.给item启动方法 每一个都默认有点击方法,几阿勒command就不会未定义的显示而已-->
+            <el-dropdown-item icon="el-icon-plus" command="黄金糕">黄金糕</el-dropdown-item>
+            <el-dropdown-item icon="el-icon-circle-plus" command="狮子头">狮子头</el-dropdown-item>
+            <el-dropdown-item icon="el-icon-circle-plus-outline">螺蛳粉</el-dropdown-item>
+            <el-dropdown-item icon="el-icon-check">双皮奶</el-dropdown-item>
+            <el-dropdown-item icon="el-icon-circle-check">蚵仔煎</el-dropdown-item>
+        </el-dropdown-menu>
+    </el-dropdown>
+
+    <!--trigger:为了增加点击事件,点击的时候才下拉-->
+    <!--:hide-on-click  点击下拉的item的时候会消失,设置为false就不会消失-->
+    <el-dropdown trigger="click" :hide-on-click="false">
+        <!--这个class为了设置样式-->
+      <span class="el-dropdown-link">
+        下拉菜单<i class="el-icon-arrow-down el-icon--right"></i>
+      </span>
+        <!--slot:让点击下来的效果出现-->
+        <el-dropdown-menu slot="dropdown" >
+            <!--icon可以设置图标-->
+            <el-dropdown-item icon="el-icon-plus">黄金糕</el-dropdown-item>
+            <el-dropdown-item icon="el-icon-circle-plus">狮子头</el-dropdown-item>
+            <el-dropdown-item icon="el-icon-circle-plus-outline">螺蛳粉</el-dropdown-item>
+            <!--disabled:禁用这个item-->
+            <el-dropdown-item icon="el-icon-check" disabled>双皮奶</el-dropdown-item>
+            <!--divided:代表有该item前面有一条线-->
+            <el-dropdown-item icon="el-icon-circle-check" divided>蚵仔煎</el-dropdown-item>
+        </el-dropdown-menu>
+    </el-dropdown>
+</div>
+</body>
+<style>
+    .el-dropdown-link {
+        cursor: pointer;
+        color: #409EFF;
+    }
+    .el-icon-arrow-down {
+        font-size: 12px;
+    }
+    .demonstration {
+        display: block;
+        color: #8492a6;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+</style>
+<script>
+    new Vue({
+        el:"#app",
+        data:{},
+        methods: {
+            //3.设置点击事件
+            handleCommand(command) {
+                this.$message('click on item ' + command);
+            }
+        }
+    });
+</script>
+</html>
