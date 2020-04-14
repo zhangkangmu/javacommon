@@ -6,6 +6,8 @@ import com.alibaba.excel.metadata.BaseRowModel;
 /**
  * Created by zhangyuhong
  * Date:2020/2/26
+ *
+ * javabean
  */
 public class ImportInfo extends BaseRowModel {
     @ExcelProperty(index = 0)

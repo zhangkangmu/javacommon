@@ -18,8 +18,13 @@ import java.io.IOException;
  * Date:2020/4/4
  */
 public class Demo01_ApachePoi_Excel {
+/*    POI提供了HSSF、XSSF以及SXSSF三种方式操作Excel。
+    HSSF：Excel97-2003版本，扩展名为.xls。一个sheet最大行数65536，最大列数256。
+    XSSF：Excel2007版本开始，扩展名为.xlsx。一个sheet最大行数1048576，最大列数16384。
+    SXSSF：是在XSSF基础上，POI3.8版本开始提供的支持低内存占用的操作方式，扩展名为.xlsx。
+    Excel版本兼容性是向下兼容。*/
 
-    //03版本 的excel
+
     @Test
     public void testWrite03() throws IOException {
         // 创建新的Excel 工作簿  表格是从0开始算的
