@@ -22,10 +22,11 @@ public class Demo02_map {
             String jasperpath="H:\\javaProject\\javacommon\\web_common\\src\\main\\resources\\allData.jasper";
             //编译模板,这里是两个参数的
             JasperCompileManager.compileReportToFile(jrxmlpath,jasperpath);
-//构造数据
+//构造数据  ，设置的parameter参数用的
             Map paramters = new HashMap();
             paramters.put("company","张宇洪");
-            //构造数据
+
+            //构造数据，准备被遍历用等
             List<Map> list = new ArrayList<Map>();
             Map map1 =new HashMap();
             map1.put("price",66.6f);

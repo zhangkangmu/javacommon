@@ -18,12 +18,12 @@ public class Demo {
 
     private static void sort2(int[] arr) {
         //冒泡排序
-        for (int i = 0; i < arr.length-1; i++) {
-            for (int j = 0; j < arr.length - i-1; j++) {
-                if (arr[j] > arr[j+1]) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 0; j < arr.length - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
                 }
             }
         }
@@ -42,5 +42,19 @@ public class Demo {
             }
         }
         System.out.println(Arrays.toString(arr));
+    }
+
+    public static int[] sort3(int[] ins) {
+//        https://blog.csdn.net/qq_28081081/article/details/80594386
+        //插入排序--原理,去除当前的值,不断和前面的值比较,如果
+        for (int i = 1; i < ins.length; i++) {
+            int temp = ins[i];//保存每次需要插入的那个数
+            int j;
+            for (j = i; j > 0 && ins[j - 1] > temp; j--) {//这个较上面有一定的优化
+                ins[j] = ins[j - 1];//吧大于需要插入的数往后移动。最后不大于temp的数就空出来j
+            }
+            ins[j] = temp;//将需要插入的数放入这个位置
+        }
+        return ins;
     }
 }

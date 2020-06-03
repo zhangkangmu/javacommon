@@ -20,7 +20,7 @@ public class Demo {
         int n = 100;
 
         // 1.创建线程池对象,指定初始化线程数量
-        ExecutorService es = Executors.newFixedThreadPool(1);
+        ExecutorService es = Executors.newFixedThreadPool(2);
         // 2.创建任务
         Callable<Integer> cb = new Callable<Integer>() {
             @Override
