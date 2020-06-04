@@ -1,0 +1,26 @@
+package 基础.day08_线程安全_volatile关键字_原子性_并发包_死锁_线程池.demo5_Lock锁解决线程安全问题.demo8_threadLocal解决可见性问题;
+
+/**
+ * @author 彭智林
+ * @date 2017/12/25 10:34
+ */
+public class MyThread extends Thread {
+
+    //volatile boolean flag = false;// 主和子线程共享变量
+    public static ThreadLocal<Boolean> th = new ThreadLocal<Boolean>();
+    @Override
+    public void run() {
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        // 把flag的值改为true
+        //flag = true;
+        th.set(true);
+        System.out.println("修改后flag的值为:"+th.get());
+
+    }
+}
