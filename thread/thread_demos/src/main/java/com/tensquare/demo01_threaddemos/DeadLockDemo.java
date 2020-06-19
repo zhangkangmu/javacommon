@@ -1,4 +1,4 @@
-package com.tensquare.threaddemos;
+package com.tensquare.demo01_threaddemos;
 
 public class DeadLockDemo {
     static Object obj1 = new Object();

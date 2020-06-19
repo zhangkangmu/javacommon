@@ -1,4 +1,4 @@
-package com.tensquare.threaddemos;
+package com.tensquare.demo01_threaddemos;
 
 //线程优先级
 public class Demo10Priorityt {

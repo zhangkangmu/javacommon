@@ -1,4 +1,4 @@
-package com.tensquare.threaddemos;
+package com.tensquare.demo01_threaddemos;
 
 //守护线程
 public class Demo4Daemon {

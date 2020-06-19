@@ -1,4 +1,4 @@
-package com.tensquare.threaddemos;
+package com.tensquare.demo01_threaddemos;
 
 //中断线程
 public class Demo9Interrupt {

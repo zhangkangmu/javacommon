@@ -1,4 +1,4 @@
-package com.tensquare.threaddemos;
+package com.tensquare.demo01_threaddemos;
 /*
 *
 1. 开关有两个状态（开，关）

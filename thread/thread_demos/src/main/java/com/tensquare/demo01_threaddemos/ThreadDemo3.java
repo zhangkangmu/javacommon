@@ -3,11 +3,9 @@
  *
  * @Author: lvyang
  */
-package com.tensquare.threaddemos;
+package com.tensquare.demo01_threaddemos;
 
 import java.util.concurrent.Callable;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 /**

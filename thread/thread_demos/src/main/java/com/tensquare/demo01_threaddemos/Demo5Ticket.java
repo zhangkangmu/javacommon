@@ -1,6 +1,4 @@
-package com.tensquare.threaddemos;
-
-import java.util.concurrent.locks.ReentrantLock;
+package com.tensquare.demo01_threaddemos;
 
 public class Demo5Ticket {
 
