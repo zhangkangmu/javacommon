@@ -23,6 +23,7 @@ public final class MailUtils {
 		props.setProperty("mail.host", "smtp.163.com");//邮件发送服务器的地址，如果使用的是本地安装的易邮，写成：localhost
 		props.setProperty("mail.smtp.auth", "true");//指定验证为true
 		Authenticator auth = new Authenticator() {
+			@Override
 			public PasswordAuthentication getPasswordAuthentication() {
 				return new PasswordAuthentication("zhang_kangmu@163.com", "zyh13016003606");
 			}
